@@ -3,11 +3,13 @@
 #include <iostream>
 using namespace std;
 
-//This is a class used for the output of code
-//Pass in the code string you want and the colour will be changed 
-//Example use:
-//  cout<<Colours::purple("hello World")<<endl; 
-//The code above will print the text hello World in the colour purple.
+/*
+This is a class used for the output of code
+Pass in the code string you want and the colour will be changed 
+Example use:
+  cout<<Colours::purple("hello World")<<endl; 
+The code above will print the text hello World in the colour purple. 
+*/
 class Colours
 {
 public:
