@@ -1,10 +1,6 @@
 #include <iostream>
-#include "Colours.h"
-using namespace std;
 
-int main(int argc, char const *argv[])
-{
-    cout<<Colours::purple("hello World")<<endl;
+int main() {
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
-
