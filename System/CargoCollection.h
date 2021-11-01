@@ -1,9 +1,18 @@
-#ifndef PROJECT_CARGOCOLLECTION_H
-#define PROJECT_CARGOCOLLECTION_H
 
+#ifndef __CargoCollection_h__
+#define __CargoCollection_h__
 
-class CargoCollection {
+class Cargo;
+class CargoIterator;
 
+class CargoCollection{
+public:
+    CargoCollection(){};
+    virtual CargoIterator* createCargoIterator()=0;
+    virtual void addCargo(Cargo*)=0;
+    virtual void removeCargo(Cargo*)=0;
+    virtual bool isEmpty()=0;
+    virtual ~CargoCollection(){};
 };
 
-#endif //PROJECT_CARGOCOLLECTION_H
+#endif

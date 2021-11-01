@@ -1,10 +1,11 @@
-#ifndef PROJECT_ENGINE_H
-#define PROJECT_ENGINE_H
 
+#ifndef __Engine_h__
+#define __Engine_h__
 
-class Engine {
+class Engine;
 
+class Engine
+{
 };
 
-
-#endif //PROJECT_ENGINE_H
+#endif

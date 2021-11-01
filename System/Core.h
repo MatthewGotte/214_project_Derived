@@ -1,10 +1,11 @@
-#ifndef PROJECT_CORE_H
-#define PROJECT_CORE_H
 
+#ifndef __Core_h__
+#define __Core_h__
 
-class Core {
+class Core;
 
+class Core
+{
 };
 
-
-#endif //PROJECT_CORE_H
+#endif

@@ -1,10 +1,11 @@
-#ifndef PROJECT_SPACECRAFTFACTORY_H
-#define PROJECT_SPACECRAFTFACTORY_H
 
+#ifndef __SpaceCraftFactory_h__
+#define __SpaceCraftFactory_h__
 
-class SpaceCraftFactory {
+class SpaceCraftFactory;
 
+class SpaceCraftFactory
+{
 };
 
-
-#endif //PROJECT_SPACECRAFTFACTORY_H
+#endif

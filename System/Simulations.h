@@ -1,10 +1,11 @@
-#ifndef PROJECT_SIMULATIONS_H
-#define PROJECT_SIMULATIONS_H
 
+#ifndef __Simulations_h__
+#define __Simulations_h__
 
-class Simulations {
+class Simulations;
 
+class Simulations
+{
 };
 
-
-#endif //PROJECT_SIMULATIONS_H
+#endif

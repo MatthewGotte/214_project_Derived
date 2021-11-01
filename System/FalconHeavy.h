@@ -1,10 +1,19 @@
-#ifndef PROJECT_FALCONHEAVY_H
-#define PROJECT_FALCONHEAVY_H
 
+#ifndef __FalconHeavy_h__
+#define __FalconHeavy_h__
 
-class FalconHeavy {
+#include <vector>
+#include "Rocket.h"
 
+using namespace std;
+
+// class Rocket;
+class FalconHeavy;
+
+class FalconHeavy: public Rocket
+{
+private:
+    vector< Falcon9Core* > cores;
 };
 
-
-#endif //PROJECT_FALCONHEAVY_H
+#endif

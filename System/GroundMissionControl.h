@@ -1,10 +1,11 @@
-#ifndef PROJECT_GROUNDMISSIONCONTROL_H
-#define PROJECT_GROUNDMISSIONCONTROL_H
 
+#ifndef __GroundMissionControl_h__
+#define __GroundMissionControl_h__
 
-class GroundMissionControl {
+class GroundMissionControl;
 
+class GroundMissionControl
+{
 };
 
-
-#endif //PROJECT_GROUNDMISSIONCONTROL_H
+#endif

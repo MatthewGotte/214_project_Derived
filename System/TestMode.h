@@ -1,14 +1,11 @@
-//
-// Created by muzin on 2021/10/30.
-//
 
-#ifndef PROJECT_TESTMODE_H
-#define PROJECT_TESTMODE_H
+#ifndef __TestMode_h__
+#define __TestMode_h__
 
+class TestMode;
 
-class TestMode {
-
+class TestMode
+{
 };
 
-
-#endif //PROJECT_TESTMODE_H
+#endif

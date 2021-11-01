@@ -1,10 +1,11 @@
-#ifndef PROJECT_LAUNCHMODE_H
-#define PROJECT_LAUNCHMODE_H
 
+#ifndef __LaunchMode_h__
+#define __LaunchMode_h__
 
-class LaunchMode {
+class LaunchMode;
 
+class LaunchMode
+{
 };
 
-
-#endif //PROJECT_LAUNCHMODE_H
+#endif

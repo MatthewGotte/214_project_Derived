@@ -1,10 +1,14 @@
-#ifndef PROJECT_MERLINENGINE_H
-#define PROJECT_MERLINENGINE_H
 
+#ifndef __MerlinEngine_h__
+#define __MerlinEngine_h__
 
-class MerlinEngine {
+#include "Engine.h"
 
+// class Engine;
+class MerlinEngine;
+
+class MerlinEngine: public Engine
+{
 };
 
-
-#endif //PROJECT_MERLINENGINE_H
+#endif

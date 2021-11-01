@@ -6,7 +6,7 @@ NC='\033[0m'
 rm -f -r filelist.txt CMakeLists.txt CMakeCache.txt cmake_install.cmake Makefile CMakeFiles main;
 ls *.h *.cpp > filelist.txt;
 touch CMakeLists.txt;
-echo 'cmake_minimum_required(VERSION 2.6)' >> CMakeLists.txt;
+echo 'cmake_minimum_required(VERSION 3.16)' >> CMakeLists.txt;
 echo 'project(Derived)' >> CMakeLists.txt;
 echo 'find_package(GTest REQUIRED)' >> CMakeLists.txt;
 echo 'include_directories(${GTEST_INCLUDE_DIRS})' >> CMakeLists.txt;
@@ -31,4 +31,4 @@ echo 'valgrind:' >> Makefile;
 echo -e '\tvalgrind --leak-check=full ./main'  >> Makefile;
 
 echo 'rebuild:' >> Makefile;
-echo -e '\t./rebuild.sh' >> Makefile;
+echo -e '\t./rebuild.sh' >> Makefile
