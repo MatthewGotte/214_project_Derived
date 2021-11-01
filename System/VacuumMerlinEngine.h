@@ -1,14 +1,14 @@
-//
-// Created by muzin on 2021/10/30.
-//
 
-#ifndef PROJECT_VACUUMMERLINENGINE_H
-#define PROJECT_VACUUMMERLINENGINE_H
+#ifndef __VacuumMerlinEngine_h__
+#define __VacuumMerlinEngine_h__
 
+#include "Engine.h"
 
-class VacuumMerlinEngine {
+// class Engine;
+class VacuumMerlinEngine;
 
+class VacuumMerlinEngine: public Engine
+{
 };
 
-
-#endif //PROJECT_VACUUMMERLINENGINE_H
+#endif

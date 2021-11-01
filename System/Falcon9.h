@@ -1,10 +1,16 @@
-#ifndef PROJECT_FALCON9_H
-#define PROJECT_FALCON9_H
 
+#ifndef __Falcon9_h__
+#define __Falcon9_h__
 
-class Falcon9 {
+#include "Rocket.h"
+#include "Satellite.h"
+// class Rocket;
+class Falcon9;
 
+class Falcon9: public Rocket
+{
+    private:
+        Satellite* satellite;
 };
 
-
-#endif //PROJECT_FALCON9_H
+#endif

@@ -1,10 +1,14 @@
-#ifndef PROJECT_DRAGON_H
-#define PROJECT_DRAGON_H
 
+#ifndef __Dragon_h__
+#define __Dragon_h__
 
-class Dragon {
+#include "SpaceCraft.h"
 
+// class SpaceCraft;
+class Dragon;
+
+class Dragon: public SpaceCraft
+{
 };
 
-
-#endif //PROJECT_DRAGON_H
+#endif

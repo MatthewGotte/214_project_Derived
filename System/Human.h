@@ -1,10 +1,19 @@
-#ifndef PROJECT_HUMAN_H
-#define PROJECT_HUMAN_H
 
-
-class Human {
+#ifndef __Human_h__
+#define __Human_h__
+#include <string>
+#include "VectorOfHumans.h"
+using namespace std;
+class Human
+{
+private:
+    string name;
+    double weight;
+public:
+    string getName();
+    double getWeight();
+    Human(string name, double weight);
+    ~Human();
 
 };
-
-
-#endif //PROJECT_HUMAN_H
+#endif

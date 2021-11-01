@@ -1,10 +1,11 @@
-#ifndef PROJECT_SATELLITE_H
-#define PROJECT_SATELLITE_H
 
+#ifndef __Satellite_h__
+#define __Satellite_h__
+#include "VacuumMerlinEngine.h"
 
-class Satellite {
-
+class Satellite
+{
+    VacuumMerlinEngine* vacuumMerlinEngine;
 };
 
-
-#endif //PROJECT_SATELLITE_H
+#endif

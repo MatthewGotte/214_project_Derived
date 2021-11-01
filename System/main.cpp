@@ -1,11 +1,8 @@
 #include <iostream>
-#include "Colours.h"
+
 using namespace std;
 
-
-int main(int argc, char const *argv[])
-{
-    cout << "Hello, World!" << endl;
+int main() {
+    cout << "HELLO!" << endl;
     return 0;
 }
-

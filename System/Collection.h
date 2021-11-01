@@ -1,10 +1,32 @@
-#ifndef PROJECT_COLLECTION_H
-#define PROJECT_COLLECTION_H
+//
+// Created by muzin on 2021/11/01.
+//
 
+#ifndef DERIVED_COLLECTION_H
+#define DERIVED_COLLECTION_H
+
+#include "HumanCollection.h"
+#include "CargoCollection.h"
+
+#include "Human.h"
+#include "Cargo.h"
+
+#include <vector>
+
+using namespace std;
 
 class Collection {
+private:
+    HumanCollection * humans;
+    CargoCollection * cargo;
+public:
+    Collection();
+    ~Collection();
+
+    HumanCollection * getHumans();
+    CargoCollection * getCargo();
 
 };
 
 
-#endif //PROJECT_COLLECTION_H
+#endif //DERIVED_COLLECTION_H

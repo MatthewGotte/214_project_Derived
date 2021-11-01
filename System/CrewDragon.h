@@ -1,10 +1,21 @@
-#ifndef PROJECT_CREWDRAGON_H
-#define PROJECT_CREWDRAGON_H
 
+#ifndef __CrewDragon_h__
+#define __CrewDragon_h__
 
-class CrewDragon {
+#include "SpaceCraft.h"
 
+#include "CargoCollection.h"
+#include "HumanCollection.h"
+
+// class SpaceCraft;
+class CrewDragon;
+
+class CrewDragon: public SpaceCraft
+{
+private:
+
+public:
+    CrewDragon();
 };
 
-
-#endif //PROJECT_CREWDRAGON_H
+#endif

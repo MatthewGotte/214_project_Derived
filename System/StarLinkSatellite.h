@@ -1,10 +1,14 @@
-#ifndef PROJECT_STARLINKSATELLITE_H
-#define PROJECT_STARLINKSATELLITE_H
 
+#ifndef __StarLinkSatellite_h__
+#define __StarLinkSatellite_h__
 
-class StarLinkSatellite {
+#include "Satellite.h"
 
+// class Satellite;
+class StarLinkSatellite;
+
+class StarLinkSatellite: public Satellite
+{
 };
 
-
-#endif //PROJECT_STARLINKSATELLITE_H
+#endif

@@ -1,10 +1,17 @@
-#ifndef PROJECT_FALCON9CORE_H
-#define PROJECT_FALCON9CORE_H
 
+#ifndef __Falcon9Core_h__
+#define __Falcon9Core_h__
 
-class Falcon9Core {
+#include "Core.h"
+#include "MerlinEngine.h"
+
+// class Core;
+class Falcon9Core;
+
+class Falcon9Core: public Core
+{
+private:
 
 };
 
-
-#endif //PROJECT_FALCON9CORE_H
+#endif
