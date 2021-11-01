@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/System
+CMAKE_SOURCE_DIR = "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/System
+CMAKE_BINARY_DIR = "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CMakeFiles" "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -528,33 +528,6 @@ HumanIterator.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanIterator.cpp.s
 .PHONY : HumanIterator.cpp.s
 
-Iterator.o: Iterator.cpp.o
-
-.PHONY : Iterator.o
-
-# target to build an object file
-Iterator.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Iterator.cpp.o
-.PHONY : Iterator.cpp.o
-
-Iterator.i: Iterator.cpp.i
-
-.PHONY : Iterator.i
-
-# target to preprocess a source file
-Iterator.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Iterator.cpp.i
-.PHONY : Iterator.cpp.i
-
-Iterator.s: Iterator.cpp.s
-
-.PHONY : Iterator.s
-
-# target to generate assembly for a file
-Iterator.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Iterator.cpp.s
-.PHONY : Iterator.cpp.s
-
 LaunchMode.o: LaunchMode.cpp.o
 
 .PHONY : LaunchMode.o
@@ -608,6 +581,60 @@ MerlinEngine.s: MerlinEngine.cpp.s
 MerlinEngine.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MerlinEngine.cpp.s
 .PHONY : MerlinEngine.cpp.s
+
+OperationsIteratorCargo.o: OperationsIteratorCargo.cpp.o
+
+.PHONY : OperationsIteratorCargo.o
+
+# target to build an object file
+OperationsIteratorCargo.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o
+.PHONY : OperationsIteratorCargo.cpp.o
+
+OperationsIteratorCargo.i: OperationsIteratorCargo.cpp.i
+
+.PHONY : OperationsIteratorCargo.i
+
+# target to preprocess a source file
+OperationsIteratorCargo.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorCargo.cpp.i
+.PHONY : OperationsIteratorCargo.cpp.i
+
+OperationsIteratorCargo.s: OperationsIteratorCargo.cpp.s
+
+.PHONY : OperationsIteratorCargo.s
+
+# target to generate assembly for a file
+OperationsIteratorCargo.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorCargo.cpp.s
+.PHONY : OperationsIteratorCargo.cpp.s
+
+OperationsIteratorHumans.o: OperationsIteratorHumans.cpp.o
+
+.PHONY : OperationsIteratorHumans.o
+
+# target to build an object file
+OperationsIteratorHumans.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o
+.PHONY : OperationsIteratorHumans.cpp.o
+
+OperationsIteratorHumans.i: OperationsIteratorHumans.cpp.i
+
+.PHONY : OperationsIteratorHumans.i
+
+# target to preprocess a source file
+OperationsIteratorHumans.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorHumans.cpp.i
+.PHONY : OperationsIteratorHumans.cpp.i
+
+OperationsIteratorHumans.s: OperationsIteratorHumans.cpp.s
+
+.PHONY : OperationsIteratorHumans.s
+
+# target to generate assembly for a file
+OperationsIteratorHumans.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/OperationsIteratorHumans.cpp.s
+.PHONY : OperationsIteratorHumans.cpp.s
 
 Rocket.o: Rocket.cpp.o
 
@@ -825,6 +852,60 @@ VacuumMerlinEngine.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VacuumMerlinEngine.cpp.s
 .PHONY : VacuumMerlinEngine.cpp.s
 
+VectorOfCargo.o: VectorOfCargo.cpp.o
+
+.PHONY : VectorOfCargo.o
+
+# target to build an object file
+VectorOfCargo.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfCargo.cpp.o
+.PHONY : VectorOfCargo.cpp.o
+
+VectorOfCargo.i: VectorOfCargo.cpp.i
+
+.PHONY : VectorOfCargo.i
+
+# target to preprocess a source file
+VectorOfCargo.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfCargo.cpp.i
+.PHONY : VectorOfCargo.cpp.i
+
+VectorOfCargo.s: VectorOfCargo.cpp.s
+
+.PHONY : VectorOfCargo.s
+
+# target to generate assembly for a file
+VectorOfCargo.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfCargo.cpp.s
+.PHONY : VectorOfCargo.cpp.s
+
+VectorOfHumans.o: VectorOfHumans.cpp.o
+
+.PHONY : VectorOfHumans.o
+
+# target to build an object file
+VectorOfHumans.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfHumans.cpp.o
+.PHONY : VectorOfHumans.cpp.o
+
+VectorOfHumans.i: VectorOfHumans.cpp.i
+
+.PHONY : VectorOfHumans.i
+
+# target to preprocess a source file
+VectorOfHumans.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfHumans.cpp.i
+.PHONY : VectorOfHumans.cpp.i
+
+VectorOfHumans.s: VectorOfHumans.cpp.s
+
+.PHONY : VectorOfHumans.s
+
+# target to generate assembly for a file
+VectorOfHumans.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/VectorOfHumans.cpp.s
+.PHONY : VectorOfHumans.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -906,15 +987,18 @@ help:
 	@echo "... HumanIterator.o"
 	@echo "... HumanIterator.i"
 	@echo "... HumanIterator.s"
-	@echo "... Iterator.o"
-	@echo "... Iterator.i"
-	@echo "... Iterator.s"
 	@echo "... LaunchMode.o"
 	@echo "... LaunchMode.i"
 	@echo "... LaunchMode.s"
 	@echo "... MerlinEngine.o"
 	@echo "... MerlinEngine.i"
 	@echo "... MerlinEngine.s"
+	@echo "... OperationsIteratorCargo.o"
+	@echo "... OperationsIteratorCargo.i"
+	@echo "... OperationsIteratorCargo.s"
+	@echo "... OperationsIteratorHumans.o"
+	@echo "... OperationsIteratorHumans.i"
+	@echo "... OperationsIteratorHumans.s"
 	@echo "... Rocket.o"
 	@echo "... Rocket.i"
 	@echo "... Rocket.s"
@@ -939,6 +1023,12 @@ help:
 	@echo "... VacuumMerlinEngine.o"
 	@echo "... VacuumMerlinEngine.i"
 	@echo "... VacuumMerlinEngine.s"
+	@echo "... VectorOfCargo.o"
+	@echo "... VectorOfCargo.i"
+	@echo "... VectorOfCargo.s"
+	@echo "... VectorOfHumans.o"
+	@echo "... VectorOfHumans.i"
+	@echo "... VectorOfHumans.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -957,10 +1047,10 @@ cmake_check_build_system:
 .PHONY : cmake_check_build_system
 
 run:
--e 	./main
+	./main
 gdb:
--e 	gdb main
+	gdb main
 valgrind:
--e 	valgrind --leak-check=full ./main
+	valgrind --leak-check=full ./main
 rebuild:
--e 	./rebuild.sh
+	./rebuild.sh
