@@ -9,6 +9,9 @@ class VacuumMerlinEngine;
 
 class VacuumMerlinEngine: public Engine
 {
+public:
+    VacuumMerlinEngine();
+    VacuumMerlinEngine * clone();
 };
 
 #endif

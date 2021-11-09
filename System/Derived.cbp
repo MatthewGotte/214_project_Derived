@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Derived"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/mnt/c/Users/muzin/Google\ Drive/COS\ 214/Updated\ Project/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Cargo.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Cargo.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CargoCollection.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CargoCollection.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CargoIterator.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CargoIterator.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Collection.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Collection.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/ConfigurationManager.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/ConfigurationManager.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Core.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Core.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CrewDragon.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CrewDragon.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Dragon.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Dragon.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Engine.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Engine.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/F9Stage1.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/F9Stage1.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/F9Stage2.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/F9Stage2.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FHStage1.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FHStage1.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FHStage2.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FHStage2.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9Builder.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9Builder.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9Core.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Falcon9Core.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FalconHeavy.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FalconHeavy.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FalconHeavyBuilder.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/FalconHeavyBuilder.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/GroundMissionControl.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/GroundMissionControl.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Human.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Human.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/HumanCollection.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/HumanCollection.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/HumanIterator.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/HumanIterator.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/LaunchMode.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/LaunchMode.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/MerlinEngine.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/MerlinEngine.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/OperationsIteratorCargo.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/OperationsIteratorCargo.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/OperationsIteratorHumans.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/OperationsIteratorHumans.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Rocket.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Rocket.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/RocketBuilder.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/RocketBuilder.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/RocketState.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/RocketState.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Satellite.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Satellite.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Simulations.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/Simulations.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/SpaceCraft.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/SpaceCraft.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/SpaceCraftFactory.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/SpaceCraftFactory.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/StarLinkSatellite.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/StarLinkSatellite.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/TestMode.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/TestMode.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VacuumMerlinEngine.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VacuumMerlinEngine.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VectorOfCargo.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VectorOfCargo.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VectorOfHumans.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/VectorOfHumans.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

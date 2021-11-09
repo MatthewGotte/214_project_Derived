@@ -9,6 +9,18 @@ class MerlinEngine;
 
 class MerlinEngine: public Engine
 {
+private:
+
+
+
+public:
+    MerlinEngine();
+    MerlinEngine * clone();
+
+
+
+
+
 };
 
 #endif

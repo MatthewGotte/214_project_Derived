@@ -9,7 +9,9 @@ class Falcon9;
 
 class Falcon9: public Rocket
 {
-    private:
+public:
+        void nextstage();
+private:
         Satellite* satellite;
 };
 

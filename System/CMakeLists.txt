@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.16)
 project(Derived)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
@@ -11,7 +11,8 @@ CargoIterator.cpp
 CargoIterator.h
 Collection.cpp
 Collection.h
-Colours.h
+ConfigurationManager.cpp
+ConfigurationManager.h
 Core.cpp
 Core.h
 CrewDragon.cpp
@@ -20,12 +21,24 @@ Dragon.cpp
 Dragon.h
 Engine.cpp
 Engine.h
+F9Stage1.cpp
+F9Stage1.h
+F9Stage2.cpp
+F9Stage2.h
+FHStage1.cpp
+FHStage1.h
+FHStage2.cpp
+FHStage2.h
 Falcon9.cpp
 Falcon9.h
+Falcon9Builder.cpp
+Falcon9Builder.h
 Falcon9Core.cpp
 Falcon9Core.h
 FalconHeavy.cpp
 FalconHeavy.h
+FalconHeavyBuilder.cpp
+FalconHeavyBuilder.h
 GroundMissionControl.cpp
 GroundMissionControl.h
 Human.cpp
@@ -34,14 +47,20 @@ HumanCollection.cpp
 HumanCollection.h
 HumanIterator.cpp
 HumanIterator.h
-Iterator.cpp
-Iterator.h
 LaunchMode.cpp
 LaunchMode.h
 MerlinEngine.cpp
 MerlinEngine.h
+OperationsIteratorCargo.cpp
+OperationsIteratorCargo.h
+OperationsIteratorHumans.cpp
+OperationsIteratorHumans.h
 Rocket.cpp
 Rocket.h
+RocketBuilder.cpp
+RocketBuilder.h
+RocketState.cpp
+RocketState.h
 Satellite.cpp
 Satellite.h
 Simulations.cpp
@@ -56,6 +75,10 @@ TestMode.cpp
 TestMode.h
 VacuumMerlinEngine.cpp
 VacuumMerlinEngine.h
+VectorOfCargo.cpp
+VectorOfCargo.h
+VectorOfHumans.cpp
+VectorOfHumans.h
 main.cpp
 )
 target_link_libraries(main ${GTEST_LIBRARIES} pthread)
