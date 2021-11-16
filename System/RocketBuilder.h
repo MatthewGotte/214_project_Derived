@@ -15,11 +15,7 @@ public:
     };
     virtual ~RocketBuilder();
 
-    //functions for ConfigurationManager->make() to call:
-    virtual void reset() = 0;
-
-    virtual void buildCore() = 0;
-
+    //functions for ConfigurationManager->make() to call:0
 
 };
 

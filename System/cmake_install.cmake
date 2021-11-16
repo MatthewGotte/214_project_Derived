@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/muzin/Google Drive/COS 214/Updated Project
+# Install script for directory: /mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/muzin/Google Drive/COS 214/Updated Project/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

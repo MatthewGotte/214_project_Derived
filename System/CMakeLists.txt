@@ -11,6 +11,7 @@ CargoIterator.cpp
 CargoIterator.h
 Collection.cpp
 Collection.h
+Colours.h
 ConfigurationManager.cpp
 ConfigurationManager.h
 Core.cpp
@@ -47,6 +48,8 @@ HumanCollection.cpp
 HumanCollection.h
 HumanIterator.cpp
 HumanIterator.h
+Iterator.cpp
+Iterator.h
 LaunchMode.cpp
 LaunchMode.h
 MerlinEngine.cpp
