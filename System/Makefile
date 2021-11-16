@@ -231,33 +231,6 @@ Collection.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Collection.cpp.s
 .PHONY : Collection.cpp.s
 
-ConfigurationManager.o: ConfigurationManager.cpp.o
-
-.PHONY : ConfigurationManager.o
-
-# target to build an object file
-ConfigurationManager.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ConfigurationManager.cpp.o
-.PHONY : ConfigurationManager.cpp.o
-
-ConfigurationManager.i: ConfigurationManager.cpp.i
-
-.PHONY : ConfigurationManager.i
-
-# target to preprocess a source file
-ConfigurationManager.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ConfigurationManager.cpp.i
-.PHONY : ConfigurationManager.cpp.i
-
-ConfigurationManager.s: ConfigurationManager.cpp.s
-
-.PHONY : ConfigurationManager.s
-
-# target to generate assembly for a file
-ConfigurationManager.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ConfigurationManager.cpp.s
-.PHONY : ConfigurationManager.cpp.s
-
 Core.o: Core.cpp.o
 
 .PHONY : Core.o
@@ -366,114 +339,6 @@ Engine.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Engine.cpp.s
 .PHONY : Engine.cpp.s
 
-F9Stage1.o: F9Stage1.cpp.o
-
-.PHONY : F9Stage1.o
-
-# target to build an object file
-F9Stage1.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage1.cpp.o
-.PHONY : F9Stage1.cpp.o
-
-F9Stage1.i: F9Stage1.cpp.i
-
-.PHONY : F9Stage1.i
-
-# target to preprocess a source file
-F9Stage1.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage1.cpp.i
-.PHONY : F9Stage1.cpp.i
-
-F9Stage1.s: F9Stage1.cpp.s
-
-.PHONY : F9Stage1.s
-
-# target to generate assembly for a file
-F9Stage1.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage1.cpp.s
-.PHONY : F9Stage1.cpp.s
-
-F9Stage2.o: F9Stage2.cpp.o
-
-.PHONY : F9Stage2.o
-
-# target to build an object file
-F9Stage2.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage2.cpp.o
-.PHONY : F9Stage2.cpp.o
-
-F9Stage2.i: F9Stage2.cpp.i
-
-.PHONY : F9Stage2.i
-
-# target to preprocess a source file
-F9Stage2.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage2.cpp.i
-.PHONY : F9Stage2.cpp.i
-
-F9Stage2.s: F9Stage2.cpp.s
-
-.PHONY : F9Stage2.s
-
-# target to generate assembly for a file
-F9Stage2.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/F9Stage2.cpp.s
-.PHONY : F9Stage2.cpp.s
-
-FHStage1.o: FHStage1.cpp.o
-
-.PHONY : FHStage1.o
-
-# target to build an object file
-FHStage1.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage1.cpp.o
-.PHONY : FHStage1.cpp.o
-
-FHStage1.i: FHStage1.cpp.i
-
-.PHONY : FHStage1.i
-
-# target to preprocess a source file
-FHStage1.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage1.cpp.i
-.PHONY : FHStage1.cpp.i
-
-FHStage1.s: FHStage1.cpp.s
-
-.PHONY : FHStage1.s
-
-# target to generate assembly for a file
-FHStage1.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage1.cpp.s
-.PHONY : FHStage1.cpp.s
-
-FHStage2.o: FHStage2.cpp.o
-
-.PHONY : FHStage2.o
-
-# target to build an object file
-FHStage2.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage2.cpp.o
-.PHONY : FHStage2.cpp.o
-
-FHStage2.i: FHStage2.cpp.i
-
-.PHONY : FHStage2.i
-
-# target to preprocess a source file
-FHStage2.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage2.cpp.i
-.PHONY : FHStage2.cpp.i
-
-FHStage2.s: FHStage2.cpp.s
-
-.PHONY : FHStage2.s
-
-# target to generate assembly for a file
-FHStage2.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FHStage2.cpp.s
-.PHONY : FHStage2.cpp.s
-
 Falcon9.o: Falcon9.cpp.o
 
 .PHONY : Falcon9.o
@@ -500,33 +365,6 @@ Falcon9.s: Falcon9.cpp.s
 Falcon9.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Falcon9.cpp.s
 .PHONY : Falcon9.cpp.s
-
-Falcon9Builder.o: Falcon9Builder.cpp.o
-
-.PHONY : Falcon9Builder.o
-
-# target to build an object file
-Falcon9Builder.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Falcon9Builder.cpp.o
-.PHONY : Falcon9Builder.cpp.o
-
-Falcon9Builder.i: Falcon9Builder.cpp.i
-
-.PHONY : Falcon9Builder.i
-
-# target to preprocess a source file
-Falcon9Builder.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Falcon9Builder.cpp.i
-.PHONY : Falcon9Builder.cpp.i
-
-Falcon9Builder.s: Falcon9Builder.cpp.s
-
-.PHONY : Falcon9Builder.s
-
-# target to generate assembly for a file
-Falcon9Builder.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Falcon9Builder.cpp.s
-.PHONY : Falcon9Builder.cpp.s
 
 Falcon9Core.o: Falcon9Core.cpp.o
 
@@ -581,33 +419,6 @@ FalconHeavy.s: FalconHeavy.cpp.s
 FalconHeavy.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FalconHeavy.cpp.s
 .PHONY : FalconHeavy.cpp.s
-
-FalconHeavyBuilder.o: FalconHeavyBuilder.cpp.o
-
-.PHONY : FalconHeavyBuilder.o
-
-# target to build an object file
-FalconHeavyBuilder.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o
-.PHONY : FalconHeavyBuilder.cpp.o
-
-FalconHeavyBuilder.i: FalconHeavyBuilder.cpp.i
-
-.PHONY : FalconHeavyBuilder.i
-
-# target to preprocess a source file
-FalconHeavyBuilder.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FalconHeavyBuilder.cpp.i
-.PHONY : FalconHeavyBuilder.cpp.i
-
-FalconHeavyBuilder.s: FalconHeavyBuilder.cpp.s
-
-.PHONY : FalconHeavyBuilder.s
-
-# target to generate assembly for a file
-FalconHeavyBuilder.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/FalconHeavyBuilder.cpp.s
-.PHONY : FalconHeavyBuilder.cpp.s
 
 GroundMissionControl.o: GroundMissionControl.cpp.o
 
@@ -851,60 +662,6 @@ Rocket.s: Rocket.cpp.s
 Rocket.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Rocket.cpp.s
 .PHONY : Rocket.cpp.s
-
-RocketBuilder.o: RocketBuilder.cpp.o
-
-.PHONY : RocketBuilder.o
-
-# target to build an object file
-RocketBuilder.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketBuilder.cpp.o
-.PHONY : RocketBuilder.cpp.o
-
-RocketBuilder.i: RocketBuilder.cpp.i
-
-.PHONY : RocketBuilder.i
-
-# target to preprocess a source file
-RocketBuilder.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketBuilder.cpp.i
-.PHONY : RocketBuilder.cpp.i
-
-RocketBuilder.s: RocketBuilder.cpp.s
-
-.PHONY : RocketBuilder.s
-
-# target to generate assembly for a file
-RocketBuilder.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketBuilder.cpp.s
-.PHONY : RocketBuilder.cpp.s
-
-RocketState.o: RocketState.cpp.o
-
-.PHONY : RocketState.o
-
-# target to build an object file
-RocketState.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketState.cpp.o
-.PHONY : RocketState.cpp.o
-
-RocketState.i: RocketState.cpp.i
-
-.PHONY : RocketState.i
-
-# target to preprocess a source file
-RocketState.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketState.cpp.i
-.PHONY : RocketState.cpp.i
-
-RocketState.s: RocketState.cpp.s
-
-.PHONY : RocketState.s
-
-# target to generate assembly for a file
-RocketState.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/RocketState.cpp.s
-.PHONY : RocketState.cpp.s
 
 Satellite.o: Satellite.cpp.o
 
@@ -1197,9 +954,6 @@ help:
 	@echo "... Collection.o"
 	@echo "... Collection.i"
 	@echo "... Collection.s"
-	@echo "... ConfigurationManager.o"
-	@echo "... ConfigurationManager.i"
-	@echo "... ConfigurationManager.s"
 	@echo "... Core.o"
 	@echo "... Core.i"
 	@echo "... Core.s"
@@ -1212,33 +966,15 @@ help:
 	@echo "... Engine.o"
 	@echo "... Engine.i"
 	@echo "... Engine.s"
-	@echo "... F9Stage1.o"
-	@echo "... F9Stage1.i"
-	@echo "... F9Stage1.s"
-	@echo "... F9Stage2.o"
-	@echo "... F9Stage2.i"
-	@echo "... F9Stage2.s"
-	@echo "... FHStage1.o"
-	@echo "... FHStage1.i"
-	@echo "... FHStage1.s"
-	@echo "... FHStage2.o"
-	@echo "... FHStage2.i"
-	@echo "... FHStage2.s"
 	@echo "... Falcon9.o"
 	@echo "... Falcon9.i"
 	@echo "... Falcon9.s"
-	@echo "... Falcon9Builder.o"
-	@echo "... Falcon9Builder.i"
-	@echo "... Falcon9Builder.s"
 	@echo "... Falcon9Core.o"
 	@echo "... Falcon9Core.i"
 	@echo "... Falcon9Core.s"
 	@echo "... FalconHeavy.o"
 	@echo "... FalconHeavy.i"
 	@echo "... FalconHeavy.s"
-	@echo "... FalconHeavyBuilder.o"
-	@echo "... FalconHeavyBuilder.i"
-	@echo "... FalconHeavyBuilder.s"
 	@echo "... GroundMissionControl.o"
 	@echo "... GroundMissionControl.i"
 	@echo "... GroundMissionControl.s"
@@ -1266,12 +1002,6 @@ help:
 	@echo "... Rocket.o"
 	@echo "... Rocket.i"
 	@echo "... Rocket.s"
-	@echo "... RocketBuilder.o"
-	@echo "... RocketBuilder.i"
-	@echo "... RocketBuilder.s"
-	@echo "... RocketState.o"
-	@echo "... RocketState.i"
-	@echo "... RocketState.s"
 	@echo "... Satellite.o"
 	@echo "... Satellite.i"
 	@echo "... Satellite.s"
@@ -1316,3 +1046,11 @@ cmake_check_build_system:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
+run:
+	./main
+gdb:
+	gdb main
+valgrind:
+	valgrind --leak-check=full ./main
+rebuild:
+	./rebuild.sh
