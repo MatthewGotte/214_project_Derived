@@ -25,7 +25,7 @@ public:
             this->builder = new Falcon9Builder(c);
         }
         //humans and cargo => FalconHeavyBuilder
-        this->builder = new FalconHeavyBuilder(c, h);
+        this->builder = new FalconHeavyBuilder(c, h);   
     }
     ~ConfigurationManager();
 
