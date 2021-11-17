@@ -8,7 +8,17 @@ using namespace std;
 class Cargo
 {
 public:
+
+    /**
+     * @brief Construct a new Cargo object
+     * 
+     */
     Cargo();
+
+    /**
+     * @brief Destroy the Cargo object
+     * 
+     */
     ~Cargo();
 };
 

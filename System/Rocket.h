@@ -13,15 +13,45 @@ using namespace std;
 class Rocket
 {
 public:
+
+    /**
+     * @brief Construct a new Rocket object
+     * 
+     */
     Rocket();
+
+    /**
+     * @brief Destroy the Rocket object
+     * 
+     */
     ~Rocket();
 
+    /**
+     * @brief 
+     * 
+     */
+    virtual void nextstage() = 0;
 
-    virtual void nextstage()=0;
 private:
+
+    /**
+     * @brief A vector to main maintain and traverse through the Falcon9Coes
+     * 
+     */
     vector< Falcon9Core* > core;
+
+    /**
+     * @brief A referece to SpaceCraft:: SpaceCraft object
+     * 
+     */
     SpaceCraft* spaceCraft;
+
+    /**
+     * @brief A reference to the RocketState:: RocketState object
+     * 
+     */
     RocketState* stage;
+
 };
 
 #endif

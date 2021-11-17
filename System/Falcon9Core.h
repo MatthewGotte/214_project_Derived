@@ -12,13 +12,45 @@ class Falcon9Core;
 class Falcon9Core: public Core
 {
 private:
-    int merlinengines ;
+
+    /**
+     * @brief keeps count of the MerlinEngines
+     * 
+     */
+    int merlinengines;
+
+    /**
+     * @brief uses a vector to maintain and traverse through the engines
+     * 
+     */
     vector<MerlinEngine*> engines;
+
+
 public:
-    Falcon9Core();
+
+    
+    /**
+     * @brief Return the count of all the Merlin Engines added to the list
+     * 
+     * @return int 
+     */
     int getMerlinNumber();
+
+    
+    /**
+     * @brief Clone and return a new Falcon9Core:: new Falcon 9 Object 
+     * 
+     * @return Falcon9Core* 
+     */
     Falcon9Core* clone();
+
+    /**
+     * @brief Add a new merlin engine to the list of merline engines:: Engine object
+     * 
+     * @param engine 
+     */
     void addEngine(MerlinEngine*);
+
 };
 
 #endif

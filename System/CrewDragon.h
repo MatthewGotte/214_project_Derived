@@ -15,6 +15,11 @@ class CrewDragon: public SpaceCraft
 private:
 
 public:
+
+    /**
+     * @brief Construct a new Crew Dragon object
+     * 
+     */
     CrewDragon();
 };
 

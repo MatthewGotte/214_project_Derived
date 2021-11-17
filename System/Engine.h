@@ -8,9 +8,18 @@ using namespace std;
 class Engine
 {
 private:
-    Engine * next;
+    /**
+     * @brief Create a reference to Engine
+     * 
+     */
+    Engine* next;
 
 public:
+
+    /**
+     * @brief Construct a new Engine object
+     * 
+     */
     Engine(){}
 
 };

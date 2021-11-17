@@ -16,8 +16,21 @@
 
 class ConfigurationManager {
 private:
-    RocketBuilder * builder;
+
+    /**
+     * @brief Create a reference to RocketBuilder 
+     * 
+     */
+    RocketBuilder* builder;
+
 public:
+
+    /**
+     * @brief Construct a new Configuration Manager object
+     * 
+     * @param c 
+     * @param h 
+     */
     ConfigurationManager(vector< Cargo* > c, vector< Human* > h) {
         //assign builder
         if (h.empty()) {
@@ -27,6 +40,11 @@ public:
         //humans and cargo => FalconHeavyBuilder
         this->builder = new FalconHeavyBuilder(c, v);
     }
+
+    /**
+     * @brief Destroy the Configuration Manager object
+     * 
+     */
     ~ConfigurationManager();
 
 };

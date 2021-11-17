@@ -7,9 +7,20 @@
 #include "RocketState.h"
 
 class FHStage2: public RocketState {
-    void handleChange(Rocket* r);
-    ~FHStage2();
-};
 
+    /**
+     * @brief Handle to state change of the rocket - Falcon Heavy stage 2
+     * 
+     * @param r 
+     */
+    void handleChange(Rocket* r);
+
+    /**
+     * @brief Destroy the FHStage2 object
+     * 
+     */
+    ~FHStage2();
+
+};
 
 #endif //DERIVED_FHSTAGE2_H

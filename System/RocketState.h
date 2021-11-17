@@ -9,8 +9,21 @@ class Rocket;
 
 class RocketState {
 public:
-    virtual void handleChange(Rocket* r)=0;
+
+    /**
+     *
+     * @brief execution is redirected 
+     * 
+     * @param r 
+     */
+    virtual void handleChange(Rocket* r) = 0;
+
+    /**
+     * @brief Destroy the Rocket State object
+     * 
+     */
     virtual ~RocketState();
+
 private:
 
 };

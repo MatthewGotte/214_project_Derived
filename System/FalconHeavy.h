@@ -12,10 +12,23 @@ class FalconHeavy;
 
 class FalconHeavy: public Rocket
 {
-public:
-    void nextstage();
-private:
-    vector< Falcon9Core* > cores;
+
+    private:
+
+        /**
+         * @brief 
+         * 
+         */
+        vector< Falcon9Core* > cores;
+
+    public:
+
+        /**
+         * @brief 
+         * 
+         */
+        void nextstage();
+
 };
 
 #endif

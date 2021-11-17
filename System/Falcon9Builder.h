@@ -12,11 +12,23 @@
 
 class Falcon9Builder : public RocketBuilder {
 private:
+
+    /**
+     * @brief Create a vector of Cargo to maintain and travese the Cargo
+     * 
+     */
     vector< Cargo* > cargo;
+
 public:
+
     Falcon9Builder(vector< Cargo* > c) : RocketBuilder() {
         this->cargo = c;
     };
+
+    /**
+     * @brief Destroy the Falcon 9 Builder object
+     * 
+     */
     ~Falcon9Builder();
 };
 

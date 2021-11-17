@@ -8,16 +8,27 @@ class Satellite
 {
     private:
 
+        /**
+         * @brief Create a reference to VacuumMerlinEngine:: vacuumMerlinEngine
+         * 
+         */
         VacuumMerlinEngine* vacuumMerlinEngine;
-
-
 
     public:
 
+        /**
+         * @brief Construct a new Satellite object
+         * 
+         */
         Satellite();
 
+        
         void update();
 
+        /**
+         * @brief Destroy the Satellite object
+         * 
+         */
         ~Satellite();
 };
 

@@ -11,12 +11,36 @@ class StarLinkSatellite;
 class StarLinkSatellite: public Satellite
 {
 private:
+
+    /**
+     * @brief sets name of StarLinkSatellite
+     * 
+     */
     string name;
+
 public:
+    /**
+     * @brief Construct a new StarLink Satellite:: Star Link Satellite object
+     * 
+     * @param name 
+     */
     StarLinkSatellite(string);
+
+    
+    /**
+     * @brief Implement an operation to create a clone of a StarLink Satellite
+     * 
+     * @return StarLinkSatellite* 
+     */
     StarLinkSatellite * clone();
-    string getName();
+    
+    /**
+     * @brief Give each StarLink Satellite a name for easy identification
+     * 
+     * @param name 
+     */
     void setName(string);
+
 };
 
 #endif
