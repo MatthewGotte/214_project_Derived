@@ -1,9 +1,7 @@
-
 #ifndef __Rocket_h__
 #define __Rocket_h__
 
 #include <vector>
-
 #include "SpaceCraft.h"
 #include "Falcon9Core.h"
 #include "RocketState.h"
