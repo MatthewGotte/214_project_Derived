@@ -4,8 +4,9 @@
 
 #ifndef DERIVED_VECTOROFCARGO_H
 #define DERIVED_VECTOROFCARGO_H
-class CargoCollection;
+
 #include <vector>
+class CargoCollection;
 #include "CargoIterator.h"
 #include "OperationsIteratorCargo.h"
 
@@ -16,12 +17,12 @@ class VectorOfCargo: public CargoCollection {
 private:
     vector<Cargo*>cargo;
 public:
-    VectorOfCargo(){};
-    virtual CargoIterator* createCargoIterator();
-    virtual void addCargo(Cargo*);
-    virtual void removeCargo(Cargo*);
-    virtual bool isEmpty();
-    virtual ~VectorOfCargo(){};
+    VectorOfCargo();
+    CargoIterator* createCargoIterator() override;
+    void addCargo(Cargo*) override;
+    void removeCargo(Cargo*) override;
+    bool isEmpty() override;
+    ~VectorOfCargo() ;
 };
 
 

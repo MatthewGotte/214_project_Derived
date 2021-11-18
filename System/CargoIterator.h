@@ -8,12 +8,12 @@ class Cargo;
 class CargoIterator
 {
 public:
-    CargoIterator();
+    CargoIterator()= default;;
     virtual Cargo* first()=0;
     virtual Cargo* next()=0;
     virtual bool hasNext()=0;
     virtual Cargo* current()=0;
-    virtual ~CargoIterator();
+    virtual ~CargoIterator()= default;;
 };
 
 #endif
