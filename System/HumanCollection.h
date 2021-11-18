@@ -8,6 +8,7 @@ class HumanIterator;
 class HumanCollection;
 
 class HumanCollection{
+public:
     HumanCollection();
     virtual HumanIterator* createHumanIterator()=0;
     virtual void addHuman(Human*)=0;
