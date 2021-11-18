@@ -10,17 +10,15 @@ class Human;
 using namespace std;
 class OperationsIteratorHumans : public HumanIterator {
 private:
-    int currentpos;
+    int currentpos{};
     vector<Human*> itlist;
 public:
-    OperationsIteratorHumans(vector<Human*> vect){
-        itlist = vect;
-    };
-    virtual Human* first();
-    virtual Human* next();
-    virtual bool hasNext();
-    virtual Human* current();
-    virtual ~OperationsIteratorHumans(){};
+    explicit OperationsIteratorHumans(vector<Human*> vect);
+    Human* first() override;
+    Human* next() override;
+    bool hasNext() override;
+    Human* current() override;
+    ~OperationsIteratorHumans() override = default;
 
 };
 

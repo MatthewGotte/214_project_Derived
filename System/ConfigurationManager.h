@@ -9,11 +9,6 @@
 #include "Falcon9Builder.h"
 #include "FalconHeavyBuilder.h"
 
-/*
- * Configuration manager serves as the director of the builder pattern.
- * Holds a pointer to a RocketBuilder.
- */
-
 class ConfigurationManager {
 private:
     RocketBuilder * builder;
@@ -28,7 +23,6 @@ public:
         this->builder = new FalconHeavyBuilder(c, h);   
     }
     ~ConfigurationManager();
-
 };
 
 

@@ -1,7 +1,3 @@
-//
-// Created by muzin on 2021/11/01.
-//
-
 #ifndef DERIVED_COLLECTION_H
 #define DERIVED_COLLECTION_H
 

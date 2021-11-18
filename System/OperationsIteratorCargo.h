@@ -1,7 +1,7 @@
 #ifndef DERIVED_OPERATIONSITERATORCARGO_H
 #define DERIVED_OPERATIONSITERATORCARGO_H
 
-#include "CargoIterator.h"
+class CargoIterator;
 #include "Cargo.h"
 #include <vector>
 
@@ -13,17 +13,15 @@ class Cargo;
 
 class OperationsIteratorCargo: public CargoIterator {
 private:
-    int currentpos;
+    int currentpos{};
     vector<Cargo*> itlist;
 public:
-    OperationsIteratorCargo(vector<Cargo*> vect){
-        itlist = vect;
-    };
-    virtual Cargo* first();
-    virtual Cargo* next();
-    virtual bool hasNext();
-    virtual Cargo* current();
-    virtual ~OperationsIteratorCargo(){};
+    explicit OperationsIteratorCargo(vector<Cargo*> vect);
+    Cargo* first() override;
+    Cargo* next() override;
+    bool hasNext() override;
+    Cargo* current() override;
+    ~OperationsIteratorCargo() override= default;;
 };
 
 

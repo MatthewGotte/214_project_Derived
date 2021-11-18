@@ -8,17 +8,18 @@
 #include "HumanCollection.h"
 #include "HumanIterator.h"
 #include "OperationsIteratorHumans.h"
-
+#include <iostream>
+using namespace std;
 class VectorOfHumans : public HumanCollection {
 private:
     vector<Human*> people ;
 public:
     VectorOfHumans();
-    virtual HumanIterator* createHumanIterator()override;
-    virtual void addHuman(Human*)override;
-    virtual void removeHuman(Human*)override;
-    virtual bool isEmpty()override;
-    virtual ~VectorOfHumans();
+    HumanIterator* createHumanIterator()override;
+    void addHuman(Human*)override;
+    void removeHuman(Human*)override;
+    bool isEmpty()override;
+    ~VectorOfHumans() override;
 };
 
 
