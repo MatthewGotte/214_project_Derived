@@ -4,6 +4,7 @@
 
 class FHStage2: public RocketState {
     void handleChange(Rocket* r);
+    FHStage2();
     ~FHStage2();
 };
 
