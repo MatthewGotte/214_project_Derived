@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System
+# Install script for directory: /mnt/c/Users/Taku/Documents/GitHub/214_project/System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Taku/Documents/GitHub/214_project/System/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
