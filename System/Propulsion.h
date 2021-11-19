@@ -5,7 +5,6 @@
 #ifndef DERIVED_PROPULSION_H
 #define DERIVED_PROPULSION_H
 
-
 class Propulsion {
 
 };

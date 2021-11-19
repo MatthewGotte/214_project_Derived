@@ -30,6 +30,7 @@ void GroundMissionControl::notify(){
     for(it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
     {
         //update add the satellites observers
+        (*it)->update();
     }
     
 }

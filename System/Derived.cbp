@@ -93,6 +93,12 @@
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Colours.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/ConcreteGroundMissionControl.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/ConcreteGroundMissionControl.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/ConfigurationManager.cpp">
 			<Option target="main"/>
 		</Unit>
@@ -165,6 +171,18 @@
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Falcon9Core.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Falcon9Payload.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Falcon9Payload.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Falcon9Propulsion.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Falcon9Propulsion.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavy.cpp">
 			<Option target="main"/>
 		</Unit>
@@ -175,6 +193,18 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavyBuilder.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavyPayload.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavyPayload.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavyPropulsion.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/FalconHeavyPropulsion.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/GroundMissionControl.cpp">
@@ -229,6 +259,18 @@
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/OperationsIteratorHumans.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Payload.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Payload.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Propulsion.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Propulsion.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/Rocket.cpp">

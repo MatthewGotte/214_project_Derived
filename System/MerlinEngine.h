@@ -3,24 +3,15 @@
 #define __MerlinEngine_h__
 
 #include "Engine.h"
-
-// class Engine;
-class MerlinEngine;
+#include <iostream>
 
 class MerlinEngine: public Engine
 {
 private:
-
-
-
+    string name;
 public:
-    MerlinEngine();
-    MerlinEngine * clone();
-
-
-
-
-
+    MerlinEngine(string name);
+    ~MerlinEngine();
 };
 
 #endif

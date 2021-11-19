@@ -1,7 +1,3 @@
-//
-// Created by muzin on 2021/11/09.
-//
-
 #ifndef DERIVED_FALCONHEAVYBUILDER_H
 #define DERIVED_FALCONHEAVYBUILDER_H
 
@@ -10,17 +6,21 @@
 #include "Human.h"
 #include <vector>
 #include <iostream>
+#include "FalconHeavyPayload.h"
 
 class FalconHeavyBuilder : public RocketBuilder {
 private:
-    vector< Cargo* > cargo;
-    vector< Human* > human;
+    Rocket * product;
+    vector< Cargo* > c;
+    vector< Human* > h;
 public:
-    FalconHeavyBuilder(vector< Cargo* > c, vector< Human* > h) : RocketBuilder() {
-        this->cargo = c;
-        this->human = h;
-    };
+    FalconHeavyBuilder(vector< Cargo* > c, vector< Human* > h);
     ~FalconHeavyBuilder();
+
+    void reset();
+    void addPayload();
+    void addPropulsion();
+    Rocket * getRocket();
 };
 
 

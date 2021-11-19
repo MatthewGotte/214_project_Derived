@@ -6,13 +6,21 @@ class Cargo;
 class CargoIterator;
 
 class CargoCollection{
+
 public:
-    CargoCollection()= default;;
+
+    CargoCollection() = default;
+
     virtual CargoIterator* createCargoIterator()=0;
+
     virtual void addCargo(Cargo*)=0;
+
     virtual void removeCargo(Cargo*)=0;
+
     virtual bool isEmpty()=0;
-    virtual ~CargoCollection()= default;;
+
+    virtual ~CargoCollection()= default;
+
 };
 
 #endif

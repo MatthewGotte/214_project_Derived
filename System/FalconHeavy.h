@@ -2,20 +2,14 @@
 #ifndef __FalconHeavy_h__
 #define __FalconHeavy_h__
 
-#include <vector>
 #include "Rocket.h"
 
-using namespace std;
-
-// class Rocket;
-class FalconHeavy;
-
-class FalconHeavy: public Rocket
-{
+class FalconHeavy: public Rocket {
 public:
     void nextstage();
-private:
-    vector< Falcon9Core* > cores;
+    
+    FalconHeavy(Payload * payload);
+    ~FalconHeavy();
 };
 
 #endif

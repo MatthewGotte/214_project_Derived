@@ -11,6 +11,11 @@ Collection::Collection(){
 
 Collection::~Collection() {
 
+    delete this->cargo;
+    delete this->humans;
+
+    this->cargo = nullptr;
+    this->humans = nullptr;
 }
 
 HumanCollection *Collection::getHumans() {

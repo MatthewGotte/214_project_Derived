@@ -9,11 +9,11 @@ class Human
 private:
     string name;
     double weight;
+    string role;
 public:
     string getName();
     double getWeight();
-    Human(string name, double weight);
+    Human(string name, double weight, string role);
     ~Human();
-
 };
 #endif

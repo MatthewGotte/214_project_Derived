@@ -13,16 +13,9 @@ class ConfigurationManager {
 private:
     RocketBuilder * builder;
 public:
-    ConfigurationManager(vector< Cargo* > c, vector< Human* > h) {
-        //assign builder
-        if (h.empty()) {
-            //only cargo => Falcon9Builder
-            this->builder = new Falcon9Builder(c);
-        }
-        //humans and cargo => FalconHeavyBuilder
-        this->builder = new FalconHeavyBuilder(c, h);   
-    }
+    ConfigurationManager(vector< Cargo* > c, vector< Human* > h);
     ~ConfigurationManager();
+    Rocket * BuildAndDecorateRocket();
 };
 
 

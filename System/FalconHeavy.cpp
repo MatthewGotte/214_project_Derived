@@ -1,4 +1,9 @@
-
 #include "FalconHeavy.h"
-#include "Rocket.h"
 
+FalconHeavy::FalconHeavy(Payload * Payload) : Rocket(Payload) {
+
+}
+
+FalconHeavy::~FalconHeavy() {
+    
+}

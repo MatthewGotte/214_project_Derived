@@ -5,9 +5,28 @@
 #ifndef DERIVED_PAYLOAD_H
 #define DERIVED_PAYLOAD_H
 
+#include <iostream>
+#include <vector>
+
+#include "VacuumMerlinEngine.h"
+#include "SpaceCraft.h"
+
+using namespace std;
 
 class Payload {
+private:
+    VacuumMerlinEngine * vacmerlinengine;
+    SpaceCraft * spacecraft;
+public:
+    VacuumMerlinEngine * getVacuumMerlinEngine();
+    void setVacuumMerlinEngine(VacuumMerlinEngine * v);
 
+    SpaceCraft * getSpaceCraft();
+    void setSpaceCraft(SpaceCraft * s);
+
+    Payload(VacuumMerlinEngine * v);
+
+    virtual ~Payload();
 };
 
 

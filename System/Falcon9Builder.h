@@ -9,15 +9,20 @@
 #include "Cargo.h"
 #include <vector>
 #include <iostream>
+#include "Falcon9Payload.h"
 
 class Falcon9Builder : public RocketBuilder {
 private:
-    vector< Cargo* > cargo;
+    Rocket * product;
+    vector< Cargo* > c;
 public:
-    Falcon9Builder(vector< Cargo* > c) : RocketBuilder() {
-        this->cargo = c;
-    };
+    Falcon9Builder(vector< Cargo* > c);
     ~Falcon9Builder();
+
+    void reset();
+    void addPayload();
+    void addPropulsion();
+    Rocket * getRocket();
 };
 
 

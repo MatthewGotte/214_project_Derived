@@ -3,3 +3,11 @@
 //
 
 #include "FalconHeavyPayload.h"
+
+FalconHeavyPayload::FalconHeavyPayload(VacuumMerlinEngine * v) : Payload(v) {
+
+}
+
+FalconHeavyPayload::~FalconHeavyPayload() {
+    
+}

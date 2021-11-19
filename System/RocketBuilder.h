@@ -5,17 +5,17 @@
 #ifndef DERIVED_ROCKETBUILDER_H
 #define DERIVED_ROCKETBUILDER_H
 
+#include "Rocket.h"
 
 class RocketBuilder {
-private:
-
 public:
-    RocketBuilder() {
-
-    };
+    RocketBuilder();
     virtual ~RocketBuilder();
 
-    //functions for ConfigurationManager->make() to call:0
+    virtual void reset() = 0;
+    virtual void addPayload() = 0;
+    virtual void addPropulsion() = 0;
+    virtual Rocket * getRocket() = 0;
 
 };
 

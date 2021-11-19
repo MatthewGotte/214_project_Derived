@@ -7,9 +7,16 @@ using namespace std;
 
 class Cargo
 {
-public:
-    Cargo();
-    ~Cargo();
+    private:
+        string name;
+        double weight;
+        string description ;
+    public:
+        Cargo(string , double  , string);
+        string getName();
+        string getDesription();
+        double getWeight();
+        ~Cargo();
 };
 
 #endif

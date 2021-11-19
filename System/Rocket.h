@@ -1,9 +1,7 @@
 #ifndef __Rocket_h__
 #define __Rocket_h__
 
-#include <vector>
-#include "SpaceCraft.h"
-#include "Falcon9Core.h"
+#include "Payload.h"
 #include "RocketState.h"
 
 using namespace std;
@@ -11,14 +9,14 @@ using namespace std;
 class Rocket
 {
 public:
-    Rocket();
-    ~Rocket();
+    Rocket(Payload * payload);
+    virtual ~Rocket();
 
-
-    virtual void nextstage()=0;
+   //virtual void nextstage()=0;
+    void setPayload(Payload * p);
+    Payload * getPayload();
 private:
-    vector< Falcon9Core* > core;
-    SpaceCraft* spaceCraft;
+    Payload * payload;
     RocketState* stage;
 };
 

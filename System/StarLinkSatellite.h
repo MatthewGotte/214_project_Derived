@@ -3,20 +3,40 @@
 #define __StarLinkSatellite_h__
 
 #include "Satellite.h"
+#include "ConcreteGroundMissionControl.h"
 #include <iostream>
 using namespace std;
 // class Satellite;
-class StarLinkSatellite;
+class StarLinkSatellite; //Concrete Observer
 
 class StarLinkSatellite: public Satellite
 {
-private:
-    string name;
-public:
-    StarLinkSatellite(string);
-    StarLinkSatellite * clone();
-    string getName();
-    void setName(string);
+    private:
+
+        ConcreteGroundMissionControl* missionControl;
+
+        bool communicating;
+
+        string name;
+
+    public:
+
+        StarLinkSatellite(ConcreteGroundMissionControl*);
+
+        StarLinkSatellite(string);
+
+        StarLinkSatellite * clone();
+
+        string getName();
+        
+        void setName(string);
+
+        void update();
+
+        void print();
+
+        ~StarLinkSatellite();
+    
 };
 
 #endif

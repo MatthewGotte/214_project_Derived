@@ -5,12 +5,6 @@ Satellite::Satellite(){
 
 }
 
-void Satellite::update() {
-
-
-}
-
 Satellite::~Satellite(){
-
 
 }

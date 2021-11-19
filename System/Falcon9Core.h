@@ -3,22 +3,19 @@
 #define __Falcon9Core_h__
 
 #include "Core.h"
-class MerlinEngine;
+#include "MerlinEngine.h"
 #include <vector>
 #include <iostream>
 using namespace std;
-class Falcon9Core;
 
-class Falcon9Core: public Core
-{
+class Falcon9Core: public Core {
 private:
-    int merlinengines ;
-    vector<MerlinEngine*> engines;
+    string name;
+    vector< MerlinEngine* > coreEngines;
 public:
-    Falcon9Core();
-    int getMerlinNumber();
-    Falcon9Core* clone();
-    void addEngine(MerlinEngine*);
+    Falcon9Core(string name);
+    ~Falcon9Core();
 };
 
 #endif
+ 
