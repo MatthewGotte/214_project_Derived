@@ -1,4 +1,3 @@
-
 #include "Cargo.h"
 /**
  * @brief Construct a new Cargo:: Cargo object
