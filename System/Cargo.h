@@ -1,4 +1,3 @@
-
 #ifndef __Cargo_h__
 #define __Cargo_h__
 #include <string>
