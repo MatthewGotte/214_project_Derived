@@ -13,7 +13,7 @@ Cargo::Cargo(string name , double weight , string descp){
     this->description = descp;
 }
 /**
- * @brief Get the Name of the Cargo objecr
+ * @brief Get the Name of the Cargo object
  * @author Muziwandile Ndlovu
  * @return string 
  */
