@@ -3,6 +3,7 @@
 #define __StarLinkSatellite_h__
 
 #include "Satellite.h"
+#include "Colours.h"
 #include "ConcreteGroundMissionControl.h"
 #include <iostream>
 using namespace std;

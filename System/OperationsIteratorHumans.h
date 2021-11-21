@@ -10,7 +10,7 @@ class Human;
 using namespace std;
 class OperationsIteratorHumans : public HumanIterator {
 private:
-    int currentpos{};
+    int currentpos;
     vector<Human*> itlist;
 public:
     explicit OperationsIteratorHumans(vector<Human*> vect);

@@ -3,12 +3,15 @@
 #define __Dragon_h__
 
 #include "SpaceCraft.h"
-
-// class SpaceCraft;
-class Dragon;
+#include "CargoCollection.h"
 
 class Dragon: public SpaceCraft
 {
+private:
+    CargoCollection * c;
+public:
+    Dragon(CargoCollection * c);
+    ~Dragon();
 };
 
 #endif

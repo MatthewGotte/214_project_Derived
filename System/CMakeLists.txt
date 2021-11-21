@@ -9,8 +9,6 @@ CargoCollection.cpp
 CargoCollection.h
 CargoIterator.cpp
 CargoIterator.h
-Collection.cpp
-Collection.h
 Colours.h
 ConcreteGroundMissionControl.cpp
 ConcreteGroundMissionControl.h

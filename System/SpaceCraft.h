@@ -3,20 +3,26 @@
 #define __SpaceCraft_h__
 #include "VacuumMerlinEngine.h"
 #include "Human.h"
-#include "Collection.h"
 #include <string>
+#include "CargoCollection.h"
 class SpaceCraft;
 
 class SpaceCraft
 {
-    SpaceCraft(Human* captain,string mission);
-    
 private:
     static int counter;
     int id;
     string mission;
     Human* captain;
-    Collection * collection;
+    CargoCollection * c;
+public:
+    SpaceCraft(CargoCollection * c);
+    virtual ~SpaceCraft();
+
+    void setCargoCollection(CargoCollection * c);
+    CargoCollection * getCargoCollection();
+
+    virtual void printSpaceCraft()=0; //to be re-impliment in the CrewDragon
 };
 
 #endif

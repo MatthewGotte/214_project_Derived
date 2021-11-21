@@ -1,7 +1,9 @@
 #include "ConcreteGroundMissionControl.h"
 
 ConcreteGroundMissionControl::ConcreteGroundMissionControl()
-{}
+{
+    this->connection = false;
+}
 
 
 bool ConcreteGroundMissionControl::hasConnected()

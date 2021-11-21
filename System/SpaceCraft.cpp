@@ -8,6 +8,19 @@ int SpaceCraft::counter;
  * @param human 
  * @param mission 
  */
-SpaceCraft::SpaceCraft(Human* captain, string mission):captain(captain),mission(mission){
-    id = counter;
+SpaceCraft::SpaceCraft(CargoCollection * c) {
+    id = counter++;
+    this->c = c;
+}
+
+SpaceCraft::~SpaceCraft() {
+
+}
+
+void SpaceCraft::setCargoCollection(CargoCollection * c) {
+    this->c = c;
+}
+
+CargoCollection * SpaceCraft::getCargoCollection() {
+    return this->c;
 }

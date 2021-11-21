@@ -1,4 +1,4 @@
-
+#include "Colours.h"
 #include "StarLinkSatellite.h"
 
 StarLinkSatellite::StarLinkSatellite(ConcreteGroundMissionControl* setMissionControl){
@@ -44,11 +44,11 @@ void StarLinkSatellite::print()
 {
     if(this->communicating == false){
 
-        cout << "Not Connected: There is no communication between GroundMissionControl and Satellites" << endl;
+        cout << Colours::red("Not Connected: There is no communication between GroundMissionControl and Satellites") << endl;
     }
     else{
 
-        cout << "Connected: There is communication between GroundMissionConctrol and Satellites" << endl;
+        cout << Colours::green("Connected: There is communication between GroundMissionConctrol and Satellites") << endl;
     }
 }
 

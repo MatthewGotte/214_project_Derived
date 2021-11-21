@@ -1,4 +1,9 @@
-
 #include "Dragon.h"
-#include "SpaceCraft.h"
 
+Dragon::Dragon(CargoCollection * c) : SpaceCraft(c) {
+    this->c = c;
+}
+
+Dragon::~Dragon() {
+
+}

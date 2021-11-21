@@ -2,10 +2,12 @@
 #define DERIVED_FHSTAGE2_H
 #include "RocketState.h"
 
+class Rocket;
 class FHStage2: public RocketState {
-    void handleChange(Rocket* r);
-    FHStage2();
-    ~FHStage2();
+    public:
+        void handleChange(Rocket* r);
+        FHStage2();
+        ~FHStage2();
 };
 
 

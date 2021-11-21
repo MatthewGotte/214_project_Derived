@@ -9,19 +9,15 @@
 #include "Falcon9Core.h"
 #include "MerlinEngine.h"
 #include "Dragon.h"
+#include "Cargo.h"
 #include <vector>
 #include <iostream>
 
 using namespace std;
 
 class Falcon9Payload : public Payload {
-private:
-    Falcon9Core * core1;
-    vector< MerlinEngine* > core1Engines;
-
-    SpaceCraft * dragon;
 public:
-    Falcon9Payload(vector< Cargo* > c, VacuumMerlinEngine * v);
+    Falcon9Payload(SpaceCraft * s, VacuumMerlinEngine * vme);
     ~Falcon9Payload();
 };
 

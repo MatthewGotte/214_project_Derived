@@ -4,7 +4,7 @@
 #include <iostream>
 #include "GroundMissionControl.h"
 
-using namespace std;
+using namespace std; //ConcreteSubject 
 
 class ConcreteGroundMissionControl : public GroundMissionControl
 {

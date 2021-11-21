@@ -10,13 +10,14 @@
 #include <vector>
 #include <iostream>
 #include "Falcon9Payload.h"
+#include "CargoCollection.h"
 
 class Falcon9Builder : public RocketBuilder {
 private:
     Rocket * product;
-    vector< Cargo* > c;
+    CargoCollection * c;
 public:
-    Falcon9Builder(vector< Cargo* > c);
+    Falcon9Builder(CargoCollection * c);
     ~Falcon9Builder();
 
     void reset();

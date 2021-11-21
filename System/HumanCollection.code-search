@@ -1,0 +1,165 @@
+# Query: HumanCollection
+
+130 results - 22 files
+
+System\CMakeLists.txt:
+  55: HumanCollection.cpp
+  56: HumanCollection.h
+
+System\ConfigurationManager.cpp:
+  8: ConfigurationManager::ConfigurationManager(CargoCollection * c, HumanCollection * h) {
+
+System\ConfigurationManager.h:
+  12: #include "HumanCollection.h"
+  19:     ConfigurationManager(CargoCollection * c, HumanCollection * h);
+
+System\CrewDragon.cpp:
+  5: CrewDragon::CrewDragon(CargoCollection * c, HumanCollection * h) : SpaceCraft(c) {
+
+System\CrewDragon.h:
+   6: #include "HumanCollection.h"
+  14:     HumanCollection * h;
+  16:     CrewDragon(CargoCollection * c, HumanCollection * h);
+
+System\Derived.cbp:
+  222: 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/HumanCollection.cpp">
+  225: 		<Unit filename="/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/HumanCollection.h">
+
+System\FalconHeavyBuilder.cpp:
+  3: FalconHeavyBuilder::FalconHeavyBuilder(CargoCollection * c, HumanCollection * h) {
+
+System\FalconHeavyBuilder.h:
+  11: #include "HumanCollection.h"
+  18:     HumanCollection * h;
+  20:     FalconHeavyBuilder(CargoCollection * c, HumanCollection * h);
+
+System\HumanCollection.cpp:
+  2: #include "HumanCollection.h"
+  4: HumanCollection::HumanCollection() {
+  8: HumanCollection::~HumanCollection() {
+
+System\HumanCollection.h:
+   2: #ifndef __HumanCollection_h__
+   3: #define __HumanCollection_h__
+   8: class HumanCollection;
+  10: class HumanCollection{
+  12:     HumanCollection();
+  17:     virtual ~HumanCollection();
+
+System\HumanIterator.h:
+  4: #include "HumanCollection.h"
+
+System\main.cpp:
+   5: #include "HumanCollection.h"
+  51:     HumanCollection voh = new VectorOfHumans();
+
+System\Makefile:
+   774: HumanCollection.o: HumanCollection.cpp.o
+   776: .PHONY : HumanCollection.o
+   779: HumanCollection.cpp.o:
+   780: 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanCollection.cpp.o
+   781: .PHONY : HumanCollection.cpp.o
+   783: HumanCollection.i: HumanCollection.cpp.i
+   785: .PHONY : HumanCollection.i
+   788: HumanCollection.cpp.i:
+   789: 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanCollection.cpp.i
+   790: .PHONY : HumanCollection.cpp.i
+   792: HumanCollection.s: HumanCollection.cpp.s
+   794: .PHONY : HumanCollection.s
+   797: HumanCollection.cpp.s:
+   798: 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanCollection.cpp.s
+   799: .PHONY : HumanCollection.cpp.s
+  1449: 	@echo "... HumanCollection.o"
+  1450: 	@echo "... HumanCollection.i"
+  1451: 	@echo "... HumanCollection.s"
+
+System\temp.txt:
+  53: HumanCollection.cpp
+  54: HumanCollection.h
+
+System\VectorOfHumans.h:
+   8: #include "HumanCollection.h"
+  13: class VectorOfHumans : public HumanCollection {
+
+System\CMakeFiles\main.dir\build.make:
+  372: CMakeFiles/main.dir/HumanCollection.cpp.o: CMakeFiles/main.dir/flags.make
+  373: CMakeFiles/main.dir/HumanCollection.cpp.o: HumanCollection.cpp
+  374: 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.dir/HumanCollection.cpp.o"
+  375: 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/HumanCollection.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp
+  377: CMakeFiles/main.dir/HumanCollection.cpp.i: cmake_force
+  378: 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/HumanCollection.cpp.i"
+  379: 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp > CMakeFiles/main.dir/HumanCollection.cpp.i
+  381: CMakeFiles/main.dir/HumanCollection.cpp.s: cmake_force
+  382: 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/HumanCollection.cpp.s"
+  383: 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp -o CMakeFiles/main.dir/HumanCollection.cpp.s
+  684: "CMakeFiles/main.dir/HumanCollection.cpp.o" \
+  734: main: CMakeFiles/main.dir/HumanCollection.cpp.o
+
+System\CMakeFiles\main.dir\cmake_clean.cmake:
+  26:   "CMakeFiles/main.dir/HumanCollection.cpp.o"
+
+System\CMakeFiles\main.dir\CXX.includecache:
+   40: HumanCollection.h
+   41: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+   50: HumanCollection.h
+   51: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  118: HumanCollection.h
+  119: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  141: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  144: HumanCollection.h
+  145: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  216: HumanCollection.h
+  217: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  232: HumanCollection.h
+  233: /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+
+System\CMakeFiles\main.dir\depend.internal:
+   41:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+   63:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+   75:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  106:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  127:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  157:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  181:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  202:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  224:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  249:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  253: CMakeFiles/main.dir/HumanCollection.cpp.o
+  254:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp
+  255:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  257:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  278:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  286:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  301:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  315:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  341:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  374:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+  395:  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
+
+System\CMakeFiles\main.dir\depend.make:
+   40: CMakeFiles/main.dir/ConfigurationManager.cpp.o: HumanCollection.h
+   62: CMakeFiles/main.dir/CrewDragon.cpp.o: HumanCollection.h
+   74: CMakeFiles/main.dir/Dragon.cpp.o: HumanCollection.h
+  105: CMakeFiles/main.dir/Falcon9.cpp.o: HumanCollection.h
+  126: CMakeFiles/main.dir/Falcon9Builder.cpp.o: HumanCollection.h
+  156: CMakeFiles/main.dir/Falcon9Payload.cpp.o: HumanCollection.h
+  180: CMakeFiles/main.dir/FalconHeavy.cpp.o: HumanCollection.h
+  201: CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: HumanCollection.h
+  223: CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: HumanCollection.h
+  248: CMakeFiles/main.dir/Human.cpp.o: HumanCollection.h
+  253: CMakeFiles/main.dir/HumanCollection.cpp.o: HumanCollection.cpp
+  254: CMakeFiles/main.dir/HumanCollection.cpp.o: HumanCollection.h
+  256: CMakeFiles/main.dir/HumanIterator.cpp.o: HumanCollection.h
+  277: CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o: HumanCollection.h
+  285: CMakeFiles/main.dir/Payload.cpp.o: HumanCollection.h
+  300: CMakeFiles/main.dir/Rocket.cpp.o: HumanCollection.h
+  314: CMakeFiles/main.dir/RocketBuilder.cpp.o: HumanCollection.h
+  340: CMakeFiles/main.dir/SpaceCraft.cpp.o: HumanCollection.h
+  373: CMakeFiles/main.dir/VectorOfHumans.cpp.o: HumanCollection.h
+  394: CMakeFiles/main.dir/main.cpp.o: HumanCollection.h
+
+System\CMakeFiles\main.dir\DependInfo.cmake:
+  31:   "/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp" "/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles/main.dir/HumanCollection.cpp.o"
+
+System\CMakeFiles\main.dir\link.txt:
+  1: ⟪ 780 characters skipped ⟫r.cpp.o CMakeFiles/main.dir/FalconHeavyPayload.cpp.o CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o CMakeFiles/main.dir/GroundMissionControl.cpp.o CMakeFiles/main.dir/Human.cpp.o CMakeFiles/main.dir/HumanCollection.cpp.o CMakeFiles/main.dir/HumanIterator.cpp.o CMakeFiles/main.dir/Iterator.cpp.o CMakeFiles/main.dir/LaunchMode.cpp.o CMakeFiles/main.dir/MerlinEngine.cpp.o CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o CMakeFiles/main.dir/Payload.cpp.o CMakeFiles/main.dir/Propulsion.cpp.o CMakeFiles/main.dir/Rocket.cpp.o CMakeFiles/main.dir/RocketBuilder.cpp.o CMakeFiles/main.dir/RocketState.cpp.o CMakeFiles/main.dir/Satellite.cpp.o CMakeFiles/main.dir/Simulations.cpp.o CMakeFiles/main.dir/SpaceCraft.cpp.o CMakeFiles/main.dir/SpaceCraftFactory.cpp.o CMakeFiles/main.dir/StarLinkSatellite.cpp.o CMakeFiles/main.dir/TestMode.cpp.o CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o CMakeFiles/main.dir/VectorOfCargo.cpp.o CMakeFiles/main.dir/VectorOfHumans.cpp.o CMakeFiles/main.dir/main.cpp.o  -o main  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

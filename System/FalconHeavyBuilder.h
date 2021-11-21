@@ -7,20 +7,24 @@
 #include <vector>
 #include <iostream>
 #include "FalconHeavyPayload.h"
+#include "FalconHeavy.h"
+#include "Payload.h"
+#include "HumanCollection.h"
+#include "CargoCollection.h"
 
 class FalconHeavyBuilder : public RocketBuilder {
 private:
-    Rocket * product;
-    vector< Cargo* > c;
-    vector< Human* > h;
+    FalconHeavy * product;
+    CargoCollection * c;
+    HumanCollection * h;
 public:
-    FalconHeavyBuilder(vector< Cargo* > c, vector< Human* > h);
+    FalconHeavyBuilder(CargoCollection * c, HumanCollection * h);
     ~FalconHeavyBuilder();
 
     void reset();
     void addPayload();
     void addPropulsion();
-    Rocket * getRocket();
+    FalconHeavy* getRocket();
 };
 
 

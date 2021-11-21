@@ -12,10 +12,12 @@ public:
     Rocket(Payload * payload);
     virtual ~Rocket();
 
-   //virtual void nextstage()=0;
+    virtual void nextstage()=0;
     void setPayload(Payload * p);
+    void print();
     Payload * getPayload();
-private:
+    void setState(RocketState *state);
+protected:
     Payload * payload;
     RocketState* stage;
 };

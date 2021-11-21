@@ -27,3 +27,10 @@ string Human::getName(){
 double Human::getWeight(){
     return weight;
 }
+/**
+ * @brief Destroy the Human:: Human object
+ * 
+ */
+Human::~Human(){
+    
+}

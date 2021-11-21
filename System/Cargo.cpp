@@ -36,3 +36,4 @@ string Cargo::getDesription(){
 double Cargo:: getWeight(){
     return this->weight;
 }
+Cargo::~Cargo(){}

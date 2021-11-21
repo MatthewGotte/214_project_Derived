@@ -9,11 +9,14 @@
 #include "Falcon9Builder.h"
 #include "FalconHeavyBuilder.h"
 
+#include "HumanCollection.h"
+#include "CargoCollection.h"
+
 class ConfigurationManager {
 private:
     RocketBuilder * builder;
 public:
-    ConfigurationManager(vector< Cargo* > c, vector< Human* > h);
+    ConfigurationManager(CargoCollection * c, HumanCollection * h);
     ~ConfigurationManager();
     Rocket * BuildAndDecorateRocket();
 };

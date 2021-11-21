@@ -1,6 +1,6 @@
 #include "Falcon9Builder.h"
 
-Falcon9Builder::Falcon9Builder(vector< Cargo* > c) {
+Falcon9Builder::Falcon9Builder(CargoCollection * c) {
     this->product = nullptr;
     this->c = c;
 }
@@ -14,8 +14,8 @@ void Falcon9Builder::reset() {
 }
 
 void Falcon9Builder::addPayload() {
-    VacuumMerlinEngine * v = new VacuumMerlinEngine();
-    this->product->setPayload(new Falcon9Payload(this->c, v));
+    // VacuumMerlinEngine * v = new VacuumMerlinEngine();
+    // this->product->setPayload(new Falcon9Payload(this., v));
 }
 
 void Falcon9Builder::addPropulsion() {

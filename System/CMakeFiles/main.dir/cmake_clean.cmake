@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/Cargo.cpp.o"
   "CMakeFiles/main.dir/CargoCollection.cpp.o"
   "CMakeFiles/main.dir/CargoIterator.cpp.o"
-  "CMakeFiles/main.dir/Collection.cpp.o"
   "CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o"
   "CMakeFiles/main.dir/ConfigurationManager.cpp.o"
   "CMakeFiles/main.dir/Core.cpp.o"

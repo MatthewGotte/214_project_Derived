@@ -23,8 +23,8 @@ public:
 
     SpaceCraft * getSpaceCraft();
     void setSpaceCraft(SpaceCraft * s);
-
-    Payload(VacuumMerlinEngine * v);
+    void print();
+    Payload(SpaceCraft * s, VacuumMerlinEngine * v);
 
     virtual ~Payload();
 };

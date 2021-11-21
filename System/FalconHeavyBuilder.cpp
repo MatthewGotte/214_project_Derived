@@ -1,12 +1,13 @@
 #include "FalconHeavyBuilder.h"
 
-FalconHeavyBuilder::FalconHeavyBuilder(vector< Cargo* > c, vector< Human* > h) {
+FalconHeavyBuilder::FalconHeavyBuilder(CargoCollection * c, HumanCollection * h) {
     this->product = nullptr;
     this->c = c;
     this->h = h;
 }
 
 FalconHeavyBuilder::~FalconHeavyBuilder() {
+
 
 }
 
@@ -16,14 +17,20 @@ void FalconHeavyBuilder::reset() {
 
 void FalconHeavyBuilder::addPayload() {
     VacuumMerlinEngine * v = new VacuumMerlinEngine();
-    this->product->setPayload(new FalconHeavyPayload(v));
+    
+    SpaceCraft * crewdragon = new CrewDragon(this->c, this->h);
+    Payload * payload = new FalconHeavyPayload(crewdragon, v);
+    //payload = vme & CrewDragon [cargo & humans]
+    this->product = new FalconHeavy(payload);
 }
 
 void FalconHeavyBuilder::addPropulsion() {
     //user decorator to decorate the payload here...
+    Payload * payload = this->product->getPayload();
     
+    //decorate payload
 }
 
-Rocket * FalconHeavyBuilder::getRocket() {
+FalconHeavy * FalconHeavyBuilder::getRocket() {
     return this->product;
 }

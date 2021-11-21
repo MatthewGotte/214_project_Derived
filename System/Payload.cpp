@@ -4,12 +4,13 @@
 
 #include "Payload.h"
 
-Payload::Payload(VacuumMerlinEngine * v) {
+Payload::Payload(SpaceCraft *s, VacuumMerlinEngine * v) {
         this->vacmerlinengine = v;
+        this->spacecraft = s;
 }
 
 Payload::~Payload(){
-    delete this->vacmerlinengine;
+    // delete this->vacmerlinengine;
 }
 
 VacuumMerlinEngine * Payload::getVacuumMerlinEngine() {
@@ -26,4 +27,8 @@ SpaceCraft * Payload::getSpaceCraft() {
 
 void Payload::setSpaceCraft(SpaceCraft * s) {
     this->spacecraft = s;
+}
+
+void Payload::print(){
+    this->spacecraft->printSpaceCraft();
 }

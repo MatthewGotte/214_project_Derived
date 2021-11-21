@@ -5,9 +5,9 @@
 #include "ConfigurationManager.h"
 
 
-ConfigurationManager::ConfigurationManager(vector< Cargo* > c, vector< Human* > h) {
+ConfigurationManager::ConfigurationManager(CargoCollection * c, HumanCollection * h) {
     //assign builder
-    if (h.empty()) {
+    if (h->isEmpty()) {
         //only cargo => Falcon9Builder
         this->builder = new Falcon9Builder(c);
     }

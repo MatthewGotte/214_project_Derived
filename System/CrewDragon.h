@@ -3,9 +3,8 @@
 #define __CrewDragon_h__
 
 #include "SpaceCraft.h"
-
-#include "CargoCollection.h"
 #include "HumanCollection.h"
+#include "OperationsIteratorHumans.h"
 
 // class SpaceCraft;
 class CrewDragon;
@@ -13,9 +12,13 @@ class CrewDragon;
 class CrewDragon: public SpaceCraft
 {
 private:
-
+    HumanCollection * h;
+    CargoCollection * c;
 public:
-    CrewDragon();
+    CrewDragon(CargoCollection * c, HumanCollection * h);
+    ~CrewDragon();
+
+    void printSpaceCraft();
 };
 
 #endif
