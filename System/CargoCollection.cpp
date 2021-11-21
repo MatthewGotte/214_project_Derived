@@ -1,3 +1,2 @@
-
 #include "CargoCollection.h"
 
