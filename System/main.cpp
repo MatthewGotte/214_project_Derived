@@ -70,6 +70,8 @@ void Taku() {
     output->nextstage();
     cout<<"changing the state of the rocket again"<<endl;
     output->nextstage();
+    cout<<"trying the change state one more time"<<endl;
+    output->nextstage();
     //deleting memory.
     delete h1;
     delete h2;

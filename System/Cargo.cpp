@@ -13,7 +13,7 @@ Cargo::Cargo(string name , double weight , string descp){
 }
 /**
  * @brief Get the Name of the Cargo object
- * @author Muziwandile Ndlovu
+ * @author Derived
  * @return string 
  */
 string Cargo::getName(){
@@ -22,7 +22,7 @@ string Cargo::getName(){
 }
 /**
  * @brief Get the Description object
- * @author Muziwandile Ndlovu 
+ * @author Derived
  * @return string 
  */
 string Cargo::getDesription(){
@@ -30,7 +30,7 @@ string Cargo::getDesription(){
 }
 /**
  * @brief Get the Weight object
- * @author Muziwandile Ndlvou
+ * @author Derived
  * @return double 
  */
 double Cargo:: getWeight(){

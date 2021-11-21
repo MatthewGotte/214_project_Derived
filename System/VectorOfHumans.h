@@ -1,7 +1,3 @@
-//
-// Created by muzin on 2021/11/01.
-//
-
 #ifndef DERIVED_VECTOROFHUMANS_H
 #define DERIVED_VECTOROFHUMANS_H
 #include <vector>

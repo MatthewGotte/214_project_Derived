@@ -13,6 +13,12 @@ The code above will print the text hello World in the colour purple.
 class Colours
 {
 public:
+    /**
+     * @brief 
+     * 
+     * @param s 
+     * @return string 
+     */
     static string black(string s){
         string output = "\033[30m" + s + "\033[0m";
         return output;

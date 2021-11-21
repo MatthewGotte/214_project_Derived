@@ -6,16 +6,27 @@
 #include "Cargo.h"
 #include "CargoIterator.h"
 #include <vector>
-
+/**
+ * @brief Construct a new Crew Dragon:: Crew Dragon object
+ * @author Derived 
+ * @param c 
+ * @param h 
+ */
 CrewDragon::CrewDragon(CargoCollection * c, HumanCollection * h) : SpaceCraft(c) {
     this->h = h;
     this->c = c;
 }
-
+/**
+ * @brief Destroy the Crew Dragon:: Crew Dragon object
+ * @author Derived 
+ */
 CrewDragon::~CrewDragon() {
 
 }
-
+/**
+ * @brief iterate thought the humans and cargo on the spacecraft 
+ * @author Derived 
+ */
 void CrewDragon::printSpaceCraft() {
     //extend the functionality for printing with the human collection
     
@@ -36,9 +47,6 @@ void CrewDragon::printSpaceCraft() {
         cargo = it2->next();
     }
       cout<<"We have " <<cargo->getName() <<" on board the Falcon9"<<endl;
-
-
-
 
 }
 

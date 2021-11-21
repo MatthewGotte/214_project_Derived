@@ -1,7 +1,7 @@
 #include "Human.h"
 /**
  * @brief Construct a new Human:: Human object
- * @author Takudzwanashe Dylan Muguti
+ * @author Derived
  * @param name 
  * @param weight 
  * @param role 
@@ -12,16 +12,16 @@ Human::Human(string name, double weight, string role) {
     this->role = role;
 }
 /**
- * @brief 
- * 
+ * @brief returns the name of the Human object.
+ * @author Derived 
  * @return string 
  */
 string Human::getName(){
     return name;
 }
 /**
- * @brief 
- * 
+ * @brief returns the Weight of the HUman object.
+ * @author Derived 
  * @return double 
  */
 double Human::getWeight(){
@@ -29,7 +29,7 @@ double Human::getWeight(){
 }
 /**
  * @brief Destroy the Human:: Human object
- * 
+ * @author Derived
  */
 Human::~Human(){
     

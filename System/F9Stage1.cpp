@@ -3,21 +3,21 @@
 #include "Rocket.h"
 /**
  * @brief Construct a new F9Stage1::F9Stage1 object
- * @author Takudzwanashe Dylan Muguti
+ * @author Derived
  */
 F9Stage1::F9Stage1():RocketState(){
 
 }
 /**
  * @brief Destroy the F9Stage1::F9Stage1 object
- * @author Takudzwanashe Dylan Muguti
+ * @author Derived 
  */
 F9Stage1::~F9Stage1(){
 
 }
 /**
- * @brief 
- * @author Takudzwanashe Dylan Muguti
+ * @brief Handle the change from on stage to another
+ * @author Derived
  * @param r 
  */
 void F9Stage1::handleChange(Rocket* r){

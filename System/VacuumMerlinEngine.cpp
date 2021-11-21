@@ -5,7 +5,7 @@
 int VacuumMerlinEngine::counter = 1000;
 /**
  * @brief 
- * @author Takudzwanashe Dylan Muguti
+ * @author Derived 
  * @return VacuumMerlinEngine* 
  */
 VacuumMerlinEngine *VacuumMerlinEngine::clone() {
@@ -13,14 +13,14 @@ VacuumMerlinEngine *VacuumMerlinEngine::clone() {
 }
 /**
  * @brief Construct a new Vacuum Merlin Engine:: Vacuum Merlin Engine object
- * @author Takudzwanashe Dylan Muguti
+ * @author Derived
  */
 VacuumMerlinEngine::VacuumMerlinEngine() {
     id = ++counter;
 }
 /**
  * @brief Destroy the Vacuum Merlin Engine:: Vacuum Merlin Engine object
- * @author Takudzwanshe Dylan Muguti
+ * @author Derived 
  */
 VacuumMerlinEngine::~VacuumMerlinEngine(){
 
