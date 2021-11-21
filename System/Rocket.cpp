@@ -38,7 +38,7 @@ Payload * Rocket::getPayload() {
  */
 void Rocket::print(){
     
-    cout<<Colours::red("rocket is trying to print")<<endl;
+    cout << Colours::red("rocket is trying to print") << endl;
     this->payload->print();
 }
 /**
