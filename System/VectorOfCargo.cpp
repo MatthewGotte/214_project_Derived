@@ -14,10 +14,12 @@ void VectorOfCargo::addCargo(Cargo * cargo) {
  * @return false 
  */
 bool VectorOfCargo::isEmpty() {
-    if(this->cargo.empty())
-    {
+    if (this->cargo.empty()) {
+
         return true;
+
     }
+
     return false;
 }
 /**
@@ -35,14 +37,14 @@ CargoIterator *VectorOfCargo::createCargoIterator() {
  * @param cargos 
  */
 void VectorOfCargo::removeCargo(Cargo *cargos) {
-    if(this->isEmpty())
-    {
+    if(this->isEmpty()) {
+        
         return;
-    }
-    else{
+
+    } else {
         vector<Cargo*>:: iterator it;
-        for(it= cargo.begin() ; it != cargo.end() ; ++it){
-            if(cargos == *it ){
+        for (it= cargo.begin() ; it != cargo.end() ; ++it) {
+            if (cargos == *it ) {
                 cargo.erase(it);
             }
         }
