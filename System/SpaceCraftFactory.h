@@ -1,4 +1,3 @@
-
 #ifndef __SpaceCraftFactory_h__
 #define __SpaceCraftFactory_h__
 
