@@ -7,11 +7,11 @@
  * @return Cargo* 
  */
 Cargo *OperationsIteratorCargo::next() {
-    if(this->hasNext()){
+    if (this->hasNext()) 
+    {
         ++this->currentpos;
         return this->itlist.at(currentpos);
-    }
-    else{
+    } else {
         return nullptr;
     }
 
@@ -32,7 +32,7 @@ Cargo *OperationsIteratorCargo::current() {
  * @return false 
  */
 bool OperationsIteratorCargo::hasNext() {
-    if(currentpos<itlist.size()-1)
+    if (currentpos<itlist.size()-1)
     {
         return true;
     }
@@ -54,6 +54,6 @@ Cargo *OperationsIteratorCargo::first() {
  * @param vect 
  */
 OperationsIteratorCargo::OperationsIteratorCargo(vector<Cargo *> vect) {
-    this->itlist=std::move(vect);
+    this->itlist = std::move(vect);
 
 }

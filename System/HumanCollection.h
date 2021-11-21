@@ -1,4 +1,3 @@
-
 #ifndef __HumanCollection_h__
 #define __HumanCollection_h__
 class Human;

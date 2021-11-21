@@ -1,6 +1,7 @@
 #ifndef COLOURS_H
 #define COLOURS_H
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 /*

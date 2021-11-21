@@ -1,4 +1,3 @@
-
 #ifndef __Core_h__
 #define __Core_h__
 

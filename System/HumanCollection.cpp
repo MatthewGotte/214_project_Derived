@@ -1,4 +1,3 @@
-
 #include "HumanCollection.h"
 /**
  * @brief Construct a new Human Collection:: Human Collection object

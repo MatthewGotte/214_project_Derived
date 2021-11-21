@@ -1,4 +1,3 @@
-
 #ifndef __CargoIterator_h__
 #define __CargoIterator_h__
 

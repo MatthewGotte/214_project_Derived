@@ -100,10 +100,6 @@ VectorOfCargo.h
 VectorOfHumans.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.cpp
-Cargo.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
 string
 -
@@ -119,20 +115,14 @@ CargoCollection.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
 iostream
 -
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.cpp
-ConcreteGroundMissionControl.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.h
+iomanip
+-
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.h
 iostream
 -
 GroundMissionControl.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConfigurationManager.cpp
-ConfigurationManager.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConfigurationManager.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConfigurationManager.h
 RocketBuilder.h
@@ -156,22 +146,6 @@ CargoCollection.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Core.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CrewDragon.cpp
-CrewDragon.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CrewDragon.h
-SpaceCraft.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.h
-Human.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.h
-HumanIterator.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.h
-Cargo.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
-CargoIterator.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
-vector
--
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CrewDragon.h
 SpaceCraft.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.h
@@ -179,10 +153,6 @@ HumanCollection.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
 OperationsIteratorHumans.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorHumans.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Dragon.cpp
-Dragon.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Dragon.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Dragon.h
 SpaceCraft.h
@@ -194,75 +164,25 @@ CargoCollection.h
 iostream
 -
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage1.cpp
-F9Stage1.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage1.h
-F9Stage2.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage2.h
-Rocket.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage1.h
 RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage2.cpp
-F9Stage2.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage2.h
-Rocket.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-iostream
--
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage2.h
 RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.cpp
-FHStage1.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.h
-FHstage2.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHstage2.h
-Rocket.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.h
 RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage2.cpp
-FHStage2.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage2.h
-iostream
--
-Rocket.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage2.h
 RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHstage2.h
-RocketState.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9.cpp
-Falcon9.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9.h
-F9Stage1.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage1.h
-iostream
--
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9.h
 Rocket.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Builder.cpp
-Falcon9Builder.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Builder.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Builder.h
 RocketBuilder.h
@@ -277,12 +197,6 @@ Falcon9Payload.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Payload.h
 CargoCollection.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.cpp
-Falcon9Core.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.h
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.h
 Core.h
@@ -294,10 +208,6 @@ vector
 iostream
 -
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Payload.cpp
-Falcon9Payload.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Payload.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Payload.h
 Payload.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.h
@@ -314,31 +224,15 @@ vector
 iostream
 -
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Propulsion.cpp
-Falcon9Propulsion.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Propulsion.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Propulsion.h
 Propulsion.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Propulsion.h
 Falcon9Core.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavy.cpp
-FalconHeavy.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavy.h
-FHStage1.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.h
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavy.h
 Rocket.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyBuilder.cpp
-FalconHeavyBuilder.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyBuilder.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyBuilder.h
 RocketBuilder.h
@@ -362,10 +256,6 @@ HumanCollection.h
 CargoCollection.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPayload.cpp
-FalconHeavyPayload.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPayload.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPayload.h
 Payload.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.h
@@ -378,21 +268,11 @@ VacuumMerlinEngine.h
 Falcon9Core.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPropulsion.cpp
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
-FalconHeavyPropulsion.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPropulsion.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPropulsion.h
 Propulsion.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Propulsion.h
 Falcon9Core.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.cpp
-GroundMissionControl.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
 Satellite.h
@@ -400,25 +280,13 @@ Satellite.h
 vector
 -
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.cpp
-Human.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.h
 string
 -
 VectorOfHumans.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp
-HumanCollection.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.cpp
-HumanIterator.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.h
 HumanCollection.h
@@ -428,22 +296,10 @@ HumanCollection.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/LaunchMode.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/MerlinEngine.cpp
-MerlinEngine.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/MerlinEngine.h
-Engine.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/MerlinEngine.h
 Engine.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
 iostream
--
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.cpp
-OperationsIteratorCargo.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
-utility
 -
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
@@ -454,19 +310,11 @@ vector
 iostream
 -
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorHumans.cpp
-OperationsIteratorHumans.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorHumans.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorHumans.h
 HumanIterator.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.h
 vector
 -
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.cpp
-Payload.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.h
 iostream
@@ -480,35 +328,17 @@ SpaceCraft.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Propulsion.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.cpp
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
-Rocket.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
 Payload.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.h
 RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketBuilder.cpp
-RocketBuilder.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketBuilder.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketBuilder.h
 Rocket.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.cpp
-RocketState.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.cpp
-Satellite.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
 VacuumMerlinEngine.h
@@ -517,10 +347,6 @@ iostream
 -
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulations.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.cpp
-SpaceCraft.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.h
 VacuumMerlinEngine.h
@@ -534,12 +360,6 @@ CargoCollection.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraftFactory.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.cpp
-Colours.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
-StarLinkSatellite.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.h
-
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.h
 Satellite.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
@@ -552,19 +372,9 @@ iostream
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/TestMode.h
 
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.cpp
-VacuumMerlinEngine.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
 Engine.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
-Engine.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.cpp
-VectorOfCargo.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 vector
@@ -575,10 +385,6 @@ OperationsIteratorCargo.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
 iostream
 -
-
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.cpp
-VectorOfHumans.h
-/mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 vector
@@ -597,4 +403,20 @@ iostream
 -
 AllHeaders.h
 /mnt/c/Users/Taku/Documents/GitHub/214_project/System/AllHeaders.h
+test.cpp
+/mnt/c/Users/Taku/Documents/GitHub/214_project/System/test.cpp
+gtest/gtest.h
+-
+
+/mnt/c/Users/Taku/Documents/GitHub/214_project/System/test.cpp
+AllHeaders.h
+/mnt/c/Users/Taku/Documents/GitHub/214_project/System/AllHeaders.h
+stdexcept
+-
+limits.h
+-
+gtest/gtest.h
+-
+iostream
+-
 

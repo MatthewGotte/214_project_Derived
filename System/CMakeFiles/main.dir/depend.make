@@ -58,6 +58,7 @@ CMakeFiles/main.dir/Core.cpp.o: Core.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: Cargo.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: CargoCollection.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: CargoIterator.h
+CMakeFiles/main.dir/CrewDragon.cpp.o: Colours.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: CrewDragon.cpp
 CMakeFiles/main.dir/CrewDragon.cpp.o: CrewDragon.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: Engine.h
@@ -71,16 +72,21 @@ CMakeFiles/main.dir/CrewDragon.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/CrewDragon.cpp.o: VectorOfHumans.h
 
+CMakeFiles/main.dir/Dragon.cpp.o: Cargo.h
 CMakeFiles/main.dir/Dragon.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/Dragon.cpp.o: CargoIterator.h
+CMakeFiles/main.dir/Dragon.cpp.o: Colours.h
 CMakeFiles/main.dir/Dragon.cpp.o: Dragon.cpp
 CMakeFiles/main.dir/Dragon.cpp.o: Dragon.h
 CMakeFiles/main.dir/Dragon.cpp.o: Engine.h
 CMakeFiles/main.dir/Dragon.cpp.o: Human.h
 CMakeFiles/main.dir/Dragon.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/Dragon.cpp.o: HumanIterator.h
+CMakeFiles/main.dir/Dragon.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/Dragon.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/Dragon.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/Dragon.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/Dragon.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/Dragon.cpp.o: VectorOfHumans.h
 
 CMakeFiles/main.dir/Engine.cpp.o: Engine.cpp
@@ -171,6 +177,7 @@ CMakeFiles/main.dir/Falcon9Builder.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Core.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Dragon.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Engine.h
+CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Builder.cpp
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Builder.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Core.h
@@ -484,4 +491,5 @@ CMakeFiles/main.dir/main.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/main.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/main.cpp.o: VectorOfHumans.h
 CMakeFiles/main.dir/main.cpp.o: main.cpp
+CMakeFiles/main.dir/main.cpp.o: test.cpp
 

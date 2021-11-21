@@ -1,4 +1,3 @@
-
 #include "GroundMissionControl.h"
 /**
  * @brief Construct a new Ground Mission Control:: Ground Mission Control object
@@ -25,9 +24,9 @@ void GroundMissionControl::detach(Satellite* removeSatellite){
     
     vector<Satellite*>::iterator it;
     
-    for(it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
+    for (it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
     {
-        if(*it == removeSatellite && *it != nullptr)
+        if (*it == removeSatellite && *it != nullptr)
         {
             this->satelliteList.erase(it);
         }
@@ -41,7 +40,7 @@ void GroundMissionControl::notify(){
     
     vector<Satellite*>::iterator it;
     
-    for(it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
+    for (it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
     {
         (*it)->update();
     }
@@ -55,7 +54,7 @@ GroundMissionControl::~GroundMissionControl(){
     
     vector<Satellite*>::iterator it;
     
-    for(it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
+    for (it = this->satelliteList.begin(); it != this->satelliteList.end(); ++it)
     {
         delete *it;
     }

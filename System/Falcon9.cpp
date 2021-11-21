@@ -1,4 +1,3 @@
-
 #include "Falcon9.h"
 #include "F9Stage1.h"
 #include <iostream>
@@ -24,8 +23,8 @@ Falcon9::~Falcon9() {
  * @author Derived 
  */
 void Falcon9::nextstage(){
-    if(this->stage != nullptr)
+    if (this->stage != nullptr)
         this->stage->handleChange(this);
     else
-        cout<<Colours::yellow("ROCKET HAS ALREADY LANDED!")<<endl;
+        cout << Colours::yellow("ROCKET HAS ALREADY LANDED!") << endl;
 }

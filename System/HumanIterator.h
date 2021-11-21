@@ -1,4 +1,3 @@
-
 #ifndef __HumanIterator_h__
 #define __HumanIterator_h__
 #include "HumanCollection.h"

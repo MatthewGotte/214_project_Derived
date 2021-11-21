@@ -1,4 +1,3 @@
-
 #ifndef __Human_h__
 #define __Human_h__
 #include <string>
@@ -13,6 +12,7 @@ private:
 public:
     string getName();
     double getWeight();
+    string getRole();
     Human(string name, double weight, string role);
     ~Human();
 };

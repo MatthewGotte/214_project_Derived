@@ -19,7 +19,7 @@ bool ConcreteGroundMissionControl::hasConnected()
     return this->connection;
 }
 /**
- * @brief set the connection ot the grounf mission control 
+ * @brief set the connection of the ground mission control 
  * @author Derived 
  * @param setConnection 
  */
@@ -31,5 +31,4 @@ void ConcreteGroundMissionControl::setConnection(bool setConnection)
  * @brief Destroy the Concrete Ground Mission Control:: Concrete Ground Mission Control object
  * @author Derived 
  */
-ConcreteGroundMissionControl::~ConcreteGroundMissionControl()
-{}
+ConcreteGroundMissionControl::~ConcreteGroundMissionControl(){}

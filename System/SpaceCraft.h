@@ -1,4 +1,3 @@
-
 #ifndef __SpaceCraft_h__
 #define __SpaceCraft_h__
 #include "VacuumMerlinEngine.h"

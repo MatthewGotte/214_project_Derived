@@ -15,7 +15,7 @@ private:
     HumanCollection * h;
     CargoCollection * c;
 public:
-    CrewDragon(CargoCollection * c, HumanCollection * h);
+    CrewDragon (CargoCollection * c, HumanCollection * h);
     ~CrewDragon();
 
     void printSpaceCraft();

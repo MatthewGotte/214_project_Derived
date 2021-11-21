@@ -38,11 +38,12 @@ void VectorOfHumans::removeHuman(Human *human) {
     if(this->isEmpty())
     {
         return;
-    }
-    else{
+
+    } else {
+
         vector<Human *>:: iterator it;
-        for(it= people.begin() ; it != people.end() ; ++it){
-            if(human == *it ){
+        for (it= people.begin() ; it != people.end() ; ++it) {
+            if (human == *it ){
                 people.erase(it);
             }
         }

@@ -22,7 +22,7 @@ FHStage2::~FHStage2(){
  * @param r 
  */
 void FHStage2::handleChange(Rocket* r){
-    cout<<"Rocket has landed"<<endl;
+    // cout<<"Rocket has landed"<<endl;
     r->setState(nullptr);
 
     delete this;

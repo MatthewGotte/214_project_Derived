@@ -38,11 +38,12 @@ void VectorOfCargo::removeCargo(Cargo *cargos) {
     if(this->isEmpty())
     {
         return;
-    }
-    else{
+
+    } else{
+
         vector<Cargo*>:: iterator it;
-        for(it= cargo.begin() ; it != cargo.end() ; ++it){
-            if(cargos == *it ){
+        for (it= cargo.begin() ; it != cargo.end() ; ++it) {
+            if(cargos == *it ) {
                 cargo.erase(it);
             }
         }

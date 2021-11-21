@@ -9,11 +9,11 @@ class Cargo
     private:
         string name;
         double weight;
-        string description ;
+        string description;
     public:
-        Cargo(string , double  , string);
+        Cargo (string, double, string);
         string getName();
-        string getDesription();
+        string getDescription();
         double getWeight();
         ~Cargo();
 };

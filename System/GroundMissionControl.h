@@ -1,4 +1,3 @@
-
 #ifndef __GroundMissionControl_h__
 #define __GroundMissionControl_h__
 

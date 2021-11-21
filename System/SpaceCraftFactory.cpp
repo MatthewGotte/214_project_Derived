@@ -1,2 +1,1 @@
-
 #include "SpaceCraftFactory.h"

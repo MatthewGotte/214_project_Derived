@@ -1,4 +1,5 @@
 #include "Human.h"
+#include <stdexcept>
 /**
  * @brief Construct a new Human:: Human object
  * @author Derived
@@ -7,8 +8,15 @@
  * @param role 
  */
 Human::Human(string name, double weight, string role) {
-    this->name = name;
+
+    if (weight <= 0){
+
+        throw std::invalid_argument("weight must be greater than zero");
+        return;
+    }
+
     this->weight = weight;
+    this->name = name;
     this->role = role;
 }
 /**
@@ -33,4 +41,12 @@ double Human::getWeight(){
  */
 Human::~Human(){
     
+}
+/**
+ * @brief returns the role of the Human object.
+ * @author Derived 
+ * @return string 
+ */
+string Human::getRole() {
+    return role;
 }

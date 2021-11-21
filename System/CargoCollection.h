@@ -1,4 +1,3 @@
-
 #ifndef __CargoCollection_h__
 #define __CargoCollection_h__
 

@@ -17,7 +17,7 @@ Falcon9Core::Falcon9Core(string name) {
  * @author Derived 
  */
 Falcon9Core::~Falcon9Core() {
-    cout<<Colours::green(name + " has successfully landed back on earth");
+    cout << Colours::green(name + " has successfully landed back on earth") << endl;
     for (int i = 0; i < 7; i++) {
         delete this->coreEngines.at(i);
     }

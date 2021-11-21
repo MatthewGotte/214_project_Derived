@@ -1,4 +1,3 @@
-
 #ifndef __StarLinkSatellite_h__
 #define __StarLinkSatellite_h__
 

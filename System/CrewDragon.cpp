@@ -1,4 +1,3 @@
-
 #include "CrewDragon.h"
 #include "SpaceCraft.h"
 #include "Human.h"
@@ -6,6 +5,7 @@
 #include "Cargo.h"
 #include "CargoIterator.h"
 #include <vector>
+#include "Colours.h"
 /**
  * @brief Construct a new Crew Dragon:: Crew Dragon object
  * @author Derived 
@@ -29,24 +29,35 @@ CrewDragon::~CrewDragon() {
  */
 void CrewDragon::printSpaceCraft() {
     //extend the functionality for printing with the human collection
-    
-    
+    string space = "        ";
+    string space2 = "    "; 
+    cout << "-----------------Manifest------------------" << endl;
+    cout << "---------------Falcon Heavy----------------" << endl;
+  
     HumanIterator* it  = h->createHumanIterator();
     Human * human = it->first();
-    while(it->hasNext()){
-        cout<<"Hie I am " <<human->getName() <<" glad to be on board Falcon9"<<endl;
+
+    cout << "----------Humans-----------" << endl;
+    cout << Colours::purple("Name\tWeight(kg)\tRole") << endl;
+    while (it->hasNext()) {
+        cout << human->getName() << "\t" << space2 << human->getWeight() << "\t" << space << human->getRole() << endl;
         human = it->next();
     }
-    cout<<"Hie I am " <<human->getName() <<" glad to be on board Falcon9"<<endl;
+    cout << human->getName() << "\t" << space2 << human->getWeight() << "\t" << space << human->getRole() << endl;
 
+    
+    cout << "----------Cargo-----------" << endl;
+    cout << Colours::purple("Name\tWeight(kg)\tDescription") << endl;
 
     CargoIterator* it2 = c->createCargoIterator();
     Cargo * cargo = it2->first();
-    while(it2->hasNext()){
-        cout<<"We have " <<cargo->getName() <<" on board the Falcon9"<<endl;
+    while (it2->hasNext()) {
+        
+        cout << cargo->getName() << "\t"<< space2 << cargo->getWeight() << "\t" << space << left << cargo->getDescription() << endl;
         cargo = it2->next();
     }
-      cout<<"We have " <<cargo->getName() <<" on board the Falcon9"<<endl;
+    cout << cargo->getName() << "\t" << space2 << cargo->getWeight() << "\t" << space << left << cargo->getDescription() << endl;
+
+    cout << "-------------------------------------------" << endl;
 
 }
-

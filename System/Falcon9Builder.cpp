@@ -1,4 +1,6 @@
 #include "Falcon9Builder.h"
+#include "Dragon.h"
+#include "Falcon9.h"
 /**
  * @brief Construct a new Falcon 9 Builder:: Falcon 9 Builder object
  * @author Derived 
@@ -29,6 +31,12 @@ void Falcon9Builder::reset() {
 void Falcon9Builder::addPayload() {
     // VacuumMerlinEngine * v = new VacuumMerlinEngine();
     // this->product->setPayload(new Falcon9Payload(this., v));
+    VacuumMerlinEngine * v = new VacuumMerlinEngine();
+
+    SpaceCraft * dragon = new Dragon(this->c);
+    Payload * playload = new Falcon9Payload(dragon,v);
+    
+    this->product = new Falcon9(playload);
 }
 /**
  * @brief Decorates the payload 

@@ -10,8 +10,10 @@ class Dragon: public SpaceCraft
 private:
     CargoCollection * c;
 public:
-    Dragon(CargoCollection * c);
+    Dragon (CargoCollection * c);
     ~Dragon();
+
+    void printSpaceCraft();
 };
 
 #endif

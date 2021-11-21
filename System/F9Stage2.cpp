@@ -23,7 +23,7 @@ F9Stage2::~F9Stage2(){
  * @param r 
  */
 void F9Stage2::handleChange(Rocket* r){
-    cout<<"the rocket has landed"<<endl;
+    cout << "the rocket has landed" << endl;
     r->setState(nullptr);
 
     delete this;

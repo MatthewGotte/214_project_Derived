@@ -7,6 +7,11 @@
  * @param descp 
  */
 Cargo::Cargo(string name , double weight , string descp){
+     if (weight <= 0){
+
+        throw std::invalid_argument("weight must be greater than zero");
+        return;
+    }
     this->name = name;
     this->weight = weight;
     this->description = descp;
@@ -18,14 +23,13 @@ Cargo::Cargo(string name , double weight , string descp){
  */
 string Cargo::getName(){
     return this->name;
-
 }
 /**
  * @brief Get the Description object
  * @author Derived
  * @return string 
  */
-string Cargo::getDesription(){
+string Cargo::getDescription(){
     return this->description;
 }
 /**

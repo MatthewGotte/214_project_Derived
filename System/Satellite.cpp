@@ -1,4 +1,3 @@
-
 #include "Satellite.h"
 /**
  * @brief Construct a new Satellite:: Satellite object
