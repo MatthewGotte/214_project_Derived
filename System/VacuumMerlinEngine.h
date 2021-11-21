@@ -1,4 +1,3 @@
-
 #ifndef __VacuumMerlinEngine_h__
 #define __VacuumMerlinEngine_h__
 
