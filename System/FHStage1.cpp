@@ -27,9 +27,3 @@ void FHStage1::handleChange(Rocket* r){
     //clean up memory.
     delete this;
 }
-
-//derived chat should be deleted as soon as possible.
-//what's poping
-//Why is it on the web not in vs code?
-// you should be able to join via vscode 
-//are you done eating?
