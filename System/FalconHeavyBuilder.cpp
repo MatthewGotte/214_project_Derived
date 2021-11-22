@@ -16,8 +16,6 @@ FalconHeavyBuilder::FalconHeavyBuilder(CargoCollection * c, HumanCollection * h)
  * @author Derived
  */
 FalconHeavyBuilder::~FalconHeavyBuilder() {
-
-
 }
 /**
  * @brief Sets the product objcet to null.

@@ -20,6 +20,7 @@ Payload::Payload(SpaceCraft *s, VacuumMerlinEngine * v) {
  */
 Payload::~Payload(){
     delete this->vacmerlinengine;
+    // delete this->spacecraft;
 }
 /**
  * @brief Returns the VacuumMerlineEngine object

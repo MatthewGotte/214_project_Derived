@@ -16,6 +16,7 @@ Rocket::Rocket(Payload * payload) {
  */
 Rocket::~Rocket(){
     delete stage;
+    delete payload->getSpaceCraft();
     delete payload;
 }
 /**

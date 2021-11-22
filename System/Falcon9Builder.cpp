@@ -15,7 +15,6 @@ Falcon9Builder::Falcon9Builder(CargoCollection * c) {
  * @author Derived 
  */
 Falcon9Builder::~Falcon9Builder() {
-
 }
 /**
  * @brief set the the builder to null

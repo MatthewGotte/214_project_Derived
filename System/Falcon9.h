@@ -3,13 +3,29 @@
 
 #include "Rocket.h"
 
-class Falcon9: public Rocket {
-public:
-        void nextstage();
+class Falcon9 : public Rocket 
+{
 
-        Falcon9(Payload*);
-        
-        ~Falcon9();
+        public:
+
+                /**
+                 * @brief Change to the Next Stage of the Falcon 9 object
+                 * @author Derived
+                 */
+                void nextstage();
+
+                /**
+                 * @brief Construct a new Falcon 9 object
+                 * @author Derived
+                 */
+                Falcon9(Payload*);
+                
+                /**
+                 * @brief Destroy the Falcon 9 object
+                 * @author Derived
+                 */
+                ~Falcon9();
+
 };
 
 #endif

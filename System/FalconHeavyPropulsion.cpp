@@ -1,9 +1,6 @@
 #include "Colours.h"
 #include "FalconHeavyPropulsion.h"
-/**
- * @brief Construct a new Falcon Heavy Propulsion:: Falcon Heavy Propulsion object
- * @author Derived 
- */
+
 FalconHeavyPropulsion::FalconHeavyPropulsion(Payload * p) {
     this->core1 = new Falcon9Core("Core-1");
     this->core2 = new Falcon9Core("Core-2");
@@ -11,10 +8,7 @@ FalconHeavyPropulsion::FalconHeavyPropulsion(Payload * p) {
 
     payload = p;
 }
-/**
- * @brief Destroy the Falcon Heavy Propulsion:: Falcon Heavy Propulsion object
- * @author Derived 
- */
+
 FalconHeavyPropulsion::~FalconHeavyPropulsion() {
     land();
     delete this->core1;
@@ -53,9 +47,11 @@ void FalconHeavyPropulsion::land() {
         cout << Colours::green(core3->getName() + " HAS SUCCESSFULLY LANDED BACK ON EARTH") << endl;
     }
 }
+
 FalconHeavyPropulsionMemento* FalconHeavyPropulsion::backup() {
     return new FalconHeavyPropulsionMemento(this->core1 ,this->core2 ,this->core3 , this->payload);
 }
+
 void FalconHeavyPropulsion::restore(FalconHeavyPropulsionMemento * corerestore) {
     this->core1 = corerestore->getCore1();
     this->core2 = corerestore->getCore2();

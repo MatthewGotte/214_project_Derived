@@ -10,6 +10,7 @@ private:
     string name;
 public:
     MerlinEngine(string name);
+    MerlinEngine * clone();
     ~MerlinEngine();
 };
 

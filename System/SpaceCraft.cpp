@@ -17,7 +17,7 @@ SpaceCraft::SpaceCraft(CargoCollection * c) {
  * 
  */
 SpaceCraft::~SpaceCraft() {
-
+    // delete this->c;
 }
 /**
  * @brief Sets the CargoCollection object. 

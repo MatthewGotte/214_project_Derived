@@ -14,18 +14,18 @@ void Rourke();
 void Hloni();
 
 int main(int argc , char ** argv ) {
-    testing::InitGoogleTest(&argc , argv);
+    //testing::InitGoogleTest(&argc , argv);
     // cout<<
     //testing:
     // Muzi();
     // Taku();
     Matthew();
-    Rourke();
-    Hloni();
+    // Rourke();
+    // Hloni();
 
     //actual main:
 
-    return RUN_ALL_TESTS();
+    //return RUN_ALL_TESTS();
     return 0;
 }
 
@@ -82,11 +82,13 @@ void Taku() {
     delete h3;
     delete h4;
     delete h5;
+    delete voc;
     delete c1;
     delete c2;
     delete c3;
     delete c4;
     delete c5;
+    delete voh;
     delete configmanager;
     delete output;
 }
@@ -134,6 +136,7 @@ void Matthew() {
     output->nextstage();
     cout<<"trying the change state one more time"<<endl;
     output->nextstage();
+
     //deleting memory.
     delete h1;
     delete h2;
@@ -145,6 +148,10 @@ void Matthew() {
     delete c3;
     delete c4;
     delete c5;
+
+    delete voh;
+    delete voc;
+
     delete configmanager;
     delete output;
 }
@@ -223,5 +230,9 @@ void Hloni() {
 
     cout << endl;
 
+    //Delete memory
+
+    delete cgmc;
+    delete sls1;
 
 }

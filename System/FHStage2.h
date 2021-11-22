@@ -5,10 +5,27 @@
 
 class Rocket;
 
-class FHStage2: public RocketState {
+class FHStage2: public RocketState 
+{
     public:
+    
+        /**
+         * @brief Handle Change of FHStage2 object
+         * @author Derived
+         * @param r 
+         */
         void handleChange(Rocket* r);
+
+        /**
+         * @brief Construct a new FHStage2 object
+         * @author Derived
+         */
         FHStage2();
+
+        /**
+         * @brief Destroy the FHStage2 object
+         * @author Derived
+         */
         ~FHStage2();
 };
 

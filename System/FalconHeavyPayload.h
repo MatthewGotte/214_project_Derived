@@ -1,7 +1,3 @@
-//
-// Created by matth on 2021/11/19.
-//
-
 #ifndef DERIVED_FALCONHEAVYPAYLOAD_H
 #define DERIVED_FALCONHEAVYPAYLOAD_H
 
@@ -11,12 +7,30 @@
 #include "VacuumMerlinEngine.h"
 #include "Falcon9Core.h"
 
-class FalconHeavyPayload : public Payload {
-public:
-    FalconHeavyPayload(SpaceCraft * s, VacuumMerlinEngine * vme);
-    ~FalconHeavyPayload();
-    void launch();
-};
+class FalconHeavyPayload : public Payload 
+{
+    public:
 
+        /**
+         * @brief Construct a new Falcon Heavy Payload object
+         * @author Derived
+         * @param s 
+         * @param vme 
+         */
+        FalconHeavyPayload(SpaceCraft * s, VacuumMerlinEngine * vme);
+
+        /**
+         * @brief Destroy the Falcon Heavy Payload object
+         * @author Derived
+         */
+        ~FalconHeavyPayload();
+
+        /**
+         * @brief Launch the Falcon Heavy Payload object
+         * @author Derived
+         */
+        void launch();
+
+};
 
 #endif //DERIVED_FALCONHEAVYPAYLOAD_H   

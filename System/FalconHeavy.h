@@ -1,15 +1,31 @@
-
 #ifndef __FalconHeavy_h__
 #define __FalconHeavy_h__
 
 #include "Rocket.h"
 
-class FalconHeavy: public Rocket {
-public:
-    void nextstage();
-    
-    FalconHeavy(Payload * payload);
-    ~FalconHeavy();
+class FalconHeavy: public Rocket 
+{
+    public:
+
+        /**
+         * @brief Move to Next Stage of Falcon Heavy object
+         * @author Derived
+         */
+        void nextstage();
+        
+        /**
+         * @brief Construct a new Falcon Heavy object
+         * @author Derived
+         * @param payload 
+         */
+        FalconHeavy(Payload * payload);
+
+        /**
+         * @brief Destroy the Falcon Heavy object
+         * @author Derived
+         */
+        ~FalconHeavy();
+
 };
 
 #endif

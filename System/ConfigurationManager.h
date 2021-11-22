@@ -12,13 +12,27 @@
 #include "FalconHeavyBuilder.h"
 
 class ConfigurationManager {
-private:
-    RocketBuilder * builder;
-public:
-    ConfigurationManager(CargoCollection * c, HumanCollection * h);
-    ~ConfigurationManager();
-    Rocket * BuildAndDecorateRocket();
-};
+    private:
 
+        RocketBuilder * builder;
+
+    public:
+
+        /**
+         * @brief Construct a new Configuration Manager object
+         * @author Derived
+         * @param c 
+         * @param h 
+         */
+        ConfigurationManager(CargoCollection * c, HumanCollection * h);
+
+        /**
+         * @brief Destroy the Configuration Manager object
+         * @author Derived
+         */
+        ~ConfigurationManager();
+        Rocket * BuildAndDecorateRocket();
+
+};
 
 #endif //DERIVED_CONFIGURATIONMANAGER_H

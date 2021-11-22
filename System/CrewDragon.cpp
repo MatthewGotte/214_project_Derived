@@ -21,7 +21,8 @@ CrewDragon::CrewDragon(CargoCollection * c, HumanCollection * h) : SpaceCraft(c)
  * @author Derived 
  */
 CrewDragon::~CrewDragon() {
-
+    // delete this->h;
+    // delete this->c;
 }
 /**
  * @brief iterate thought the humans and cargo on the spacecraft 
@@ -60,4 +61,6 @@ void CrewDragon::printSpaceCraft() {
 
     cout << "-------------------------------------------" << endl;
 
+    delete it;
+    delete it2;
 }

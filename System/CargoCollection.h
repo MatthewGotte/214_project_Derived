@@ -4,20 +4,49 @@
 class Cargo;
 class CargoIterator;
 
-class CargoCollection{
+class CargoCollection
+{
+    public:
 
-public:
-    CargoCollection() = default;
+        /**
+         * @brief Construct a new default Cargo Collection object
+         * @author Derived
+         */
+        CargoCollection() = default;
 
-    virtual CargoIterator* createCargoIterator()=0;
+        /**
+         * @brief Create a Cargo Iterator object
+         * @author Derived
+         * @return CargoIterator* 
+         */
+        virtual CargoIterator* createCargoIterator()=0;
 
-    virtual void addCargo(Cargo*)=0;
+        /**
+         * @brief Adds Cargo to the Collection 
+         * @author Derived
+         */
+        virtual void addCargo(Cargo*)=0;
 
-    virtual void removeCargo(Cargo*)=0;
+        /**
+         * @brief Removes Cargo from the Collection
+         * @author Derived
+         */
+        virtual void removeCargo(Cargo*)=0;
+        
+        /**
+         * @brief Checks in the Cargo Collection is empty
+         * @author Derived
+         * @return true 
+         * @return false 
+         */
+        virtual bool isEmpty()=0;
 
-    virtual bool isEmpty()=0;
+        /**
+         * @brief Destroy the Cargo Collection object
+         * @author Derived
+         */
+        virtual ~CargoCollection()=default;
 
-    virtual ~CargoCollection()= default;
 };
 
 #endif

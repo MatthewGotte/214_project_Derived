@@ -15,3 +15,6 @@ MerlinEngine::MerlinEngine(string name) {
 MerlinEngine::~MerlinEngine() {
     
 }
+MerlinEngine *MerlinEngine:: clone(){
+    return new MerlinEngine(this->name);
+}

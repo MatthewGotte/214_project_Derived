@@ -10,14 +10,33 @@ class CrewDragon;
 
 class CrewDragon: public SpaceCraft
 {
-private:
-    HumanCollection * h;
-    CargoCollection * c;
-public:
-    CrewDragon (CargoCollection * c, HumanCollection * h);
-    ~CrewDragon();
+    private:
 
-    void printSpaceCraft();
+        HumanCollection * h;
+        CargoCollection * c;
+
+    public:
+
+        /**
+         * @brief Construct a new Crew Dragon object
+         * @author Derived
+         * @param c 
+         * @param h 
+         */
+        CrewDragon (CargoCollection * c, HumanCollection * h);
+
+        /**
+         * @brief Destroy the Crew Dragon object
+         * @author Derived
+         */
+        ~CrewDragon();
+
+        /**
+         * @brief Print the Crew Dragon object
+         * @author Derived
+         */
+        void printSpaceCraft();
+
 };
 
 #endif

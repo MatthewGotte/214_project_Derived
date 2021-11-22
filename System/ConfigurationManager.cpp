@@ -25,7 +25,7 @@ ConfigurationManager::ConfigurationManager(CargoCollection * c, HumanCollection 
  * @author Derived 
  */
 ConfigurationManager::~ConfigurationManager() {
-
+    delete this->builder;
 }
 /**
  * @brief used to build and decorate the complex system of a rocket 

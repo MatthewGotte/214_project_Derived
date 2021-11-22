@@ -1,12 +1,13 @@
 #include "FHCaretaker.h"
 
-
-HPCaretaker::HPCaretaker(){
+HPCaretaker::HPCaretaker() {
     this->backup = nullptr;
 }
-FalconHeavyPropulsionMemento * HPCaretaker:: getBackup(){
+
+FalconHeavyPropulsionMemento * HPCaretaker::getBackup() {
     return this->backup;
 }
-void HPCaretaker::setBackup(FalconHeavyPropulsionMemento* backup){
+
+void HPCaretaker::setBackup(FalconHeavyPropulsionMemento* backup) {
     this->backup = backup;
 }

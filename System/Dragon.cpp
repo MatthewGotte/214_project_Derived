@@ -36,4 +36,6 @@ void Dragon::printSpaceCraft(){
     cout << cargo->getName() << "\t" << space2 << cargo->getWeight() << "\t" << space << left << cargo->getDescription() << endl;
 
     cout << "-------------------------------------------" << endl;
+
+    delete it2;
 }

@@ -2,8 +2,9 @@
 #define __GroundMissionControl_h__
 
 #include <vector>
-using namespace std;
 #include "Satellite.h"
+
+using namespace std;
 
 class GroundMissionControl
 {
@@ -13,14 +14,34 @@ class GroundMissionControl
 
     public:
 
+        /**
+         * @brief Construct a new Ground Mission Control object
+         * @author Derived
+         */
         GroundMissionControl();
 
+        /**
+         * @brief Attach Satellite from the Ground Mission Control object
+         * @author Derived
+         */
         void attach(Satellite*);
 
+        /**
+         * @brief Detach Satellite from the Ground Mission Control object
+         * @author Derived
+         */
         void detach(Satellite*);
 
+        /**
+         * @brief Notify the Ground Mission Control object
+         * @author Derived
+         */
         void notify();
         
+        /**
+         * @brief Destroy the Ground Mission Control object
+         * @author Derived
+         */
         ~GroundMissionControl();
 
 };
