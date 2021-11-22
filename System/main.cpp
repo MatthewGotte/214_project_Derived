@@ -19,7 +19,7 @@ int main(int argc , char ** argv ) {
     // Muzi();
     // Taku();
     Matthew();
-    // Rourke();
+    Rourke();
     Hloni();
 
     //actual main:
@@ -150,6 +150,40 @@ void Matthew() {
 
 void Rourke() {
 
+    cout << Colours::purple("Rourke:") << endl;
+    
+    //collection of humans [optional]:
+    Human * h1 = new Human("Rourke", 100.01, "Leader");
+    Human * h2 = new Human("Rob", 99.99, "Pilot");
+    HumanCollection * voh = new VectorOfHumans();
+    voh->addHuman(h1);
+    voh->addHuman(h2);
+
+    //collection of cargo:
+    Cargo * c1 = new Cargo("Pizza Box", 20, "Pizza");
+    CargoCollection * voc = new VectorOfCargo();
+    voc->addCargo(c1);
+
+    //call config manager:
+    ConfigurationManager * configmanager = new ConfigurationManager(voc, voh);
+
+    Rocket * output = configmanager->BuildAndDecorateRocket();
+
+
+    //cout <<"calling the print function"<<endl;
+    output->print();
+    cout << "changing the state of the rocket" << endl;
+    output->nextstage();
+    cout << "changing the state of the rocket again" << endl;
+    output->nextstage();
+    cout << "trying the change state one more time" << endl;
+    output->nextstage();
+    //deleting memory.
+    delete h1;
+    delete h2;
+    delete c1;
+    delete configmanager;
+    delete output;
 }
 
 void Hloni() {
