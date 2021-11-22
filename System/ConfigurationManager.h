@@ -1,16 +1,15 @@
 #ifndef DERIVED_CONFIGURATIONMANAGER_H
 #define DERIVED_CONFIGURATIONMANAGER_H
 
-#include "RocketBuilder.h"
 #include <iostream>
 #include <vector>
+#include "RocketBuilder.h"
 #include "Human.h"
 #include "Cargo.h"
-#include "Falcon9Builder.h"
-#include "FalconHeavyBuilder.h"
-
 #include "HumanCollection.h"
 #include "CargoCollection.h"
+#include "Falcon9Builder.h"
+#include "FalconHeavyBuilder.h"
 
 class ConfigurationManager {
 private:

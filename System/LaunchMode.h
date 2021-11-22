@@ -1,4 +1,3 @@
-
 #ifndef __LaunchMode_h__
 #define __LaunchMode_h__
 

@@ -3,11 +3,21 @@
 
 #include "Payload.h"
 #include "RocketState.h"
+#include "Propulsion.h"
 
 using namespace std;
 
 class Rocket
 {
+private:
+    bool readytolaunch;
+    bool hasbeentested;
+    string name;
+protected:
+    Payload * payload;
+    RocketState* stage;
+    
+    Propulsion * propulsion;
 public:
     Rocket(Payload * payload);
     virtual ~Rocket();
@@ -17,9 +27,16 @@ public:
     void print();
     Payload * getPayload();
     void setState(RocketState *state);
-protected:
-    Payload * payload;
-    RocketState* stage;
-};
+    void setPropulsion(Propulsion * p);
 
+    void launch();
+    
+    void testRocket();
+
+    bool testPropulsion();
+    bool testVacuumMerlinEngine();
+
+    void setName(string name);
+
+};
 #endif

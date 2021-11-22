@@ -1,6 +1,8 @@
 #ifndef __HumanIterator_h__
 #define __HumanIterator_h__
+
 #include "HumanCollection.h"
+
 class Human;
 // class Iterator;
 class HumanIterator;

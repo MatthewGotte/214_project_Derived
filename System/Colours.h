@@ -2,6 +2,8 @@
 #define COLOURS_H
 #include <iostream>
 #include <iomanip>
+#include <ctime>
+
 using namespace std;
 
 /*

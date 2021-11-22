@@ -12,6 +12,7 @@ public:
     VacuumMerlinEngine();
     VacuumMerlinEngine * clone();
     ~VacuumMerlinEngine();
+
 private:
     static int counter;
     int id;

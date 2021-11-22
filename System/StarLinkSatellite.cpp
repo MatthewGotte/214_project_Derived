@@ -85,3 +85,28 @@ StarLinkSatellite::~StarLinkSatellite(){
 
     this->missionControl = nullptr;
 }
+
+/**
+ * @author Derived
+ *
+ * @brief Get the Connection object
+ * 
+ * @return string 
+ */
+string StarLinkSatellite::getConnection(){
+
+    return this->connection;
+}
+
+/**
+ * @author Derived
+ *
+ * @brief Set the Connection object
+ * 
+ * @param setConnection 
+ */
+void StarLinkSatellite::setConnection(string setConnection){
+
+    this->connection = setConnection;
+
+}

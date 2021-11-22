@@ -7,7 +7,6 @@ class CargoIterator;
 class CargoCollection{
 
 public:
-
     CargoCollection() = default;
 
     virtual CargoIterator* createCargoIterator()=0;
@@ -18,8 +17,7 @@ public:
 
     virtual bool isEmpty()=0;
 
-    virtual ~CargoCollection() = default;
-
+    virtual ~CargoCollection()= default;
 };
 
 #endif

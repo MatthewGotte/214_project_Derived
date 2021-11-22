@@ -1,10 +1,9 @@
 #ifndef __GroundMissionControl_h__
 #define __GroundMissionControl_h__
 
-#include "Satellite.h"
 #include <vector>
-
-class GroundMissionControl; //Subject
+using namespace std;
+#include "Satellite.h"
 
 class GroundMissionControl
 {

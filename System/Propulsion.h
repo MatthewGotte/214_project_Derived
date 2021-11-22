@@ -5,8 +5,16 @@
 #ifndef DERIVED_PROPULSION_H
 #define DERIVED_PROPULSION_H
 
-class Propulsion {
+#include "Payload.h"
 
+class Propulsion : public Payload {
+private:
+
+public:
+    Propulsion();
+    virtual ~Propulsion();
+    virtual void land()=0;
+    bool testPropulsion();
 };
 
 

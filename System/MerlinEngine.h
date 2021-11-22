@@ -1,9 +1,8 @@
-
 #ifndef __MerlinEngine_h__
 #define __MerlinEngine_h__
 
-#include "Engine.h"
 #include <iostream>
+#include "Engine.h"
 
 class MerlinEngine: public Engine
 {

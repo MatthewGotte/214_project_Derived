@@ -27,6 +27,8 @@ F9Stage1.cpp
 F9Stage1.h
 F9Stage2.cpp
 F9Stage2.h
+FHCaretaker.cpp
+FHCaretaker.h
 FHStage1.cpp
 FHStage1.h
 FHStage2.cpp
@@ -49,6 +51,8 @@ FalconHeavyPayload.cpp
 FalconHeavyPayload.h
 FalconHeavyPropulsion.cpp
 FalconHeavyPropulsion.h
+FalconHeavyPropulsionMemento.cpp
+FalconHeavyPropulsionMemento.h
 GroundMissionControl.cpp
 GroundMissionControl.h
 Human.cpp
@@ -69,8 +73,12 @@ OperationsIteratorHumans.cpp
 OperationsIteratorHumans.h
 Payload.cpp
 Payload.h
+PropCaretaker.cpp
+PropCaretaker.h
 Propulsion.cpp
 Propulsion.h
+PropulsionMemento.cpp
+PropulsionMemento.h
 Rocket.cpp
 Rocket.h
 RocketBuilder.cpp
@@ -79,6 +87,10 @@ RocketState.cpp
 RocketState.h
 Satellite.cpp
 Satellite.h
+SatelliteTransmission.cpp
+SatelliteTransmission.h
+SatelliteTransmissionController.cpp
+SatelliteTransmissionController.h
 Simulations.cpp
 Simulations.h
 SpaceCraft.cpp

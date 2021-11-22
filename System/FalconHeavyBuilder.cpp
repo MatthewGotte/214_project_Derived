@@ -44,11 +44,12 @@ void FalconHeavyBuilder::addPayload() {
  * @author Derived 
  */
 void FalconHeavyBuilder::addPropulsion() {
-    //user decorator to decorate the payload here...
+    //use decorator to decorate the payload here...
     Payload * payload = this->product->getPayload();
     
     //decorate payload
-    
+    Propulsion * propulsion = new FalconHeavyPropulsion(payload);
+    this->product->setPropulsion(propulsion);
 }
 
 /**

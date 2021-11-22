@@ -23,3 +23,7 @@ Falcon9Core::~Falcon9Core() {
         delete this->coreEngines.at(i);
     }
 }
+
+string Falcon9Core::getName(){
+    return name;
+}

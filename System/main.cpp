@@ -3,6 +3,7 @@
 #include "AllHeaders.h"
 #include "test.cpp"
 #include <gtest/gtest.h>
+#include "SatelliteTransmissionController.h"
 
 using namespace std;
 
@@ -91,7 +92,7 @@ void Taku() {
 }
 
 void Matthew() {
-   cout << Colours::green("Takudzwanashe:")<< endl;
+   cout << Colours::green("Matthew:")<< endl;
     
     //collection of humans [optional]:
     Human * h1 = new Human("Rourke", 50, "Scientist");
@@ -193,7 +194,7 @@ void Hloni() {
     //cmgc - ConcreteGroundMissionControl
     cout << endl; 
     
-    cout << "Testing Communication" << endl;
+    cout <<Colours::yellow("TESTING Communication between StarLink Satellites and GroundMissionControl") << endl;
 
     ConcreteGroundMissionControl* cgmc = new ConcreteGroundMissionControl();
 
@@ -209,6 +210,18 @@ void Hloni() {
 
     cout << endl;
 
-    
+    //Testing Communication between StarLinkSatellites in orbit and SatelliteTransmission as the mediator - Mediator
+
+    cout << Colours::yellow("Testing Communication between between StarLink Satellites and the mediator - SatelliteTransmission") << endl;
+
+    sls1->setConnection("Connected");
+
+
+    SatelliteTransmissionController* alert = new SatelliteTransmissionController();
+
+    alert->notify(sls1);
+
+    cout << endl;
+
 
 }

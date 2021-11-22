@@ -7,13 +7,20 @@
 
 #include "Propulsion.h"
 #include "Falcon9Core.h"
+#include "Payload.h"
+#include "PropulsionMemento.h"
 
 class Falcon9Propulsion : public Propulsion {
 private:
     Falcon9Core * core1;
+    Payload * payload;
 public:
-    Falcon9Propulsion();
+    Falcon9Propulsion(Payload * p);
     ~Falcon9Propulsion();
+    PropulsionMemento* backup ();
+    void restore(PropulsionMemento * );
+    void land();
+    void launch();
 };
 
 #endif //DERIVED_FALCON9PROPULSION_H

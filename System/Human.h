@@ -1,8 +1,11 @@
 #ifndef __Human_h__
 #define __Human_h__
+
 #include <string>
 #include "VectorOfHumans.h"
+
 using namespace std;
+
 class Human
 {
 private:

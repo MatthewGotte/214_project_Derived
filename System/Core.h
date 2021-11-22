@@ -5,6 +5,7 @@ class Core;
 
 class Core
 {
+
 };
 
 #endif
