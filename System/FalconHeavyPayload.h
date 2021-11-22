@@ -15,6 +15,7 @@ class FalconHeavyPayload : public Payload {
 public:
     FalconHeavyPayload(SpaceCraft * s, VacuumMerlinEngine * vme);
     ~FalconHeavyPayload();
+    void launch();
 };
 
 

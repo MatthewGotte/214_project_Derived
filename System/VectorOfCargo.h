@@ -5,13 +5,14 @@
 #ifndef DERIVED_VECTOROFCARGO_H
 #define DERIVED_VECTOROFCARGO_H
 
+#include <iostream>
 #include <vector>
-class CargoCollection;
 #include "CargoIterator.h"
 #include "OperationsIteratorCargo.h"
 
-#include <iostream>
 using namespace std;
+
+class CargoCollection;
 
 class VectorOfCargo: public CargoCollection {
 private:

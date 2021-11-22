@@ -1,11 +1,12 @@
 #ifndef __Satellite_h__
 #define __Satellite_h__
-#include "VacuumMerlinEngine.h"
 
 #include <iostream>
 #include <string>
+#include "VacuumMerlinEngine.h"
+class SatelliteTransmission;
 
-using namespace std; //Observer
+using namespace std; //Observer, Colleague
 
 class Satellite
 {
@@ -13,11 +14,19 @@ class Satellite
 
         VacuumMerlinEngine* vacuumMerlinEngine;
 
+        SatelliteTransmission* mediator;
+
         string name;
 
     public:
 
         Satellite();
+
+        void ConnectionChanged();
+
+        virtual string getConnection();
+
+        virtual void setConnction(string);
 
         virtual void update() = 0;
 

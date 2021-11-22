@@ -34,9 +34,12 @@ CMakeFiles/main.dir/ConfigurationManager.cpp.o: Engine.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Falcon9Builder.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Falcon9Core.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Falcon9Payload.h
+CMakeFiles/main.dir/ConfigurationManager.cpp.o: Falcon9Propulsion.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: FalconHeavy.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: FalconHeavyBuilder.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: FalconHeavyPayload.h
+CMakeFiles/main.dir/ConfigurationManager.cpp.o: FalconHeavyPropulsion.h
+CMakeFiles/main.dir/ConfigurationManager.cpp.o: FalconHeavyPropulsionMemento.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Human.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: HumanIterator.h
@@ -44,6 +47,8 @@ CMakeFiles/main.dir/ConfigurationManager.cpp.o: MerlinEngine.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Payload.h
+CMakeFiles/main.dir/ConfigurationManager.cpp.o: Propulsion.h
+CMakeFiles/main.dir/ConfigurationManager.cpp.o: PropulsionMemento.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Rocket.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: RocketState.h
@@ -102,6 +107,7 @@ CMakeFiles/main.dir/F9Stage1.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: Payload.h
+CMakeFiles/main.dir/F9Stage1.cpp.o: Propulsion.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: Rocket.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: RocketState.h
 CMakeFiles/main.dir/F9Stage1.cpp.o: SpaceCraft.h
@@ -117,6 +123,7 @@ CMakeFiles/main.dir/F9Stage2.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: Payload.h
+CMakeFiles/main.dir/F9Stage2.cpp.o: Propulsion.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: Rocket.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: RocketState.h
 CMakeFiles/main.dir/F9Stage2.cpp.o: SpaceCraft.h
@@ -133,6 +140,7 @@ CMakeFiles/main.dir/FHStage1.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/FHStage1.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/FHStage1.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/FHStage1.cpp.o: Payload.h
+CMakeFiles/main.dir/FHStage1.cpp.o: Propulsion.h
 CMakeFiles/main.dir/FHStage1.cpp.o: Rocket.h
 CMakeFiles/main.dir/FHStage1.cpp.o: RocketState.h
 CMakeFiles/main.dir/FHStage1.cpp.o: SpaceCraft.h
@@ -148,6 +156,7 @@ CMakeFiles/main.dir/FHStage2.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/FHStage2.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/FHStage2.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/FHStage2.cpp.o: Payload.h
+CMakeFiles/main.dir/FHStage2.cpp.o: Propulsion.h
 CMakeFiles/main.dir/FHStage2.cpp.o: Rocket.h
 CMakeFiles/main.dir/FHStage2.cpp.o: RocketState.h
 CMakeFiles/main.dir/FHStage2.cpp.o: SpaceCraft.h
@@ -165,6 +174,7 @@ CMakeFiles/main.dir/Falcon9.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/Falcon9.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/Falcon9.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/Falcon9.cpp.o: Payload.h
+CMakeFiles/main.dir/Falcon9.cpp.o: Propulsion.h
 CMakeFiles/main.dir/Falcon9.cpp.o: Rocket.h
 CMakeFiles/main.dir/Falcon9.cpp.o: RocketState.h
 CMakeFiles/main.dir/Falcon9.cpp.o: SpaceCraft.h
@@ -182,6 +192,7 @@ CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Builder.cpp
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Builder.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Core.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Payload.h
+CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Propulsion.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Human.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: HumanIterator.h
@@ -189,6 +200,8 @@ CMakeFiles/main.dir/Falcon9Builder.cpp.o: MerlinEngine.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Payload.h
+CMakeFiles/main.dir/Falcon9Builder.cpp.o: Propulsion.h
+CMakeFiles/main.dir/Falcon9Builder.cpp.o: PropulsionMemento.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Rocket.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: RocketState.h
@@ -225,13 +238,24 @@ CMakeFiles/main.dir/Falcon9Payload.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/Falcon9Payload.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/Falcon9Payload.cpp.o: VectorOfHumans.h
 
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Colours.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Core.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Engine.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Falcon9Core.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Falcon9Propulsion.cpp
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Falcon9Propulsion.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Human.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: HumanCollection.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: MerlinEngine.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: OperationsIteratorHumans.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Payload.h
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Propulsion.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: PropulsionMemento.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: SpaceCraft.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: VectorOfHumans.h
 
 CMakeFiles/main.dir/FalconHeavy.cpp.o: CargoCollection.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: Colours.h
@@ -244,6 +268,7 @@ CMakeFiles/main.dir/FalconHeavy.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: Payload.h
+CMakeFiles/main.dir/FalconHeavy.cpp.o: Propulsion.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: Rocket.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: RocketState.h
 CMakeFiles/main.dir/FalconHeavy.cpp.o: SpaceCraft.h
@@ -261,6 +286,8 @@ CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavy.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyBuilder.cpp
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyBuilder.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyPayload.h
+CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyPropulsion.h
+CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyPropulsionMemento.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: Human.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: HumanIterator.h
@@ -268,6 +295,7 @@ CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: MerlinEngine.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: Payload.h
+CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: Propulsion.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: Rocket.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: RocketState.h
@@ -293,14 +321,24 @@ CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: VectorOfHumans.h
 
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: CargoCollection.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Colours.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Core.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Engine.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Falcon9Core.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: FalconHeavyPropulsion.cpp
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: FalconHeavyPropulsion.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: FalconHeavyPropulsionMemento.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Human.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: HumanCollection.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: MerlinEngine.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: OperationsIteratorHumans.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Payload.h
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: Propulsion.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: SpaceCraft.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: VectorOfHumans.h
 
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: Engine.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: GroundMissionControl.cpp
@@ -345,6 +383,7 @@ CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o: OperationsIteratorHumans.cpp
 CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o: OperationsIteratorHumans.h
 
 CMakeFiles/main.dir/Payload.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/Payload.cpp.o: Colours.h
 CMakeFiles/main.dir/Payload.cpp.o: Engine.h
 CMakeFiles/main.dir/Payload.cpp.o: Human.h
 CMakeFiles/main.dir/Payload.cpp.o: HumanCollection.h
@@ -356,8 +395,19 @@ CMakeFiles/main.dir/Payload.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/Payload.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/Payload.cpp.o: VectorOfHumans.h
 
+CMakeFiles/main.dir/Propulsion.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/Propulsion.cpp.o: Colours.h
+CMakeFiles/main.dir/Propulsion.cpp.o: Engine.h
+CMakeFiles/main.dir/Propulsion.cpp.o: Human.h
+CMakeFiles/main.dir/Propulsion.cpp.o: HumanCollection.h
+CMakeFiles/main.dir/Propulsion.cpp.o: HumanIterator.h
+CMakeFiles/main.dir/Propulsion.cpp.o: OperationsIteratorHumans.h
+CMakeFiles/main.dir/Propulsion.cpp.o: Payload.h
 CMakeFiles/main.dir/Propulsion.cpp.o: Propulsion.cpp
 CMakeFiles/main.dir/Propulsion.cpp.o: Propulsion.h
+CMakeFiles/main.dir/Propulsion.cpp.o: SpaceCraft.h
+CMakeFiles/main.dir/Propulsion.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/Propulsion.cpp.o: VectorOfHumans.h
 
 CMakeFiles/main.dir/Rocket.cpp.o: CargoCollection.h
 CMakeFiles/main.dir/Rocket.cpp.o: Colours.h
@@ -367,6 +417,7 @@ CMakeFiles/main.dir/Rocket.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/Rocket.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/Rocket.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/Rocket.cpp.o: Payload.h
+CMakeFiles/main.dir/Rocket.cpp.o: Propulsion.h
 CMakeFiles/main.dir/Rocket.cpp.o: Rocket.cpp
 CMakeFiles/main.dir/Rocket.cpp.o: Rocket.h
 CMakeFiles/main.dir/Rocket.cpp.o: RocketState.h
@@ -381,6 +432,7 @@ CMakeFiles/main.dir/RocketBuilder.cpp.o: HumanCollection.h
 CMakeFiles/main.dir/RocketBuilder.cpp.o: HumanIterator.h
 CMakeFiles/main.dir/RocketBuilder.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/RocketBuilder.cpp.o: Payload.h
+CMakeFiles/main.dir/RocketBuilder.cpp.o: Propulsion.h
 CMakeFiles/main.dir/RocketBuilder.cpp.o: Rocket.h
 CMakeFiles/main.dir/RocketBuilder.cpp.o: RocketBuilder.cpp
 CMakeFiles/main.dir/RocketBuilder.cpp.o: RocketBuilder.h
@@ -415,9 +467,7 @@ CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: SpaceCraftFactory.cpp
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: SpaceCraftFactory.h
 
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Colours.h
-CMakeFiles/main.dir/StarLinkSatellite.cpp.o: ConcreteGroundMissionControl.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Engine.h
-CMakeFiles/main.dir/StarLinkSatellite.cpp.o: GroundMissionControl.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Satellite.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.cpp
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.h
@@ -467,6 +517,7 @@ CMakeFiles/main.dir/main.cpp.o: FalconHeavy.h
 CMakeFiles/main.dir/main.cpp.o: FalconHeavyBuilder.h
 CMakeFiles/main.dir/main.cpp.o: FalconHeavyPayload.h
 CMakeFiles/main.dir/main.cpp.o: FalconHeavyPropulsion.h
+CMakeFiles/main.dir/main.cpp.o: FalconHeavyPropulsionMemento.h
 CMakeFiles/main.dir/main.cpp.o: GroundMissionControl.h
 CMakeFiles/main.dir/main.cpp.o: Human.h
 CMakeFiles/main.dir/main.cpp.o: HumanCollection.h
@@ -478,6 +529,7 @@ CMakeFiles/main.dir/main.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/main.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/main.cpp.o: Payload.h
 CMakeFiles/main.dir/main.cpp.o: Propulsion.h
+CMakeFiles/main.dir/main.cpp.o: PropulsionMemento.h
 CMakeFiles/main.dir/main.cpp.o: Rocket.h
 CMakeFiles/main.dir/main.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/main.cpp.o: RocketState.h
@@ -517,6 +569,7 @@ CMakeFiles/main.dir/test.cpp.o: FalconHeavy.h
 CMakeFiles/main.dir/test.cpp.o: FalconHeavyBuilder.h
 CMakeFiles/main.dir/test.cpp.o: FalconHeavyPayload.h
 CMakeFiles/main.dir/test.cpp.o: FalconHeavyPropulsion.h
+CMakeFiles/main.dir/test.cpp.o: FalconHeavyPropulsionMemento.h
 CMakeFiles/main.dir/test.cpp.o: GroundMissionControl.h
 CMakeFiles/main.dir/test.cpp.o: Human.h
 CMakeFiles/main.dir/test.cpp.o: HumanCollection.h
@@ -528,6 +581,7 @@ CMakeFiles/main.dir/test.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/test.cpp.o: OperationsIteratorHumans.h
 CMakeFiles/main.dir/test.cpp.o: Payload.h
 CMakeFiles/main.dir/test.cpp.o: Propulsion.h
+CMakeFiles/main.dir/test.cpp.o: PropulsionMemento.h
 CMakeFiles/main.dir/test.cpp.o: Rocket.h
 CMakeFiles/main.dir/test.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/test.cpp.o: RocketState.h

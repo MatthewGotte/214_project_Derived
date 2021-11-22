@@ -209,6 +209,10 @@ void Hloni() {
 
     cout << endl;
 
-    
+    //Testing Communication between StarLinkSatellites in orbit and SatelliteTransmission as the mediator - Mediator
 
+
+    
+    delete cmgc;
+    delete sls1;
 }

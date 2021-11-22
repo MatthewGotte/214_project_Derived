@@ -1,11 +1,14 @@
 #ifndef DERIVED_VECTOROFHUMANS_H
 #define DERIVED_VECTOROFHUMANS_H
+
+#include <iostream>
 #include <vector>
 #include "HumanCollection.h"
 #include "HumanIterator.h"
 #include "OperationsIteratorHumans.h"
-#include <iostream>
+
 using namespace std;
+
 class VectorOfHumans : public HumanCollection {
 private:
     vector<Human*> people ;
@@ -17,6 +20,5 @@ public:
     bool isEmpty()override;
     ~VectorOfHumans() override;
 };
-
 
 #endif //DERIVED_VECTOROFHUMANS_H

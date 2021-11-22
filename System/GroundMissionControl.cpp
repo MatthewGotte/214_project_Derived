@@ -1,4 +1,5 @@
 #include "GroundMissionControl.h"
+#include "Satellite.h"
 /**
  * @brief Construct a new Ground Mission Control:: Ground Mission Control object
  * @author Derived 

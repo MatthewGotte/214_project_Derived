@@ -1,10 +1,11 @@
 #ifndef __SpaceCraft_h__
 #define __SpaceCraft_h__
 
+#include <string>
 #include "VacuumMerlinEngine.h"
 #include "Human.h"
 #include "CargoCollection.h"
-#include <string>
+
 class SpaceCraft;
 
 class SpaceCraft

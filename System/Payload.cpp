@@ -3,6 +3,7 @@
 //
 
 #include "Payload.h"
+#include "Colours.h"
 /**
  * @brief Construct a new Payload:: Payload object
  * @author Derived  
@@ -18,7 +19,7 @@ Payload::Payload(SpaceCraft *s, VacuumMerlinEngine * v) {
  * @author Derived  
  */
 Payload::~Payload(){
-    // delete this->vacmerlinengine;
+    delete this->vacmerlinengine;
 }
 /**
  * @brief Returns the VacuumMerlineEngine object
@@ -58,4 +59,18 @@ void Payload::setSpaceCraft(SpaceCraft * s) {
  */
 void Payload::print(){
     this->spacecraft->printSpaceCraft();
+}
+
+Payload::Payload(){
+
+}
+
+bool Payload::testVacuumMerlinEngine() {
+    srand((unsigned) time(0));
+    int r = rand() % 100;
+    //test if in range of 94% success of a rocket launch:
+    if ((0<=r) && (r<=3)) {
+        return false; //failed
+    }
+    return true; //success
 }

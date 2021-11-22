@@ -23,8 +23,10 @@ Falcon9::~Falcon9() {
  * @author Derived 
  */
 void Falcon9::nextstage(){
-    if (this->stage != nullptr)
+    if (this->stage != nullptr) {
         this->stage->handleChange(this);
-    else
+        Rocket::nextstage();
+    } else {
         cout << Colours::yellow("ROCKET HAS ALREADY LANDED!") << endl;
+    }
 }

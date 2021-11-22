@@ -19,6 +19,7 @@ class Falcon9Payload : public Payload {
 public:
     Falcon9Payload(SpaceCraft * s, VacuumMerlinEngine * vme);
     ~Falcon9Payload();
+    void launch();
 };
 
 

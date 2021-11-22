@@ -9,10 +9,12 @@
 
 using namespace std;
 
+
 class Payload {
 private:
     VacuumMerlinEngine * vacmerlinengine;
     SpaceCraft * spacecraft;
+
 public:
     VacuumMerlinEngine * getVacuumMerlinEngine();
     void setVacuumMerlinEngine(VacuumMerlinEngine * v);
@@ -21,8 +23,12 @@ public:
     void setSpaceCraft(SpaceCraft * s);
     void print();
     Payload(SpaceCraft * s, VacuumMerlinEngine * v);
-
+    Payload();
     virtual ~Payload();
+
+    bool testVacuumMerlinEngine();
+
+    virtual void launch() = 0;
 };
 
 

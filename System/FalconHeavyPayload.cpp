@@ -15,3 +15,7 @@ FalconHeavyPayload::FalconHeavyPayload(SpaceCraft * s, VacuumMerlinEngine * vme)
 FalconHeavyPayload::~FalconHeavyPayload() {
     
 }
+
+void FalconHeavyPayload::launch() {
+    
+}

@@ -19,3 +19,7 @@ Falcon9Payload::Falcon9Payload(SpaceCraft * s, VacuumMerlinEngine * vme) : Paylo
 Falcon9Payload::~Falcon9Payload() {
 
 }
+
+void Falcon9Payload::launch(){
+
+}

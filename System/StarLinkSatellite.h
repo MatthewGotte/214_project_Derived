@@ -1,13 +1,14 @@
 #ifndef __StarLinkSatellite_h__
 #define __StarLinkSatellite_h__
 
-#include "Satellite.h"
-#include "Colours.h"
-#include "ConcreteGroundMissionControl.h"
 #include <iostream>
+//#include "Colours.h"
+#include "Satellite.h"
+#include "ConcreteGroundMissionControl.h"
+
 using namespace std;
-// class Satellite;
-class StarLinkSatellite; //Concrete Observer
+
+// class ConcreteGroundMissionControl;
 
 class StarLinkSatellite: public Satellite
 {
@@ -16,6 +17,8 @@ class StarLinkSatellite: public Satellite
         ConcreteGroundMissionControl* missionControl;
 
         bool communicating;
+
+        string connection;
 
         string name;
 
@@ -34,6 +37,10 @@ class StarLinkSatellite: public Satellite
         void update();
 
         void print();
+
+        string getConnection();
+
+        void setConnection(string);
 
         ~StarLinkSatellite();
     

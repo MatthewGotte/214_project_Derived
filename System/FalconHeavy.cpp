@@ -21,8 +21,10 @@ FalconHeavy::~FalconHeavy() {
  * @author Derived  
  */
 void FalconHeavy::nextstage(){
-    if (this->stage != nullptr)
+    if (this->stage != nullptr) {
         this->stage->handleChange(this);
-    else
+        Rocket::nextstage();
+    } else {
         cout << Colours::yellow("ROCKET HAS ALREADY LANDED!") << endl;
+    }
 }

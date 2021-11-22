@@ -4,10 +4,14 @@
 
 #ifndef DERIVED_OPERATIONSITERATORHUMANS_H
 #define DERIVED_OPERATIONSITERATORHUMANS_H
-#include "HumanIterator.h"
+
 #include <vector>
-class Human;
+#include "HumanIterator.h"
+
 using namespace std;
+
+class Human;
+
 class OperationsIteratorHumans : public HumanIterator {
 private:
     int currentpos;
