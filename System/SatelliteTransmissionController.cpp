@@ -1,7 +1,4 @@
 #include "SatelliteTransmissionController.h"
-#include "Colours.h"
-#include <iostream>
-using namespace std;
 
 SatelliteTransmissionController::SatelliteTransmissionController(){}
 
