@@ -621,6 +621,7 @@ CMakeFiles/main.dir/main.cpp.o: RocketBuilder.h
 CMakeFiles/main.dir/main.cpp.o: RocketState.h
 CMakeFiles/main.dir/main.cpp.o: Satellite.h
 CMakeFiles/main.dir/main.cpp.o: SatelliteTransmission.h
+CMakeFiles/main.dir/main.cpp.o: SatelliteTransmissionController.h
 CMakeFiles/main.dir/main.cpp.o: Simulations.h
 CMakeFiles/main.dir/main.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/main.cpp.o: SpaceCraftFactory.h
