@@ -91,7 +91,7 @@ void Taku() {
 }
 
 void Matthew() {
-   cout << Colours::green("Takudzwanashe:")<< endl;
+   cout << Colours::green("Matthew:")<< endl;
     
     //collection of humans [optional]:
     Human * h1 = new Human("Rourke", 50, "Scientist");
