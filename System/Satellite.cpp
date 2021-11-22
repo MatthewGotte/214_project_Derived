@@ -10,7 +10,7 @@ Satellite::Satellite() {
 
 void Satellite::ConnectionChanged() {
 
-    //this->mediator->notify(this);
+    this->mediator->notify(this);
 }
 
 /**

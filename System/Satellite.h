@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "VacuumMerlinEngine.h"
+#include "SatelliteTransmission.h"
 class SatelliteTransmission;
 
 using namespace std; //Observer, Colleague
@@ -24,9 +25,9 @@ class Satellite
 
         void ConnectionChanged();
 
-        virtual string getConnection();
+        virtual string getConnection() = 0;
 
-        virtual void setConnction(string);
+        virtual void setConnection(string) = 0;
 
         virtual void update() = 0;
 

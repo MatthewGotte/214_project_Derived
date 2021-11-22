@@ -2,7 +2,8 @@
 #define SATELLITETRANSMISSION_H
 
 #include <iostream>
-#include "StarLinkSatellite.h"
+#include "Satellite.h"
+class Satellite;
 
 using namespace std; //Mediator - Controls Communication between Satellites
 
@@ -12,8 +13,11 @@ class SatelliteTransmission
 
     public:
 
-        virtual void notify(StarLinkSatellite*) = 0;
+        SatelliteTransmission();
 
+        virtual void notify(Satellite*) = 0;
+
+        ~SatelliteTransmission();
 };
 
 #endif

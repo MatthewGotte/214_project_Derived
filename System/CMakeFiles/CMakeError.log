@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b74db/fast && /usr/bin/make -f CMakeFiles/cmTC_b74db.dir/build.make CMakeFiles/cmTC_b74db.dir/build
-make[1]: Entering directory '/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b74db.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b74db.dir/src.c.o   -c "/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_b74db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b74db.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_b74db.dir/src.c.o  -o cmTC_b74db 
-/usr/bin/ld: CMakeFiles/cmTC_b74db.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_046d2/fast && /usr/bin/make -f CMakeFiles/cmTC_046d2.dir/build.make CMakeFiles/cmTC_046d2.dir/build
+make[1]: Entering directory '/mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_046d2.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_046d2.dir/src.c.o   -c /mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_046d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_046d2.dir/src.c.o  -o cmTC_046d2 
+/usr/bin/ld: CMakeFiles/cmTC_046d2.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b74db.dir/build.make:87: cmTC_b74db] Error 1
-make[1]: Leaving directory '/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b74db/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_046d2.dir/build.make:87: cmTC_046d2] Error 1
+make[1]: Leaving directory '/mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_046d2/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp
+Change Dir: /mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_222f4/fast && /usr/bin/make -f CMakeFiles/cmTC_222f4.dir/build.make CMakeFiles/cmTC_222f4.dir/build
-make[1]: Entering directory '/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_222f4.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_222f4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_222f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_222f4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_222f4.dir/CheckFunctionExists.c.o  -o cmTC_222f4  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_b24ee/fast && /usr/bin/make -f CMakeFiles/cmTC_b24ee.dir/build.make CMakeFiles/cmTC_b24ee.dir/build
+make[1]: Entering directory '/mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b24ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b24ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b24ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24ee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b24ee.dir/CheckFunctionExists.c.o  -o cmTC_b24ee  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_222f4.dir/build.make:87: cmTC_222f4] Error 1
-make[1]: Leaving directory '/mnt/c/Users/matth/Google Drive/Second Year/Semester 2/COS 214 (Software Modeling)/Project/214_project/System/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_222f4/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_b24ee.dir/build.make:87: cmTC_b24ee] Error 1
+make[1]: Leaving directory '/mnt/c/users/user/documents/github/214_project/system/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b24ee/fast] Error 2
 
 
 

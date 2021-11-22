@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include "SatelliteTransmission.h"
-class StarLinkSatellite;
 using namespace std;
 
 class SatelliteTransmissionController : public SatelliteTransmission
@@ -14,7 +13,7 @@ class SatelliteTransmissionController : public SatelliteTransmission
 
         SatelliteTransmissionController();
 
-        void notify(StarLinkSatellite*);
+        void notify(Satellite*);
 
         ~SatelliteTransmissionController();
 
