@@ -168,6 +168,10 @@ void Hloni() {
     cgmc->notify();
 
     cgmc->attach(sls1);
+    cgmc->setConnection(true);
+    cgmc->notify();
+
+    sls1->print();
 
     cout << endl;
 

@@ -1,4 +1,3 @@
-
 #ifndef __Dragon_h__
 #define __Dragon_h__
 

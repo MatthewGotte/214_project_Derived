@@ -45,6 +45,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/VectorOfCargo.cpp.o"
   "CMakeFiles/main.dir/VectorOfHumans.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
+  "CMakeFiles/main.dir/test.cpp.o"
   "main"
   "main.pdb"
 )

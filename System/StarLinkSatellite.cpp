@@ -49,11 +49,11 @@ void StarLinkSatellite::update()
 {   
     this->communicating = this->missionControl->hasConnected();
 
-    if(this->communicating == false){
+    if (this->communicating == false) {
 
         this->missionControl->setConnection(this->communicating);
-    }
-    else {
+    
+    } else {
 
         this->missionControl->setConnection(this->communicating);
     }
@@ -66,11 +66,11 @@ void StarLinkSatellite::update()
  */
 void StarLinkSatellite::print()
 {
-    if(this->communicating == false){
+    if (this->communicating == false) {
 
         cout << Colours::red("Not Connected: There is no communication between GroundMissionControl and Satellites") << endl;
-    }
-    else{
+    
+    } else {
 
         cout << Colours::green("Connected: There is communication between GroundMissionConctrol and Satellites") << endl;
     }

@@ -3,6 +3,7 @@ project(Derived)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 add_executable( main 
+AllHeaders.h
 Cargo.cpp
 Cargo.h
 CargoCollection.cpp
@@ -95,5 +96,6 @@ VectorOfCargo.h
 VectorOfHumans.cpp
 VectorOfHumans.h
 main.cpp
+test.cpp
 )
 target_link_libraries(main ${GTEST_LIBRARIES} pthread)
