@@ -103,8 +103,6 @@ SpaceCraftFactory.cpp
 SpaceCraftFactory.h
 StarLinkSatellite.cpp
 StarLinkSatellite.h
-TestMode.cpp
-TestMode.h
 VacuumMerlinEngine.cpp
 VacuumMerlinEngine.h
 VectorOfCargo.cpp

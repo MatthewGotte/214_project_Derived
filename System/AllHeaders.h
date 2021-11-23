@@ -38,7 +38,6 @@
 #include "SpaceCraft.h"
 #include "SpaceCraftFactory.h"
 #include "StarLinkSatellite.h"
-#include "TestMode.h"
 #include "VacuumMerlinEngine.h"
 #include "VectorOfCargo.h"
 #include "VectorOfHumans.h"

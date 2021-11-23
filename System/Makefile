@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/System
+CMAKE_SOURCE_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/system
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/System
+CMAKE_BINARY_DIR = /mnt/c/Users/Taku/Documents/GitHub/214_project/system
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/system/CMakeFiles /mnt/c/Users/Taku/Documents/GitHub/214_project/system/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Taku/Documents/GitHub/214_project/system/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1446,33 +1446,6 @@ StarLinkSatellite.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/StarLinkSatellite.cpp.s
 .PHONY : StarLinkSatellite.cpp.s
 
-TestMode.o: TestMode.cpp.o
-
-.PHONY : TestMode.o
-
-# target to build an object file
-TestMode.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestMode.cpp.o
-.PHONY : TestMode.cpp.o
-
-TestMode.i: TestMode.cpp.i
-
-.PHONY : TestMode.i
-
-# target to preprocess a source file
-TestMode.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestMode.cpp.i
-.PHONY : TestMode.cpp.i
-
-TestMode.s: TestMode.cpp.s
-
-.PHONY : TestMode.s
-
-# target to generate assembly for a file
-TestMode.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/TestMode.cpp.s
-.PHONY : TestMode.cpp.s
-
 VacuumMerlinEngine.o: VacuumMerlinEngine.cpp.o
 
 .PHONY : VacuumMerlinEngine.o
@@ -1764,9 +1737,6 @@ help:
 	@echo "... StarLinkSatellite.o"
 	@echo "... StarLinkSatellite.i"
 	@echo "... StarLinkSatellite.s"
-	@echo "... TestMode.o"
-	@echo "... TestMode.i"
-	@echo "... TestMode.s"
 	@echo "... VacuumMerlinEngine.o"
 	@echo "... VacuumMerlinEngine.i"
 	@echo "... VacuumMerlinEngine.s"

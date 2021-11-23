@@ -474,7 +474,6 @@ CMakeFiles/main.dir/LaunchMode.cpp.o: Simulation.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: SpaceCraftFactory.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: StarLinkSatellite.h
-CMakeFiles/main.dir/LaunchMode.cpp.o: TestMode.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/LaunchMode.cpp.o: VectorOfHumans.h
@@ -673,7 +672,6 @@ CMakeFiles/main.dir/Simulation.cpp.o: Simulation.h
 CMakeFiles/main.dir/Simulation.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/Simulation.cpp.o: SpaceCraftFactory.h
 CMakeFiles/main.dir/Simulation.cpp.o: StarLinkSatellite.h
-CMakeFiles/main.dir/Simulation.cpp.o: TestMode.h
 CMakeFiles/main.dir/Simulation.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/Simulation.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/Simulation.cpp.o: VectorOfHumans.h
@@ -706,9 +704,6 @@ CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.cpp
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: VectorOfCargo.h
-
-CMakeFiles/main.dir/TestMode.cpp.o: TestMode.cpp
-CMakeFiles/main.dir/TestMode.cpp.o: TestMode.h
 
 CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o: Engine.h
 CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o: VacuumMerlinEngine.cpp
@@ -774,12 +769,11 @@ CMakeFiles/main.dir/main.cpp.o: Simulation.h
 CMakeFiles/main.dir/main.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/main.cpp.o: SpaceCraftFactory.h
 CMakeFiles/main.dir/main.cpp.o: StarLinkSatellite.h
-CMakeFiles/main.dir/main.cpp.o: TestMode.h
+CMakeFiles/main.dir/main.cpp.o: Test.cpp
 CMakeFiles/main.dir/main.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/main.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/main.cpp.o: VectorOfHumans.h
 CMakeFiles/main.dir/main.cpp.o: main.cpp
-CMakeFiles/main.dir/main.cpp.o: test.cpp
 
 CMakeFiles/main.dir/test.cpp.o: AllHeaders.h
 CMakeFiles/main.dir/test.cpp.o: Cargo.h
@@ -825,7 +819,6 @@ CMakeFiles/main.dir/test.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/test.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/test.cpp.o: SpaceCraftFactory.h
 CMakeFiles/main.dir/test.cpp.o: StarLinkSatellite.h
-CMakeFiles/main.dir/test.cpp.o: TestMode.h
 CMakeFiles/main.dir/test.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/test.cpp.o: VectorOfCargo.h
 CMakeFiles/main.dir/test.cpp.o: VectorOfHumans.h

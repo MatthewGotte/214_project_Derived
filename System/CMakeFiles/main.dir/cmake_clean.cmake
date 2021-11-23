@@ -48,7 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/SpaceCraft.cpp.o"
   "CMakeFiles/main.dir/SpaceCraftFactory.cpp.o"
   "CMakeFiles/main.dir/StarLinkSatellite.cpp.o"
-  "CMakeFiles/main.dir/TestMode.cpp.o"
   "CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o"
   "CMakeFiles/main.dir/VectorOfCargo.cpp.o"
   "CMakeFiles/main.dir/VectorOfHumans.cpp.o"
