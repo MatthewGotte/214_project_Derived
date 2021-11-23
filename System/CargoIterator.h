@@ -16,21 +16,21 @@ class CargoIterator
         CargoIterator()=default;
 
         /**
-         * @brief Returns the first Cargo in the Iterator
+         * @brief Return the first Cargo in the Iterator
          * @author Derived
          * @return Cargo* 
          */
         virtual Cargo* first()=0;
 
         /**
-         * @brief Returns the next Cargo in the Iterator
+         * @brief Return the next Cargo in the Iterator
          * @author Derived
          * @return Cargo* 
          */
         virtual Cargo* next()=0;
 
         /**
-         * @brief Checks if there is Cargo in the next Iterator
+         * @brief Check if there is Cargo in the next Iterator
          * @author Derived
          * @return true 
          * @return false 
@@ -38,7 +38,7 @@ class CargoIterator
         virtual bool hasNext()=0;
 
         /**
-         * @brief Returns the Current Cargo in the Iterator
+         * @brief Return the Current Cargo in the Iterator
          * @author Derived
          * @return Cargo* 
          */

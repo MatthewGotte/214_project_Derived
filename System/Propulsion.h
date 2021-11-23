@@ -1,21 +1,41 @@
-//
-// Created by matth on 2021/11/18.
-//
-
 #ifndef DERIVED_PROPULSION_H
 #define DERIVED_PROPULSION_H
 
 #include "Payload.h"
 
-class Propulsion : public Payload {
-private:
+class Propulsion : public Payload 
+{
 
-public:
-    Propulsion();
-    virtual ~Propulsion();
-    virtual void land()=0;
-    bool testPropulsion();
+    private:
+
+    public:
+
+        /**
+         * @brief Construct a new Propulsion object
+         * @author Derived
+         */
+        Propulsion();
+
+        /**
+         * @brief Destroy the Propulsion object
+         * @author Derived
+         */
+        virtual ~Propulsion();
+
+        /**
+         * @brief Land the Propulsion 
+         * @author Derived
+         */
+        virtual void land()=0;
+
+        /**
+         * @brief Test the Propulsion
+         * @author Derived
+         * @return true 
+         * @return false 
+         */
+        bool testPropulsion();
+
 };
-
 
 #endif //DERIVED_PROPULSION_H

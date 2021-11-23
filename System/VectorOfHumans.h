@@ -9,16 +9,53 @@
 
 using namespace std;
 
-class VectorOfHumans : public HumanCollection {
-private:
-    vector<Human*> people ;
-public:
-    VectorOfHumans();
-    HumanIterator* createHumanIterator()override;
-    void addHuman(Human*)override;
-    void removeHuman(Human*)override;
-    bool isEmpty()override;
-    ~VectorOfHumans() override;
+class VectorOfHumans : public HumanCollection 
+{
+    private:
+
+        vector<Human*> people;
+
+    public:
+
+        /**
+         * @brief Construct a new Vector Of Humans object
+         * @author Derived
+         */
+        VectorOfHumans();
+
+        /**
+         * @brief Create a Human Iterator object
+         * @author Derived
+         * @return HumanIterator* 
+         */
+        HumanIterator* createHumanIterator()override;
+
+        /**
+         * @brief Add Human to Vector
+         * @author Derived
+         */
+        void addHuman(Human*)override;
+
+        /**
+         * @brief Remove Human from Vector
+         * @author Derived
+         */
+        void removeHuman(Human*) override;
+        
+        /**
+         * @brief Check if the Vector is empty
+         * @author Derived
+         * @return true 
+         * @return false 
+         */
+        bool isEmpty() override;
+
+        /**
+         * @brief Destroy the Vector Of Humans object
+         * @author Derived
+         */
+        ~VectorOfHumans() override;
+
 };
 
 #endif //DERIVED_VECTOROFHUMANS_H

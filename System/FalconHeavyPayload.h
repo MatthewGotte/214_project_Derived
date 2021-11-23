@@ -26,7 +26,7 @@ class FalconHeavyPayload : public Payload
         ~FalconHeavyPayload();
 
         /**
-         * @brief Launch the Falcon Heavy Payload object
+         * @brief Launch the Falcon Heavy Payload 
          * @author Derived
          */
         void launch();

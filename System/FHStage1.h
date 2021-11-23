@@ -10,7 +10,7 @@ class FHStage1: public RocketState
     public:
 
         /**
-         * @brief Handle Change of FHStage1 object
+         * @brief Handle Change of FHStage1
          * @author Derived
          * @param r 
          */

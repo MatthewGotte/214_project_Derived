@@ -44,7 +44,7 @@ class FalconHeavyPropulsionMemento
         Falcon9Core * getCore3();
         
         /**
-         * @brief Get the Payload object
+         * @brief Get the Payload
          * @author Derived
          * @return Payload* 
          */

@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "SatelliteTransmission.h"
+
 using namespace std;
 
 class SatelliteTransmissionController : public SatelliteTransmission
@@ -11,10 +12,22 @@ class SatelliteTransmissionController : public SatelliteTransmission
 
     public:
 
+        /**
+         * @brief Construct a new Satellite Transmission Controller object
+         * @author Derived
+         */
         SatelliteTransmissionController();
 
+        /**
+         * @brief Notify Satellite Transmission Controller 
+         * @author Derived
+         */
         void notify(Satellite*);
 
+        /**
+         * @brief Destroy the Satellite Transmission Controller object
+         * @author Derived
+         */
         ~SatelliteTransmissionController();
 
 };

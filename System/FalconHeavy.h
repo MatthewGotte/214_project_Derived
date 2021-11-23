@@ -8,7 +8,7 @@ class FalconHeavy: public Rocket
     public:
 
         /**
-         * @brief Move to Next Stage of Falcon Heavy object
+         * @brief Move to Next Stage of Falcon Heavy 
          * @author Derived
          */
         void nextstage();

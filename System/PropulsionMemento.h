@@ -5,13 +5,35 @@
 #include "Falcon9Core.h"
 #include "Payload.h"
 
-class PropulsionMemento{
+class PropulsionMemento
+{
     private:
+
         Falcon9Core * core ;
         Payload * payload;
+
     public:
-        PropulsionMemento(Falcon9Core * , Payload * );
+
+        /**
+         * @brief Construct a new Propulsion Memento object
+         * @author Derived
+         * @param core 
+         * @param pay 
+         */
+        PropulsionMemento(Falcon9Core * core, Payload * pay);
+
+        /**
+         * @brief Get the Core 
+         * @author Derived
+         * @return Falcon9Core* 
+         */
         Falcon9Core * getCore();
+
+        /**
+         * @brief Get the Payload 
+         * @author Derived
+         * @return Payload* 
+         */
         Payload * getPay();
 
 };

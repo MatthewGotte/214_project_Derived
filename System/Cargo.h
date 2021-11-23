@@ -51,6 +51,7 @@ class Cargo
          * @author Derived
          */
         ~Cargo();
+        
 };
 
 #endif

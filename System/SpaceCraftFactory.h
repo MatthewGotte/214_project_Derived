@@ -5,6 +5,7 @@ class SpaceCraftFactory;
 
 class SpaceCraftFactory
 {
+    
 };
 
 #endif

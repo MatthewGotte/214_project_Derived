@@ -1,87 +1,50 @@
 #include "Colours.h"
 #include "Rocket.h"
-/**
- * @brief Construct a new Rocket:: Rocket object
- * @author Derived 
- * @param payload 
- */
+#include <unistd.h>
+#include <cstdlib>
+
 Rocket::Rocket(Payload * payload) {
     this->payload = payload;
     readytolaunch = false;
     hasbeentested = false;
 }
-/**
- * @brief Destroy the Rocket:: Rocket object
- * @author Derived  
- */
+
 Rocket::~Rocket(){
     delete stage;
     delete payload->getSpaceCraft();
     delete payload;
 }
-/**
- * @brief Sets the Payload object.
- * @author Derived 
- * @param p 
- */
+
 void Rocket::setPayload(Payload * p) {
     this->payload = p;
 }   
-/**
- * @brief Returns the Payload object.
- * @author Derived  
- * @return Payload* 
- */
+
 Payload * Rocket::getPayload() {
     return this->payload;
 }
-/**
- * @brief prints the contents of the Payload object.
- * @author Derived  
- */
+
 void Rocket::print(){
-    
     cout << Colours::red("rocket is trying to print") << endl;
     this->payload->print();
 }
-/**
- * @brief sets the stage of the Rocket.
- * @author Derived 
- * @param state 
- */
-void Rocket::setState(RocketState *state){
+
+void Rocket::setState(RocketState *state) {
     stage = state;
 }
-/**
- * @brief sets the propulsion of the rocket.
- * @author Derived 
- * @param p 
- */
+
 void Rocket::setPropulsion(Propulsion * p) {
     propulsion = p;
 }
 
-/**
- * @brief this removes the propulsion system.
- * @author Derived
- */
-void Rocket::nextstage(){
+void Rocket::nextstage() {
     delete propulsion;
     propulsion = nullptr;
 }
 
-/**
- * @brief sets the name of the rocket
- * @author Derived
- */
-void Rocket::setName(string name){
+void Rocket::setName(string name) {
     this->name = name;
 }
 
-/**
- * @brief check the launch flags and will call launch on the decorated payload's propulsion system
- * @author Derived
- */
 void Rocket::launch() {
     //check flag tested
     if (!hasbeentested) {
@@ -100,10 +63,9 @@ void Rocket::launch() {
 
     cout << Colours::yellow(name + " is starting it's launch.");
 
-
-
-    for (int i = 0; i < 70; i++) {
-
+    for (int i = 0; i < 70; i+=5) {
+        cout<<"sleeping "<<endl;
+        sleep(0.5);
     }
 }
 

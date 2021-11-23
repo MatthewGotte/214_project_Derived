@@ -30,7 +30,7 @@ class Falcon9Payload : public Payload
         ~Falcon9Payload();
 
         /**
-         * @brief Launch the Falcon 9 Payload object
+         * @brief Launch the Falcon 9 Payload 
          * @author Derived 
          */
         void launch();

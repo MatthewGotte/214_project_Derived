@@ -5,11 +5,8 @@
 #include <iostream>
 
 namespace{
-    /**
-     * @brief Construct a new TEST object Test if Human Weight is Postive
-     * @author Derived 
-     */
-    TEST(IsNegativeHuman , TestPreconditionPositive){
+
+    TEST(IsNegativeHuman , TestPreconditionPositive) {
           try {
             Human * human = new Human("Taku" , -30 , "Leader");
             FAIL();
@@ -19,11 +16,8 @@ namespace{
             FAIL();
         }
     }
-    /**
-     * @brief Construct a new TEST object Test if Cargo Weight is Positive
-     * @author Derived 
-     */
-    TEST(IsNegativeCargo , TestPreconditionPositive){
+
+    TEST(IsNegativeCargo , TestPreconditionPositive) {
           try {
             Cargo * cargo = new Cargo("Car" , -30 , "A very Heavy Car");
             FAIL();
@@ -33,11 +27,8 @@ namespace{
             FAIL();
         }
     }
-     /**
-     * @brief Construct a new TEST object Test if Vector Of Cargo is not Empty
-     * @author Derived 
-     */
-    TEST(IsCargoEmpty , TestPreconditionCargoNotEmpty){
+
+    TEST(IsCargoEmpty , TestPreconditionCargoNotEmpty) {
           try {
             HumanCollection * voh = new VectorOfHumans();
             CargoCollection * voc = new VectorOfCargo();
@@ -48,8 +39,6 @@ namespace{
         } catch(...) {
             FAIL();
         }
-    }
-
-
-        
+    } 
+           
 }

@@ -4,6 +4,9 @@
 #include "test.cpp"
 #include <gtest/gtest.h>
 #include "SatelliteTransmissionController.h"
+#include "Simulation.h"
+#include "LaunchMode.h"
+
 
 using namespace std;
 
@@ -17,19 +20,22 @@ int main(int argc , char ** argv ) {
     //testing::InitGoogleTest(&argc , argv);
     // cout<<
     //testing:
-    // Muzi();
+     Muzi();
     // Taku();
-    Matthew();
+    //Matthew();
     // Rourke();
     // Hloni();
 
-    //actual main:
-
+   
     //return RUN_ALL_TESTS();
     return 0;
 }
 
 void Muzi() {
+    Simulation * sim = new Simulation();
+    sim->setup();
+    LaunchMode * launch = new LaunchMode(sim);
+    launch->execute();
     
 }
 
@@ -158,7 +164,7 @@ void Matthew() {
 
 void Rourke() {
 
-    cout << Colours::purple("Rourke:") << endl;
+    cout << Colours::purple("SUIIIIIIIIII:") << endl;
     
     //collection of humans [optional]:
     Human * h1 = new Human("Rourke", 100.01, "Leader");
@@ -201,7 +207,7 @@ void Hloni() {
     //cmgc - ConcreteGroundMissionControl
     cout << endl; 
     
-    cout <<Colours::yellow("TESTING Communication between StarLink Satellites and GroundMissionControl") << endl;
+    cout <<Colours::yellow("Testing Communication between StarLink Satellites and GroundMissionControl") << endl;
 
     ConcreteGroundMissionControl* cgmc = new ConcreteGroundMissionControl();
 

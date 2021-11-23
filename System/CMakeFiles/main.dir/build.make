@@ -83,9 +83,22 @@ CMakeFiles/main.dir/CargoCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/CargoCollection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.cpp -o CMakeFiles/main.dir/CargoCollection.cpp.s
 
+CMakeFiles/main.dir/CargoFactory.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/CargoFactory.cpp.o: CargoFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/CargoFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CargoFactory.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoFactory.cpp
+
+CMakeFiles/main.dir/CargoFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/CargoFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoFactory.cpp > CMakeFiles/main.dir/CargoFactory.cpp.i
+
+CMakeFiles/main.dir/CargoFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/CargoFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoFactory.cpp -o CMakeFiles/main.dir/CargoFactory.cpp.s
+
 CMakeFiles/main.dir/CargoIterator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/CargoIterator.cpp.o: CargoIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/CargoIterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/CargoIterator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CargoIterator.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.cpp
 
 CMakeFiles/main.dir/CargoIterator.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/main.dir/CargoIterator.cpp.s: cmake_force
 
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: ConcreteGroundMissionControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.cpp
 
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.s: cmake_force
 
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: ConfigurationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/ConfigurationManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/ConfigurationManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/ConfigurationManager.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConfigurationManager.cpp
 
 CMakeFiles/main.dir/ConfigurationManager.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/main.dir/ConfigurationManager.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Core.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Core.cpp.o: Core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Core.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/Core.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Core.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Core.cpp
 
 CMakeFiles/main.dir/Core.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/main.dir/Core.cpp.s: cmake_force
 
 CMakeFiles/main.dir/CrewDragon.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/CrewDragon.cpp.o: CrewDragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/CrewDragon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/CrewDragon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/CrewDragon.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CrewDragon.cpp
 
 CMakeFiles/main.dir/CrewDragon.cpp.i: cmake_force
@@ -150,7 +163,7 @@ CMakeFiles/main.dir/CrewDragon.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Dragon.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Dragon.cpp.o: Dragon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/Dragon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/Dragon.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Dragon.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Dragon.cpp
 
 CMakeFiles/main.dir/Dragon.cpp.i: cmake_force
@@ -163,7 +176,7 @@ CMakeFiles/main.dir/Dragon.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Engine.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Engine.cpp.o: Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/Engine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Engine.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.cpp
 
 CMakeFiles/main.dir/Engine.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/main.dir/Engine.cpp.s: cmake_force
 
 CMakeFiles/main.dir/F9Stage1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/F9Stage1.cpp.o: F9Stage1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/F9Stage1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/F9Stage1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/F9Stage1.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage1.cpp
 
 CMakeFiles/main.dir/F9Stage1.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/main.dir/F9Stage1.cpp.s: cmake_force
 
 CMakeFiles/main.dir/F9Stage2.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/F9Stage2.cpp.o: F9Stage2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/F9Stage2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/F9Stage2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/F9Stage2.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/F9Stage2.cpp
 
 CMakeFiles/main.dir/F9Stage2.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/main.dir/F9Stage2.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FHCaretaker.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FHCaretaker.cpp.o: FHCaretaker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/FHCaretaker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/FHCaretaker.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FHCaretaker.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHCaretaker.cpp
 
 CMakeFiles/main.dir/FHCaretaker.cpp.i: cmake_force
@@ -215,7 +228,7 @@ CMakeFiles/main.dir/FHCaretaker.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FHStage1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FHStage1.cpp.o: FHStage1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/FHStage1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/FHStage1.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FHStage1.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.cpp
 
 CMakeFiles/main.dir/FHStage1.cpp.i: cmake_force
@@ -228,7 +241,7 @@ CMakeFiles/main.dir/FHStage1.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FHStage2.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FHStage2.cpp.o: FHStage2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/FHStage2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/FHStage2.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FHStage2.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage2.cpp
 
 CMakeFiles/main.dir/FHStage2.cpp.i: cmake_force
@@ -241,7 +254,7 @@ CMakeFiles/main.dir/FHStage2.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Falcon9.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Falcon9.cpp.o: Falcon9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/Falcon9.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/Falcon9.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Falcon9.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9.cpp
 
 CMakeFiles/main.dir/Falcon9.cpp.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/main.dir/Falcon9.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Falcon9Builder.cpp.o: Falcon9Builder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/Falcon9Builder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/Falcon9Builder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Falcon9Builder.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Builder.cpp
 
 CMakeFiles/main.dir/Falcon9Builder.cpp.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/main.dir/Falcon9Builder.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Falcon9Core.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Falcon9Core.cpp.o: Falcon9Core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/Falcon9Core.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/Falcon9Core.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Falcon9Core.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Core.cpp
 
 CMakeFiles/main.dir/Falcon9Core.cpp.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/main.dir/Falcon9Core.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Falcon9Payload.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Falcon9Payload.cpp.o: Falcon9Payload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/Falcon9Payload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/Falcon9Payload.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Falcon9Payload.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Payload.cpp
 
 CMakeFiles/main.dir/Falcon9Payload.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/main.dir/Falcon9Payload.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.o: Falcon9Propulsion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/Falcon9Propulsion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/Falcon9Propulsion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Falcon9Propulsion.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Falcon9Propulsion.cpp
 
 CMakeFiles/main.dir/Falcon9Propulsion.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/main.dir/Falcon9Propulsion.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FalconHeavy.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FalconHeavy.cpp.o: FalconHeavy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/FalconHeavy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/FalconHeavy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FalconHeavy.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavy.cpp
 
 CMakeFiles/main.dir/FalconHeavy.cpp.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/main.dir/FalconHeavy.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o: FalconHeavyBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FalconHeavyBuilder.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyBuilder.cpp
 
 CMakeFiles/main.dir/FalconHeavyBuilder.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/main.dir/FalconHeavyBuilder.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FalconHeavyPayload.cpp.o: FalconHeavyPayload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/FalconHeavyPayload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/FalconHeavyPayload.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FalconHeavyPayload.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPayload.cpp
 
 CMakeFiles/main.dir/FalconHeavyPayload.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/main.dir/FalconHeavyPayload.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o: FalconHeavyPropulsion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPropulsion.cpp
 
 CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/main.dir/FalconHeavyPropulsion.cpp.s: cmake_force
 
 CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o: FalconHeavyPropulsionMemento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FalconHeavyPropulsionMemento.cpp
 
 CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.s: cmake_force
 
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: GroundMissionControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/main.dir/GroundMissionControl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.dir/GroundMissionControl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/GroundMissionControl.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.cpp
 
 CMakeFiles/main.dir/GroundMissionControl.cpp.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/main.dir/GroundMissionControl.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Human.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Human.cpp.o: Human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/main.dir/Human.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.dir/Human.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Human.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.cpp
 
 CMakeFiles/main.dir/Human.cpp.i: cmake_force
@@ -397,7 +410,7 @@ CMakeFiles/main.dir/Human.cpp.s: cmake_force
 
 CMakeFiles/main.dir/HumanCollection.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/HumanCollection.cpp.o: HumanCollection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/main.dir/HumanCollection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/HumanCollection.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/HumanCollection.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp
 
 CMakeFiles/main.dir/HumanCollection.cpp.i: cmake_force
@@ -408,9 +421,22 @@ CMakeFiles/main.dir/HumanCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/HumanCollection.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanCollection.cpp -o CMakeFiles/main.dir/HumanCollection.cpp.s
 
+CMakeFiles/main.dir/HumanFactory.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/HumanFactory.cpp.o: HumanFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/HumanFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/HumanFactory.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanFactory.cpp
+
+CMakeFiles/main.dir/HumanFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/HumanFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanFactory.cpp > CMakeFiles/main.dir/HumanFactory.cpp.i
+
+CMakeFiles/main.dir/HumanFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/HumanFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanFactory.cpp -o CMakeFiles/main.dir/HumanFactory.cpp.s
+
 CMakeFiles/main.dir/HumanIterator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/HumanIterator.cpp.o: HumanIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/main.dir/HumanIterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/HumanIterator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/HumanIterator.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/HumanIterator.cpp
 
 CMakeFiles/main.dir/HumanIterator.cpp.i: cmake_force
@@ -423,7 +449,7 @@ CMakeFiles/main.dir/HumanIterator.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Iterator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Iterator.cpp.o: Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/main.dir/Iterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/Iterator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Iterator.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Iterator.cpp
 
 CMakeFiles/main.dir/Iterator.cpp.i: cmake_force
@@ -436,7 +462,7 @@ CMakeFiles/main.dir/Iterator.cpp.s: cmake_force
 
 CMakeFiles/main.dir/LaunchMode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/LaunchMode.cpp.o: LaunchMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/main.dir/LaunchMode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/LaunchMode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/LaunchMode.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/LaunchMode.cpp
 
 CMakeFiles/main.dir/LaunchMode.cpp.i: cmake_force
@@ -449,7 +475,7 @@ CMakeFiles/main.dir/LaunchMode.cpp.s: cmake_force
 
 CMakeFiles/main.dir/MerlinEngine.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/MerlinEngine.cpp.o: MerlinEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/main.dir/MerlinEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/MerlinEngine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/MerlinEngine.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/MerlinEngine.cpp
 
 CMakeFiles/main.dir/MerlinEngine.cpp.i: cmake_force
@@ -462,7 +488,7 @@ CMakeFiles/main.dir/MerlinEngine.cpp.s: cmake_force
 
 CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o: OperationsIteratorCargo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/OperationsIteratorCargo.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.cpp
 
 CMakeFiles/main.dir/OperationsIteratorCargo.cpp.i: cmake_force
@@ -475,7 +501,7 @@ CMakeFiles/main.dir/OperationsIteratorCargo.cpp.s: cmake_force
 
 CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o: OperationsIteratorHumans.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/OperationsIteratorHumans.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorHumans.cpp
 
 CMakeFiles/main.dir/OperationsIteratorHumans.cpp.i: cmake_force
@@ -488,7 +514,7 @@ CMakeFiles/main.dir/OperationsIteratorHumans.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Payload.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Payload.cpp.o: Payload.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/main.dir/Payload.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/Payload.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Payload.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Payload.cpp
 
 CMakeFiles/main.dir/Payload.cpp.i: cmake_force
@@ -501,7 +527,7 @@ CMakeFiles/main.dir/Payload.cpp.s: cmake_force
 
 CMakeFiles/main.dir/PropCaretaker.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/PropCaretaker.cpp.o: PropCaretaker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/main.dir/PropCaretaker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/PropCaretaker.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/PropCaretaker.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/PropCaretaker.cpp
 
 CMakeFiles/main.dir/PropCaretaker.cpp.i: cmake_force
@@ -514,7 +540,7 @@ CMakeFiles/main.dir/PropCaretaker.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Propulsion.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Propulsion.cpp.o: Propulsion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/main.dir/Propulsion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/Propulsion.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Propulsion.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Propulsion.cpp
 
 CMakeFiles/main.dir/Propulsion.cpp.i: cmake_force
@@ -527,7 +553,7 @@ CMakeFiles/main.dir/Propulsion.cpp.s: cmake_force
 
 CMakeFiles/main.dir/PropulsionMemento.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/PropulsionMemento.cpp.o: PropulsionMemento.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/main.dir/PropulsionMemento.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/PropulsionMemento.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/PropulsionMemento.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/PropulsionMemento.cpp
 
 CMakeFiles/main.dir/PropulsionMemento.cpp.i: cmake_force
@@ -540,7 +566,7 @@ CMakeFiles/main.dir/PropulsionMemento.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Rocket.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Rocket.cpp.o: Rocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/main.dir/Rocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/Rocket.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Rocket.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Rocket.cpp
 
 CMakeFiles/main.dir/Rocket.cpp.i: cmake_force
@@ -553,7 +579,7 @@ CMakeFiles/main.dir/Rocket.cpp.s: cmake_force
 
 CMakeFiles/main.dir/RocketBuilder.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/RocketBuilder.cpp.o: RocketBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/main.dir/RocketBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/main.dir/RocketBuilder.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/RocketBuilder.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketBuilder.cpp
 
 CMakeFiles/main.dir/RocketBuilder.cpp.i: cmake_force
@@ -566,7 +592,7 @@ CMakeFiles/main.dir/RocketBuilder.cpp.s: cmake_force
 
 CMakeFiles/main.dir/RocketState.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/RocketState.cpp.o: RocketState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/main.dir/RocketState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/main.dir/RocketState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/RocketState.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.cpp
 
 CMakeFiles/main.dir/RocketState.cpp.i: cmake_force
@@ -579,7 +605,7 @@ CMakeFiles/main.dir/RocketState.cpp.s: cmake_force
 
 CMakeFiles/main.dir/Satellite.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Satellite.cpp.o: Satellite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/main.dir/Satellite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/main.dir/Satellite.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Satellite.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.cpp
 
 CMakeFiles/main.dir/Satellite.cpp.i: cmake_force
@@ -592,7 +618,7 @@ CMakeFiles/main.dir/Satellite.cpp.s: cmake_force
 
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: SatelliteTransmission.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/main.dir/SatelliteTransmission.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/main.dir/SatelliteTransmission.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/SatelliteTransmission.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.cpp
 
 CMakeFiles/main.dir/SatelliteTransmission.cpp.i: cmake_force
@@ -605,7 +631,7 @@ CMakeFiles/main.dir/SatelliteTransmission.cpp.s: cmake_force
 
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: SatelliteTransmissionController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmissionController.cpp
 
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.i: cmake_force
@@ -616,22 +642,22 @@ CMakeFiles/main.dir/SatelliteTransmissionController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/SatelliteTransmissionController.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmissionController.cpp -o CMakeFiles/main.dir/SatelliteTransmissionController.cpp.s
 
-CMakeFiles/main.dir/Simulations.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/Simulations.cpp.o: Simulations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/main.dir/Simulations.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Simulations.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulations.cpp
+CMakeFiles/main.dir/Simulation.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Simulation.cpp.o: Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/main.dir/Simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Simulation.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulation.cpp
 
-CMakeFiles/main.dir/Simulations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Simulations.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulations.cpp > CMakeFiles/main.dir/Simulations.cpp.i
+CMakeFiles/main.dir/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulation.cpp > CMakeFiles/main.dir/Simulation.cpp.i
 
-CMakeFiles/main.dir/Simulations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Simulations.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulations.cpp -o CMakeFiles/main.dir/Simulations.cpp.s
+CMakeFiles/main.dir/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Simulation.cpp -o CMakeFiles/main.dir/Simulation.cpp.s
 
 CMakeFiles/main.dir/SpaceCraft.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/SpaceCraft.cpp.o: SpaceCraft.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/main.dir/SpaceCraft.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/main.dir/SpaceCraft.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/SpaceCraft.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraft.cpp
 
 CMakeFiles/main.dir/SpaceCraft.cpp.i: cmake_force
@@ -644,7 +670,7 @@ CMakeFiles/main.dir/SpaceCraft.cpp.s: cmake_force
 
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: SpaceCraftFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/main.dir/SpaceCraftFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/main.dir/SpaceCraftFactory.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/SpaceCraftFactory.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraftFactory.cpp
 
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.i: cmake_force
@@ -657,7 +683,7 @@ CMakeFiles/main.dir/SpaceCraftFactory.cpp.s: cmake_force
 
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/main.dir/StarLinkSatellite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/main.dir/StarLinkSatellite.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/StarLinkSatellite.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.cpp
 
 CMakeFiles/main.dir/StarLinkSatellite.cpp.i: cmake_force
@@ -670,7 +696,7 @@ CMakeFiles/main.dir/StarLinkSatellite.cpp.s: cmake_force
 
 CMakeFiles/main.dir/TestMode.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/TestMode.cpp.o: TestMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/main.dir/TestMode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main.dir/TestMode.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/TestMode.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/TestMode.cpp
 
 CMakeFiles/main.dir/TestMode.cpp.i: cmake_force
@@ -683,7 +709,7 @@ CMakeFiles/main.dir/TestMode.cpp.s: cmake_force
 
 CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o: VacuumMerlinEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/VacuumMerlinEngine.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.cpp
 
 CMakeFiles/main.dir/VacuumMerlinEngine.cpp.i: cmake_force
@@ -696,7 +722,7 @@ CMakeFiles/main.dir/VacuumMerlinEngine.cpp.s: cmake_force
 
 CMakeFiles/main.dir/VectorOfCargo.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/VectorOfCargo.cpp.o: VectorOfCargo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/main.dir/VectorOfCargo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main.dir/VectorOfCargo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/VectorOfCargo.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.cpp
 
 CMakeFiles/main.dir/VectorOfCargo.cpp.i: cmake_force
@@ -709,7 +735,7 @@ CMakeFiles/main.dir/VectorOfCargo.cpp.s: cmake_force
 
 CMakeFiles/main.dir/VectorOfHumans.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/VectorOfHumans.cpp.o: VectorOfHumans.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/main.dir/VectorOfHumans.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main.dir/VectorOfHumans.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/VectorOfHumans.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.cpp
 
 CMakeFiles/main.dir/VectorOfHumans.cpp.i: cmake_force
@@ -722,7 +748,7 @@ CMakeFiles/main.dir/VectorOfHumans.cpp.s: cmake_force
 
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/main.cpp
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -735,7 +761,7 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 
 CMakeFiles/main.dir/test.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/test.cpp.o: test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/main.dir/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/main.dir/test.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/test.cpp.o -c /mnt/c/Users/Taku/Documents/GitHub/214_project/System/test.cpp
 
 CMakeFiles/main.dir/test.cpp.i: cmake_force
@@ -750,6 +776,7 @@ CMakeFiles/main.dir/test.cpp.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/Cargo.cpp.o" \
 "CMakeFiles/main.dir/CargoCollection.cpp.o" \
+"CMakeFiles/main.dir/CargoFactory.cpp.o" \
 "CMakeFiles/main.dir/CargoIterator.cpp.o" \
 "CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o" \
 "CMakeFiles/main.dir/ConfigurationManager.cpp.o" \
@@ -775,6 +802,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/GroundMissionControl.cpp.o" \
 "CMakeFiles/main.dir/Human.cpp.o" \
 "CMakeFiles/main.dir/HumanCollection.cpp.o" \
+"CMakeFiles/main.dir/HumanFactory.cpp.o" \
 "CMakeFiles/main.dir/HumanIterator.cpp.o" \
 "CMakeFiles/main.dir/Iterator.cpp.o" \
 "CMakeFiles/main.dir/LaunchMode.cpp.o" \
@@ -791,7 +819,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/Satellite.cpp.o" \
 "CMakeFiles/main.dir/SatelliteTransmission.cpp.o" \
 "CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o" \
-"CMakeFiles/main.dir/Simulations.cpp.o" \
+"CMakeFiles/main.dir/Simulation.cpp.o" \
 "CMakeFiles/main.dir/SpaceCraft.cpp.o" \
 "CMakeFiles/main.dir/SpaceCraftFactory.cpp.o" \
 "CMakeFiles/main.dir/StarLinkSatellite.cpp.o" \
@@ -807,6 +835,7 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/Cargo.cpp.o
 main: CMakeFiles/main.dir/CargoCollection.cpp.o
+main: CMakeFiles/main.dir/CargoFactory.cpp.o
 main: CMakeFiles/main.dir/CargoIterator.cpp.o
 main: CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o
 main: CMakeFiles/main.dir/ConfigurationManager.cpp.o
@@ -832,6 +861,7 @@ main: CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o
 main: CMakeFiles/main.dir/GroundMissionControl.cpp.o
 main: CMakeFiles/main.dir/Human.cpp.o
 main: CMakeFiles/main.dir/HumanCollection.cpp.o
+main: CMakeFiles/main.dir/HumanFactory.cpp.o
 main: CMakeFiles/main.dir/HumanIterator.cpp.o
 main: CMakeFiles/main.dir/Iterator.cpp.o
 main: CMakeFiles/main.dir/LaunchMode.cpp.o
@@ -848,7 +878,7 @@ main: CMakeFiles/main.dir/RocketState.cpp.o
 main: CMakeFiles/main.dir/Satellite.cpp.o
 main: CMakeFiles/main.dir/SatelliteTransmission.cpp.o
 main: CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o
-main: CMakeFiles/main.dir/Simulations.cpp.o
+main: CMakeFiles/main.dir/Simulation.cpp.o
 main: CMakeFiles/main.dir/SpaceCraft.cpp.o
 main: CMakeFiles/main.dir/SpaceCraftFactory.cpp.o
 main: CMakeFiles/main.dir/StarLinkSatellite.cpp.o
@@ -861,7 +891,7 @@ main: CMakeFiles/main.dir/test.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libgtest.a
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Taku/Documents/GitHub/214_project/System/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

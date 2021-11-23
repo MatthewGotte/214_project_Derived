@@ -21,19 +21,19 @@ class GroundMissionControl
         GroundMissionControl();
 
         /**
-         * @brief Attach Satellite from the Ground Mission Control object
+         * @brief Attach Satellite from the Ground Mission Control 
          * @author Derived
          */
         void attach(Satellite*);
 
         /**
-         * @brief Detach Satellite from the Ground Mission Control object
+         * @brief Detach Satellite from the Ground Mission Control 
          * @author Derived
          */
         void detach(Satellite*);
 
         /**
-         * @brief Notify the Ground Mission Control object
+         * @brief Notify the Ground Mission Control 
          * @author Derived
          */
         void notify();

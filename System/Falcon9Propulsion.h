@@ -29,26 +29,26 @@ class Falcon9Propulsion : public Propulsion
         ~Falcon9Propulsion();
 
         /**
-         * @brief Backup the Falcon 9 Propulsion object
+         * @brief Backup the Falcon 9 Propulsion 
          * @author Derived 
          * @return PropulsionMemento* 
          */
         PropulsionMemento* backup ();
 
         /**
-         * @brief Restore from Falcon 9 Propulsion object Backup
+         * @brief Restore from Falcon 9 Propulsion Backup
          * @author Derived 
          */
         void restore(PropulsionMemento * );
 
         /**
-         * @brief Land Falcon 9 Propulsion object
+         * @brief Land Falcon 9 Propulsion 
          * @author Derived 
          */
         void land();
 
         /**
-         * @brief Launch Falcon 9 Propulsion object
+         * @brief Launch Falcon 9 Propulsion 
          * @author Derived 
          */
         void launch();

@@ -2,12 +2,31 @@
 #define DERIVED_ROCKETSTATE_H
 
 class Rocket;
-class RocketState {
-public:
-    virtual void handleChange(Rocket* r)=0;
-    RocketState();
-    virtual ~RocketState();
-private:
+
+class RocketState 
+{
+    private:
+
+    public:
+
+        /**
+         * @brief Handle Change for the Rocket State 
+         * @author Derived
+         * @param r 
+         */
+        virtual void handleChange(Rocket* r)=0;
+
+        /**
+         * @brief Construct a new Rocket State object
+         * @author Derived
+         */
+        RocketState();
+
+        /**
+         * @brief Destroy the Rocket State object
+         * @author Derived
+         */
+        virtual ~RocketState();
 
 };
 

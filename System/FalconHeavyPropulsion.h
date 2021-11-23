@@ -31,26 +31,26 @@ class FalconHeavyPropulsion : public Propulsion
         ~FalconHeavyPropulsion();
 
         /**
-         * @brief Backup the Falcon Heavy Propulsion object
+         * @brief Backup the Falcon Heavy Propulsion 
          * @author Derived
          * @return FalconHeavyPropulsionMemento* 
          */
         FalconHeavyPropulsionMemento* backup();
 
         /**
-         * @brief Resotre the Falcon Heavy Propulsion object from the Backup
+         * @brief Resotre the Falcon Heavy Propulsion from the Backup
          * @author Derived
          */
         void restore(FalconHeavyPropulsionMemento * );
 
         /**
-         * @brief Land the Falcon Heavy Propulsion object
+         * @brief Land the Falcon Heavy Propulsion 
          * @author Derived
          */
         void land();
 
         /**
-         * @brief Launch the Falcon Heavy Propulsion object
+         * @brief Launch the Falcon Heavy Propulsion 
          * @author Derived
          */
         void launch();

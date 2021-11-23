@@ -1,7 +1,3 @@
-//
-// Created by muzin on 2021/11/01.
-//
-
 #ifndef DERIVED_VECTOROFCARGO_H
 #define DERIVED_VECTOROFCARGO_H
 
@@ -14,17 +10,53 @@ using namespace std;
 
 class CargoCollection;
 
-class VectorOfCargo: public CargoCollection {
-private:
-    vector<Cargo*>cargo;
-public:
-    VectorOfCargo();
-    CargoIterator* createCargoIterator() override;
-    void addCargo(Cargo*) override;
-    void removeCargo(Cargo*) override;
-    bool isEmpty() override;
-    ~VectorOfCargo() ;
-};
+class VectorOfCargo: public CargoCollection
+{
+    private:
 
+        vector<Cargo*>cargo;
+
+    public:
+
+        /**
+         * @brief Construct a new Vector Of Cargo object
+         * @author Derived
+         */
+        VectorOfCargo();
+
+        /**
+         * @brief Create a Cargo Iterator object
+         * @author Derived
+         * @return CargoIterator* 
+         */
+        CargoIterator* createCargoIterator() override;
+
+        /**
+         * @brief Add Cargo to the Vector
+         * @author Derived
+         */
+        void addCargo(Cargo*) override;
+
+        /**
+         * @brief Remove Cargo from the Vector
+         * @author Derived
+         */
+        void removeCargo(Cargo*) override;
+
+        /**
+         * @brief Check if the Vector is empty
+         * @author Derived
+         * @return true 
+         * @return false 
+         */
+        bool isEmpty() override;
+
+        /**
+         * @brief Destroy the Vector Of Cargo object
+         * @author Derived
+         */
+        ~VectorOfCargo() ;
+
+};
 
 #endif //DERIVED_VECTOROFCARGO_H

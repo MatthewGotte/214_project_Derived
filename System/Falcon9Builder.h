@@ -32,25 +32,25 @@ class Falcon9Builder : public RocketBuilder
         ~Falcon9Builder();
 
         /**
-         * @brief Reset the Falcon 9 Builder object
+         * @brief Reset the Falcon 9 Builder 
          * @author Derived
          */
         void reset();
 
         /**
-         * @brief Add Payload to the Falcon 9 Builder object
+         * @brief Add Payload to the Falcon 9 Builder 
          * @author Derived
          */
         void addPayload();
 
         /**
-         * @brief Add Propulsion to the Falcon 9 Builder object
+         * @brief Add Propulsion to the Falcon 9 Builder 
          * @author Derived
          */
         void addPropulsion();
 
         /**
-         * @brief Get the  Falcon 9 Builder object
+         * @brief Get the  Falcon 9 Builder 
          * @author Derived
          * @return Rocket* 
          */

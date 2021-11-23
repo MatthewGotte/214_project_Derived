@@ -6,28 +6,17 @@
 #include "CargoIterator.h"
 #include <vector>
 #include "Colours.h"
-/**
- * @brief Construct a new Crew Dragon:: Crew Dragon object
- * @author Derived 
- * @param c 
- * @param h 
- */
+
 CrewDragon::CrewDragon(CargoCollection * c, HumanCollection * h) : SpaceCraft(c) {
     this->h = h;
     this->c = c;
 }
-/**
- * @brief Destroy the Crew Dragon:: Crew Dragon object
- * @author Derived 
- */
+
 CrewDragon::~CrewDragon() {
     // delete this->h;
     // delete this->c;
 }
-/**
- * @brief iterate thought the humans and cargo on the spacecraft 
- * @author Derived 
- */
+
 void CrewDragon::printSpaceCraft() {
     //extend the functionality for printing with the human collection
     string space = "        ";

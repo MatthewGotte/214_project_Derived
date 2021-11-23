@@ -1,7 +1,9 @@
 #include "SatelliteTransmissionController.h"
 #include "Colours.h"
 
-SatelliteTransmissionController::SatelliteTransmissionController(){}
+SatelliteTransmissionController::SatelliteTransmissionController() {
+
+}
 
 void SatelliteTransmissionController::notify(Satellite* satellite) {  
 
@@ -11,4 +13,6 @@ void SatelliteTransmissionController::notify(Satellite* satellite) {
 
 }
 
-SatelliteTransmissionController::~SatelliteTransmissionController(){}
+SatelliteTransmissionController::~SatelliteTransmissionController() {
+    
+}

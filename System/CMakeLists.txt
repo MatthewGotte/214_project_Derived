@@ -8,6 +8,8 @@ Cargo.cpp
 Cargo.h
 CargoCollection.cpp
 CargoCollection.h
+CargoFactory.cpp
+CargoFactory.h
 CargoIterator.cpp
 CargoIterator.h
 Colours.h
@@ -59,6 +61,8 @@ Human.cpp
 Human.h
 HumanCollection.cpp
 HumanCollection.h
+HumanFactory.cpp
+HumanFactory.h
 HumanIterator.cpp
 HumanIterator.h
 Iterator.cpp
@@ -91,8 +95,8 @@ SatelliteTransmission.cpp
 SatelliteTransmission.h
 SatelliteTransmissionController.cpp
 SatelliteTransmissionController.h
-Simulations.cpp
-Simulations.h
+Simulation.cpp
+Simulation.h
 SpaceCraft.cpp
 SpaceCraft.h
 SpaceCraftFactory.cpp

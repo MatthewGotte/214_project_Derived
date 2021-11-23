@@ -177,6 +177,33 @@ CargoCollection.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CargoCollection.cpp.s
 .PHONY : CargoCollection.cpp.s
 
+CargoFactory.o: CargoFactory.cpp.o
+
+.PHONY : CargoFactory.o
+
+# target to build an object file
+CargoFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CargoFactory.cpp.o
+.PHONY : CargoFactory.cpp.o
+
+CargoFactory.i: CargoFactory.cpp.i
+
+.PHONY : CargoFactory.i
+
+# target to preprocess a source file
+CargoFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CargoFactory.cpp.i
+.PHONY : CargoFactory.cpp.i
+
+CargoFactory.s: CargoFactory.cpp.s
+
+.PHONY : CargoFactory.s
+
+# target to generate assembly for a file
+CargoFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/CargoFactory.cpp.s
+.PHONY : CargoFactory.cpp.s
+
 CargoIterator.o: CargoIterator.cpp.o
 
 .PHONY : CargoIterator.o
@@ -852,6 +879,33 @@ HumanCollection.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanCollection.cpp.s
 .PHONY : HumanCollection.cpp.s
 
+HumanFactory.o: HumanFactory.cpp.o
+
+.PHONY : HumanFactory.o
+
+# target to build an object file
+HumanFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanFactory.cpp.o
+.PHONY : HumanFactory.cpp.o
+
+HumanFactory.i: HumanFactory.cpp.i
+
+.PHONY : HumanFactory.i
+
+# target to preprocess a source file
+HumanFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanFactory.cpp.i
+.PHONY : HumanFactory.cpp.i
+
+HumanFactory.s: HumanFactory.cpp.s
+
+.PHONY : HumanFactory.s
+
+# target to generate assembly for a file
+HumanFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HumanFactory.cpp.s
+.PHONY : HumanFactory.cpp.s
+
 HumanIterator.o: HumanIterator.cpp.o
 
 .PHONY : HumanIterator.o
@@ -1284,32 +1338,32 @@ SatelliteTransmissionController.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/SatelliteTransmissionController.cpp.s
 .PHONY : SatelliteTransmissionController.cpp.s
 
-Simulations.o: Simulations.cpp.o
+Simulation.o: Simulation.cpp.o
 
-.PHONY : Simulations.o
+.PHONY : Simulation.o
 
 # target to build an object file
-Simulations.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulations.cpp.o
-.PHONY : Simulations.cpp.o
+Simulation.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulation.cpp.o
+.PHONY : Simulation.cpp.o
 
-Simulations.i: Simulations.cpp.i
+Simulation.i: Simulation.cpp.i
 
-.PHONY : Simulations.i
+.PHONY : Simulation.i
 
 # target to preprocess a source file
-Simulations.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulations.cpp.i
-.PHONY : Simulations.cpp.i
+Simulation.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulation.cpp.i
+.PHONY : Simulation.cpp.i
 
-Simulations.s: Simulations.cpp.s
+Simulation.s: Simulation.cpp.s
 
-.PHONY : Simulations.s
+.PHONY : Simulation.s
 
 # target to generate assembly for a file
-Simulations.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulations.cpp.s
-.PHONY : Simulations.cpp.s
+Simulation.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Simulation.cpp.s
+.PHONY : Simulation.cpp.s
 
 SpaceCraft.o: SpaceCraft.cpp.o
 
@@ -1569,6 +1623,9 @@ help:
 	@echo "... CargoCollection.o"
 	@echo "... CargoCollection.i"
 	@echo "... CargoCollection.s"
+	@echo "... CargoFactory.o"
+	@echo "... CargoFactory.i"
+	@echo "... CargoFactory.s"
 	@echo "... CargoIterator.o"
 	@echo "... CargoIterator.i"
 	@echo "... CargoIterator.s"
@@ -1644,6 +1701,9 @@ help:
 	@echo "... HumanCollection.o"
 	@echo "... HumanCollection.i"
 	@echo "... HumanCollection.s"
+	@echo "... HumanFactory.o"
+	@echo "... HumanFactory.i"
+	@echo "... HumanFactory.s"
 	@echo "... HumanIterator.o"
 	@echo "... HumanIterator.i"
 	@echo "... HumanIterator.s"
@@ -1692,9 +1752,9 @@ help:
 	@echo "... SatelliteTransmissionController.o"
 	@echo "... SatelliteTransmissionController.i"
 	@echo "... SatelliteTransmissionController.s"
-	@echo "... Simulations.o"
-	@echo "... Simulations.i"
-	@echo "... Simulations.s"
+	@echo "... Simulation.o"
+	@echo "... Simulation.i"
+	@echo "... Simulation.s"
 	@echo "... SpaceCraft.o"
 	@echo "... SpaceCraft.i"
 	@echo "... SpaceCraft.s"

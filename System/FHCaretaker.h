@@ -18,14 +18,14 @@ class HPCaretaker
         HPCaretaker();
 
         /**
-         * @brief Get the Backup object
+         * @brief Get the Backup of the HPCaretaker
          * @author Derived
          * @return FalconHeavyPropulsionMemento* 
          */
         FalconHeavyPropulsionMemento * getBackup();
 
         /**
-         * @brief Set the Backup object
+         * @brief Set the Backup of the HPCaretaker
          * @author Derived
          */
         void setBackup(FalconHeavyPropulsionMemento*);

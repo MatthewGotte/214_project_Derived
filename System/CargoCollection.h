@@ -22,19 +22,19 @@ class CargoCollection
         virtual CargoIterator* createCargoIterator()=0;
 
         /**
-         * @brief Adds Cargo to the Collection 
+         * @brief Add Cargo to the Collection 
          * @author Derived
          */
         virtual void addCargo(Cargo*)=0;
 
         /**
-         * @brief Removes Cargo from the Collection
+         * @brief Remove Cargo from the Collection
          * @author Derived
          */
         virtual void removeCargo(Cargo*)=0;
         
         /**
-         * @brief Checks in the Cargo Collection is empty
+         * @brief Check in the Cargo Collection is empty
          * @author Derived
          * @return true 
          * @return false 

@@ -40,25 +40,25 @@ class FalconHeavyBuilder : public RocketBuilder
         ~FalconHeavyBuilder();
 
         /**
-         * @brief Reset the Falcon Heavy Builder object 
+         * @brief Reset the Falcon Heavy Builder  
          * @author Derived
          */
         void reset();
 
         /**
-         * @brief Add Paylaod to the Falcon Heavy Builder object
+         * @brief Add Paylaod to the Falcon Heavy Builder 
          * @author Derived
          */
         void addPayload();
 
         /**
-         * @brief Add Propulsion to the Falcon Heavy Builder object
+         * @brief Add Propulsion to the Falcon Heavy Builder 
          * @author Derived
          */
         void addPropulsion();
 
         /**
-         * @brief Get the Falcon Heavy Rocket object
+         * @brief Get the Falcon Heavy Rocket 
          * @author Derived
          * @return FalconHeavy* 
          */
