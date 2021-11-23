@@ -84,7 +84,15 @@ void Simulation::setup() {
     }
     else if(send == 2){
         groundMissionControl = new ConcreteGroundMissionControl();
-        voc->addCargo(new StarLinkSatellite(groundMissionControl));
+       
+        StarLinkSatellite* sls1 = new StarLinkSatellite(groundMissionControl);
+        
+        groundMissionControl->attach(sls1);
+        groundMissionControl->setConnection(true);
+        groundMissionControl->notify();
+        sls1->print();
+
+        voc->addCargo(sls1);
         cout<<"Configuring a Falcon 9 with your a StarLinkSatellite"<<endl;
         ConfigurationManager * configmanager = new ConfigurationManager(voc, voh);
         dogeToMoon = configmanager->BuildAndDecorateRocket(); //we have the rocket now.
@@ -134,9 +142,7 @@ Simulation::Simulation(){
 
 Simulation::~Simulation() {
     delete voh;
-    if(send != 2)
-        delete voc; 
-
+    if(send != 2) delete voc; 
     delete dogeToMoon;
     delete groundMissionControl;
 }
