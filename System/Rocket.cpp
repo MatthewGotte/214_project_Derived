@@ -57,27 +57,40 @@ void Rocket::launch() {
         return;
     }
     
-    cout << Colours::yellow(name + " is starting it's launch.");
+    cout << Colours::yellow(this->getName()+ " is starting it's launch.") << endl;
 
     this->propulsion->launch();
 
-    cout << Colours::yellow(name + " is starting it's launch.");
-
-    for (int i = 0; i < 70; i+=5) {
-        cout<<"sleeping "<<endl;
-        sleep(0.5);
+    cout << Colours::yellow(this->getName() + " is ready for launch counting down.") << endl;
+    for(int i=10; i>0; i--){
+        sleep(1);
+        cout<<Colours::green(to_string(i))<<endl;
     }
+    
+    for (int i = 0; i <= 70; i+=5) {
+        sleep(1);
+        if (i==0) {
+            cout << Colours::purple("The "+this->getName()+" has made it off the launch pad.") << endl;
+        }
+        else
+            cout << Colours::purple("The "+this->getName()+" is now ") << Colours::purple(to_string(i)) << Colours::purple(" km away from earth.") << endl;
+    }
+    cout << Colours::blue("The "+this->getName() + " has succesfully reached orbit, detaching cores and moving to stage 2") << endl;
+    sleep(1);
+
+    nextstage();
+
 }
 
 void Rocket::testRocket() {
     hasbeentested = true;
     bool vmetest = testVacuumMerlinEngine();
     if (!vmetest) {
-        cout << Colours::red("FAILURE: " + name + "'s VacuumMerlinEngine failed the test.");
+        cout << Colours::red("FAILURE: " + name + "'s VacuumMerlinEngine failed the test.") <<endl;
     }
     bool proptest = testPropulsion();
     if (!proptest) {
-        cout << Colours::red("FAILURE: " + name + "'s PropulsionSystem failed the test.");
+        cout << Colours::red("FAILURE: " + name + "'s PropulsionSystem failed the test.") <<endl;
     }
     if (vmetest && proptest) {
         readytolaunch = true;
@@ -92,4 +105,32 @@ bool Rocket::testVacuumMerlinEngine() {
 
 bool Rocket::testPropulsion() {
     return this->propulsion->testPropulsion();
+}
+
+void Rocket::testThatFails(){
+    hasbeentested = true;
+
+    bool vmetest = true;
+    bool proptest = true;
+
+    srand(time(0));
+    if(rand()%2){
+        proptest = false;
+    }
+    else{
+        vmetest = false;
+    }
+
+    if (!vmetest) {
+        cout << Colours::red("FAILURE: " + name + "'s VacuumMerlinEngine failed the test.") <<endl;
+    }
+    
+    if (!proptest) {
+        cout << Colours::red("FAILURE: " + name + "'s PropulsionSystem failed the test.") <<endl;
+    }
+    if (vmetest && proptest) {
+        readytolaunch = true;
+        return;
+    }
+    readytolaunch = false;
 }

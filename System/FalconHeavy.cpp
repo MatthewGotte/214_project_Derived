@@ -7,7 +7,8 @@ FalconHeavy::FalconHeavy(Payload * Payload) : Rocket(Payload) {
 }
 
 FalconHeavy::~FalconHeavy() {
-    
+    delete stage;
+    stage = nullptr;
 }
 
 void FalconHeavy::nextstage() {
@@ -17,4 +18,8 @@ void FalconHeavy::nextstage() {
     } else {
         cout << Colours::yellow("ROCKET HAS ALREADY LANDED!") << endl;
     }
+}
+
+string FalconHeavy::getName(){
+    return "Faclon Heavy";
 }

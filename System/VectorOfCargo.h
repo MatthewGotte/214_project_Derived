@@ -6,6 +6,7 @@
 #include "CargoIterator.h"
 #include "OperationsIteratorCargo.h"
 
+
 using namespace std;
 
 class CargoCollection;

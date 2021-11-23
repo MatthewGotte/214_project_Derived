@@ -112,6 +112,18 @@ class Rocket
          */
         void setName(string name);
 
+        /**
+         * @brief Get the Name object
+         * @author Derived  
+         * @return string 
+         */
+        virtual string getName()=0;
+        
+        /**
+         * @brief This Test will always fail.
+         * @author Derived
+         */
+        void testThatFails();
 };
 
 #endif

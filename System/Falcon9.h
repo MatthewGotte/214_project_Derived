@@ -26,6 +26,13 @@ class Falcon9 : public Rocket
                  */
                 ~Falcon9();
 
+                /**
+                 * @brief Get the Name object
+                 * 
+                 * @return string 
+                 */
+                string getName();
+
 };
 
 #endif

@@ -10,7 +10,8 @@ Falcon9::Falcon9(Payload * payload) : Rocket(payload) {
 }
 
 Falcon9::~Falcon9() {
-
+    delete stage;
+    stage = nullptr;
 }
 
 void Falcon9::nextstage() {
@@ -20,4 +21,8 @@ void Falcon9::nextstage() {
     } else {
         cout << Colours::yellow("ROCKET HAS ALREADY LANDED!") << endl;
     }
+}
+
+string Falcon9::getName(){
+    return "Falcon 9";
 }

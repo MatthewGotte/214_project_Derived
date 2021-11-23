@@ -4,6 +4,7 @@
 StarLinkSatellite::StarLinkSatellite(ConcreteGroundMissionControl* setMissionControl) {
     this->missionControl = setMissionControl;
     this->communicating = false;
+    this->setName("StarLink Satellite");
 }
 
 StarLinkSatellite::StarLinkSatellite(string setName) {
@@ -41,8 +42,8 @@ void StarLinkSatellite::print() {
 }
 
 StarLinkSatellite::~StarLinkSatellite() {
-    delete this->missionControl;
-    this->missionControl = nullptr;
+    // delete this->missionControl;
+    // this->missionControl = nullptr;
 }
 
 

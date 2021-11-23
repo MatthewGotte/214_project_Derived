@@ -1,6 +1,6 @@
 #include "ConcreteGroundMissionControl.h"
 
-ConcreteGroundMissionControl::ConcreteGroundMissionControl() {
+ConcreteGroundMissionControl::ConcreteGroundMissionControl():GroundMissionControl() {
     this->connection = false;
 }
 

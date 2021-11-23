@@ -24,13 +24,18 @@ CMakeFiles/main.dir/CargoIterator.cpp.o: CargoCollection.h
 CMakeFiles/main.dir/CargoIterator.cpp.o: CargoIterator.cpp
 CMakeFiles/main.dir/CargoIterator.cpp.o: CargoIterator.h
 
+CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: Cargo.h
+CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: ConcreteGroundMissionControl.cpp
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: ConcreteGroundMissionControl.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: Engine.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: GroundMissionControl.h
+CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: Satellite.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o: VectorOfCargo.h
 
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: Cargo.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o: CargoCollection.h
@@ -158,6 +163,7 @@ CMakeFiles/main.dir/FHCaretaker.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/FHCaretaker.cpp.o: VectorOfHumans.h
 
 CMakeFiles/main.dir/FHStage1.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/FHStage1.cpp.o: Colours.h
 CMakeFiles/main.dir/FHStage1.cpp.o: Engine.h
 CMakeFiles/main.dir/FHStage1.cpp.o: FHStage1.cpp
 CMakeFiles/main.dir/FHStage1.cpp.o: FHStage1.h
@@ -383,12 +389,17 @@ CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o: SpaceCraft.h
 CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o: VacuumMerlinEngine.h
 CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o: VectorOfHumans.h
 
+CMakeFiles/main.dir/GroundMissionControl.cpp.o: Cargo.h
+CMakeFiles/main.dir/GroundMissionControl.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/GroundMissionControl.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: Engine.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: GroundMissionControl.cpp
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: GroundMissionControl.h
+CMakeFiles/main.dir/GroundMissionControl.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: Satellite.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/GroundMissionControl.cpp.o: VectorOfCargo.h
 
 CMakeFiles/main.dir/Human.cpp.o: Human.cpp
 CMakeFiles/main.dir/Human.cpp.o: Human.h
@@ -579,25 +590,40 @@ CMakeFiles/main.dir/RocketBuilder.cpp.o: VectorOfHumans.h
 CMakeFiles/main.dir/RocketState.cpp.o: RocketState.cpp
 CMakeFiles/main.dir/RocketState.cpp.o: RocketState.h
 
+CMakeFiles/main.dir/Satellite.cpp.o: Cargo.h
+CMakeFiles/main.dir/Satellite.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/Satellite.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/Satellite.cpp.o: Engine.h
+CMakeFiles/main.dir/Satellite.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/Satellite.cpp.o: Satellite.cpp
 CMakeFiles/main.dir/Satellite.cpp.o: Satellite.h
 CMakeFiles/main.dir/Satellite.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/Satellite.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/Satellite.cpp.o: VectorOfCargo.h
 
+CMakeFiles/main.dir/SatelliteTransmission.cpp.o: Cargo.h
+CMakeFiles/main.dir/SatelliteTransmission.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/SatelliteTransmission.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: Engine.h
+CMakeFiles/main.dir/SatelliteTransmission.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: Satellite.h
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: SatelliteTransmission.cpp
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/SatelliteTransmission.cpp.o: VectorOfCargo.h
 
+CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: Cargo.h
+CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: Colours.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: Engine.h
+CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: Satellite.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: SatelliteTransmissionController.cpp
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: SatelliteTransmissionController.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o: VectorOfCargo.h
 
 CMakeFiles/main.dir/Simulation.cpp.o: AllHeaders.h
 CMakeFiles/main.dir/Simulation.cpp.o: Cargo.h
@@ -666,15 +692,20 @@ CMakeFiles/main.dir/SpaceCraft.cpp.o: VectorOfHumans.h
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: SpaceCraftFactory.cpp
 CMakeFiles/main.dir/SpaceCraftFactory.cpp.o: SpaceCraftFactory.h
 
+CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Cargo.h
+CMakeFiles/main.dir/StarLinkSatellite.cpp.o: CargoCollection.h
+CMakeFiles/main.dir/StarLinkSatellite.cpp.o: CargoIterator.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Colours.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: ConcreteGroundMissionControl.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Engine.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: GroundMissionControl.h
+CMakeFiles/main.dir/StarLinkSatellite.cpp.o: OperationsIteratorCargo.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: Satellite.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: SatelliteTransmission.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.cpp
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: StarLinkSatellite.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o: VacuumMerlinEngine.h
+CMakeFiles/main.dir/StarLinkSatellite.cpp.o: VectorOfCargo.h
 
 CMakeFiles/main.dir/TestMode.cpp.o: TestMode.cpp
 CMakeFiles/main.dir/TestMode.cpp.o: TestMode.h

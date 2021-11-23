@@ -30,4 +30,9 @@ void VectorOfHumans::removeHuman(Human *human) {
 
 VectorOfHumans::VectorOfHumans() = default;
 
-VectorOfHumans::~VectorOfHumans() noexcept = default;
+VectorOfHumans::~VectorOfHumans(){
+    vector<Human *>:: iterator it;
+    for (it= people.begin() ; it != people.end() ; ++it) {
+            delete *it;
+    }
+}

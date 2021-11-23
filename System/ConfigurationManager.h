@@ -31,6 +31,12 @@ class ConfigurationManager {
          * @author Derived
          */
         ~ConfigurationManager();
+
+        /**
+         * @brief Build and Decorate a Rocket
+         * @author Derived
+         * @return Rocket* 
+         */
         Rocket * BuildAndDecorateRocket();
 
 };

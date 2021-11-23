@@ -25,13 +25,18 @@ CMakeFiles/main.dir/CargoIterator.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
 CMakeFiles/main.dir/ConcreteGroundMissionControl.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/ConfigurationManager.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
@@ -159,6 +164,7 @@ CMakeFiles/main.dir/FHCaretaker.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 CMakeFiles/main.dir/FHStage1.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/FHStage1.h
@@ -384,12 +390,17 @@ CMakeFiles/main.dir/FalconHeavyPropulsionMemento.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfHumans.h
 CMakeFiles/main.dir/GroundMissionControl.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/Human.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Human.h
@@ -580,25 +591,40 @@ CMakeFiles/main.dir/RocketState.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/RocketState.h
 CMakeFiles/main.dir/Satellite.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/SatelliteTransmission.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/SatelliteTransmissionController.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmissionController.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmissionController.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/Simulation.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/AllHeaders.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
@@ -667,15 +693,20 @@ CMakeFiles/main.dir/SpaceCraftFactory.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraftFactory.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SpaceCraftFactory.h
 CMakeFiles/main.dir/StarLinkSatellite.cpp.o
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Cargo.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoCollection.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/CargoIterator.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Colours.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/ConcreteGroundMissionControl.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Engine.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/GroundMissionControl.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/OperationsIteratorCargo.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/Satellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/SatelliteTransmission.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/StarLinkSatellite.h
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VacuumMerlinEngine.h
+ /mnt/c/Users/Taku/Documents/GitHub/214_project/System/VectorOfCargo.h
 CMakeFiles/main.dir/TestMode.cpp.o
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/TestMode.cpp
  /mnt/c/Users/Taku/Documents/GitHub/214_project/System/TestMode.h

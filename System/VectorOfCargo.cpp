@@ -28,6 +28,11 @@ void VectorOfCargo::removeCargo(Cargo *cargos) {
     }
 }
 
-VectorOfCargo::~VectorOfCargo() noexcept = default;
+VectorOfCargo::~VectorOfCargo(){
+    vector<Cargo*>:: iterator it;
+    for(it= cargo.begin() ; it != cargo.end() ; ++it) {
+        delete *it;
+    }
+}
 
 VectorOfCargo::VectorOfCargo() = default;

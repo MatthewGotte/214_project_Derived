@@ -1,6 +1,6 @@
 #include "Satellite.h"
 
-Satellite::Satellite() {
+Satellite::Satellite():Cargo("Satellite",800,"Star Link Satellite") {
 
 }
 

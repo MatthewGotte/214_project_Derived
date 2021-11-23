@@ -5,12 +5,13 @@
 #include <string>
 #include "VacuumMerlinEngine.h"
 #include "SatelliteTransmission.h"
+#include "Cargo.h"
 
 class SatelliteTransmission;
 
-using namespace std; //Observer, Colleague
+using namespace std; 
 
-class Satellite
+class Satellite : public Cargo
 {
     private:
 

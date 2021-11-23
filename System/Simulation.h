@@ -7,9 +7,11 @@ class Simulation
 {
     private:
 
-        HumanCollection * voh = new VectorOfHumans(); //vector of humans.
-        CargoCollection * voc = new VectorOfCargo(); //vecotre of cargor.
+        HumanCollection * voh ; //vector of humans.
+        CargoCollection * voc ; //vecotre of cargor.
+        ConcreteGroundMissionControl * groundMissionControl; 
         Rocket* dogeToMoon;
+        int send;
 
     public:
 

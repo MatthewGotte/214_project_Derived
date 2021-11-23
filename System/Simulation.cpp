@@ -22,58 +22,74 @@ void Simulation::setup() {
         cout << Colours::yellow("The Rocket has already been setup") << endl;
         return;
     }
-    int numHumans, numCargo;
 
-    HumanFactory* humanFactory = new HumanFactory();
-    CargoFactory* cargoFactory = new CargoFactory();
+    cout<<"======Welcome to the Rocket Setup======"<<endl;
+    cout<<"What do you want to send to space"<<endl;
+    cout<<"Humans or Cargo - 1"<<endl;
+    cout<<"Satellite -2"<<endl;
+    cout<<"choose: ";
+    cin>>send;
 
-    HumanCollection * voh = new VectorOfHumans();
-    CargoCollection * voc = new VectorOfCargo();
+    if(send == 1){
+        int numHumans, numCargo;
+
+        HumanFactory* humanFactory = new HumanFactory();
+        CargoFactory* cargoFactory = new CargoFactory();
+
+        
+        cout << "How many Humans do you want: " ;
+        cin >> numHumans;
+        //input the names
+        //cout << "Invaild Input "<< endl;
+        for (int i=0; i < numHumans; i++) {
+            string name;
+            double weight;
+            string role;
+
+            cout << "What is the name of person " << i+1 << ": ";
+            cin >> name;
+            cout << "How much does " << name << " weigh: ";
+            cin >> weight;
+            cout << "What is " << name << "'s role: ";\
+            cin >> role;
+            //factory
+            voh->addHuman(humanFactory->createHuman(name,weight,role));
+
+        }
+        cout << "How much Cargo do you want on the rocket: ";
+        cin >> numCargo;
+        //input the Cargo
+        for(int i=0; i < numCargo; i++){
+            string name;
+            double weight;
+            string description;
+
+            cout<<"What is the "<<i+1;
+            cout<<ordinal_suffix(i+1)<< " cargo: ";
+            cin >> name;
+            cout<<"How much does "<<name<<" weigh: ";
+            cin >> weight;
+            cout<<"What is "<<name<<"'s description: ";
+            cin >> description;
+            //factory
+
+            voc->addCargo(cargoFactory->createCargo(name,weight,description));
+        }
+        //the builder used to build the rocket.
+        ConfigurationManager * configmanager = new ConfigurationManager(voc, voh);
+        dogeToMoon = configmanager->BuildAndDecorateRocket(); //we have the rocket now.
+        delete humanFactory;
+        delete cargoFactory;
+        delete configmanager;
+    }
+    else if(send == 2){
+        groundMissionControl = new ConcreteGroundMissionControl();
+        voc->addCargo(new StarLinkSatellite(groundMissionControl));
+        cout<<"Configuring a Falcon 9 with your a StarLinkSatellite"<<endl;
+        ConfigurationManager * configmanager = new ConfigurationManager(voc, voh);
+        dogeToMoon = configmanager->BuildAndDecorateRocket(); //we have the rocket now.
+    }
     
-    cout << "How many Humans do you want: " ;
-    cin >> numHumans;
-    //input the names
-    //cout << "Invaild Input "<< endl;
-    for (int i=0; i < numHumans; i++) {
-        string name;
-        double weight;
-        string role;
-
-        cout << "What is the name of person " << i+1 << ": ";
-        cin >> name;
-        cout << "How much does " << name << " weigh: ";
-        cin >> weight;
-        cout << "What is " << name << "'s role: ";\
-        cin >> role;
-        //factory
-        voh->addHuman(humanFactory->createHuman(name,weight,role));
-
-    }
-    cout << "How much Cargo do you want on the rocket: ";
-    cin >> numCargo;
-    //input the Cargo
-    for(int i=0; i < numCargo; i++){
-        string name;
-        double weight;
-        string description;
-
-        cout<<"What is the "<<i+1;
-        cout<<ordinal_suffix(i+1)<< " cargo: ";
-        cin >> name;
-        cout<<"How much does "<<name<<" weigh: ";
-        cin >> weight;
-        cout<<"What is "<<name<<"'s description: ";
-        cin >> description;
-        //factory
-
-        voc->addCargo(cargoFactory->createCargo(name,weight,description));
-    }
-    //the builder used to build the rocket.
-    ConfigurationManager * configmanager = new ConfigurationManager(voc, voh);
-    dogeToMoon = configmanager->BuildAndDecorateRocket(); //we have the rocket now.
-    delete humanFactory;
-    delete cargoFactory;
-    delete configmanager;
 
 
 }
@@ -90,15 +106,14 @@ void Simulation::liftOff() {
     dogeToMoon->print();
     dogeToMoon->testRocket();
     dogeToMoon->launch();
-    // dogeToMoon->nextstage();
-    // dogeToMoon->nextstage();
-    // dogeToMoon->nextstage();
 }
 void Simulation::staticFire(){
     if(dogeToMoon == nullptr) {
         cout<<Colours::yellow("Warning: Rocket is not yet setup, starting the setup wizard")<<endl;
         setup();
     }
+    cout<<Colours::yellow("Performing a static fire test")<<endl;
+    dogeToMoon->testPropulsion();
     
 }
 void Simulation::testThatFails(){
@@ -106,14 +121,22 @@ void Simulation::testThatFails(){
         cout<<Colours::yellow("Warning: Rocket is not yet setup, starting the setup wizard")<<endl;
         setup();
     }
+    dogeToMoon->testThatFails();
+
 }
 
 Simulation::Simulation(){
-
+    dogeToMoon = nullptr;
+    voh = new VectorOfHumans(); //vecto
+    voc = new VectorOfCargo(); //vecotre of cargor.
+    groundMissionControl = nullptr; 
 }
 
 Simulation::~Simulation() {
     delete voh;
-    delete voc;
+    if(send != 2)
+        delete voc; 
+
     delete dogeToMoon;
+    delete groundMissionControl;
 }

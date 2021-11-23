@@ -25,6 +25,13 @@ class FalconHeavy: public Rocket
          * @author Derived
          */
         ~FalconHeavy();
+        
+        /**
+         * @brief Get the Name object
+         * 
+         * @return string 
+         */
+        string getName();
 
 };
 
