@@ -35,5 +35,5 @@ void Falcon9Propulsion::restore(PropulsionMemento * corerestore) {
 void Falcon9Propulsion::launch() {
     this->payload->launch();
 
-    cout << Colours::green(core1->getName() + "is firing") << endl;
+    cout << Colours::green(core1->getName() + " is firing") << endl;
 }
