@@ -3,8 +3,16 @@ Derived
 
 Compilation and Linking of the project is done through the CMakeLists.txt and uses cmake to generate a make file with google test added into it.
 
-to compile the code, cd into `System` and run th emake command to compile the code.
-to execute the program, in `System` after make, call `make run` to begin execution of the code.
+File Structures:
+    All respective aspecs of the project have been placed into folders and names for easy access.
+    All diagrams are in both high quality zoomable PDFs and PNGs.
+    The documentation can be found in Documentation > Derived Documentation.pdf
+
+Compilation:
+    cd into `System` and run the make command to compile the code.
+
+Execution: 
+    in `System` after `make`, call `make run` to execute of the code.
 
 Google Doc link to the project report: 
 
