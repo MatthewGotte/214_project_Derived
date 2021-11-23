@@ -1,0 +1,34 @@
+\doxysection{Ground\+Mission\+Control.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_GroundMissionControl\_h\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_GroundMissionControl\_h\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Satellite.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }GroundMissionControl}
+\DoxyCodeLine{10 \{}
+\DoxyCodeLine{11     \textcolor{keyword}{private}:}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13         vector<Satellite*> satelliteList;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15     \textcolor{keyword}{public}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{21         GroundMissionControl();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{27         \textcolor{keywordtype}{void} attach(Satellite*);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{33         \textcolor{keywordtype}{void} detach(Satellite*);}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{39         \textcolor{keywordtype}{void} notify();}
+\DoxyCodeLine{40         }
+\DoxyCodeLine{45         \string~GroundMissionControl();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

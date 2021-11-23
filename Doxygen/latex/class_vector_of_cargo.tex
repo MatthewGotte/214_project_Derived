@@ -1,0 +1,135 @@
+\doxysection{Vector\+Of\+Cargo Class Reference}
+\label{class_vector_of_cargo}\index{VectorOfCargo@{VectorOfCargo}}
+
+
+Inherits \textbf{ Cargo\+Collection}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Vector\+Of\+Cargo} ()
+\begin{DoxyCompactList}\small\item\em Construct a new Vector Of \doxyref{Cargo}{p.}{class_cargo} object. \end{DoxyCompactList}\item 
+\textbf{ Cargo\+Iterator} $\ast$ \textbf{ create\+Cargo\+Iterator} () override
+\begin{DoxyCompactList}\small\item\em Create a \doxyref{Cargo}{p.}{class_cargo} \doxyref{Iterator}{p.}{class_iterator} object. \end{DoxyCompactList}\item 
+void \textbf{ add\+Cargo} (\textbf{ Cargo} $\ast$) override
+\begin{DoxyCompactList}\small\item\em Add \doxyref{Cargo}{p.}{class_cargo} to the Vector. \end{DoxyCompactList}\item 
+void \textbf{ remove\+Cargo} (\textbf{ Cargo} $\ast$) override
+\begin{DoxyCompactList}\small\item\em Remove \doxyref{Cargo}{p.}{class_cargo} from the Vector. \end{DoxyCompactList}\item 
+bool \textbf{ is\+Empty} () override
+\begin{DoxyCompactList}\small\item\em Check if the Vector is empty. \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Vector\+Of\+Cargo} ()
+\begin{DoxyCompactList}\small\item\em Destroy the Vector Of \doxyref{Cargo}{p.}{class_cargo} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_vector_of_cargo_acd25863ad2b66a3fe12bddbb0b1fe7ed}} 
+\index{VectorOfCargo@{VectorOfCargo}!VectorOfCargo@{VectorOfCargo}}
+\index{VectorOfCargo@{VectorOfCargo}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{VectorOfCargo()}
+{\footnotesize\ttfamily Vector\+Of\+Cargo\+::\+Vector\+Of\+Cargo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+Construct a new Vector Of \doxyref{Cargo}{p.}{class_cargo} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_vector_of_cargo_a8503c9434dc3805c7556526bf46e8c67}} 
+\index{VectorOfCargo@{VectorOfCargo}!````~VectorOfCargo@{$\sim$VectorOfCargo}}
+\index{````~VectorOfCargo@{$\sim$VectorOfCargo}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{$\sim$VectorOfCargo()}
+{\footnotesize\ttfamily Vector\+Of\+Cargo\+::$\sim$\+Vector\+Of\+Cargo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destroy the Vector Of \doxyref{Cargo}{p.}{class_cargo} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_vector_of_cargo_a4dda9dac6ac6e3803c8fb70a048f4deb}} 
+\index{VectorOfCargo@{VectorOfCargo}!addCargo@{addCargo}}
+\index{addCargo@{addCargo}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{addCargo()}
+{\footnotesize\ttfamily void Vector\+Of\+Cargo\+::add\+Cargo (\begin{DoxyParamCaption}\item[{\textbf{ Cargo} $\ast$}]{cargo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Add \doxyref{Cargo}{p.}{class_cargo} to the Vector. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implements \textbf{ Cargo\+Collection} \doxyref{}{p.}{class_cargo_collection_a0c091a6cd3cbffd6bdcc750bcb7f21b5}.
+
+\mbox{\label{class_vector_of_cargo_af340515ffca84d6f83f8e80ec327e074}} 
+\index{VectorOfCargo@{VectorOfCargo}!createCargoIterator@{createCargoIterator}}
+\index{createCargoIterator@{createCargoIterator}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{createCargoIterator()}
+{\footnotesize\ttfamily \textbf{ Cargo\+Iterator} $\ast$ Vector\+Of\+Cargo\+::create\+Cargo\+Iterator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Create a \doxyref{Cargo}{p.}{class_cargo} \doxyref{Iterator}{p.}{class_iterator} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Cargo\+Iterator$\ast$ 
+\end{DoxyReturn}
+
+
+Implements \textbf{ Cargo\+Collection} \doxyref{}{p.}{class_cargo_collection_af0d828b8f1d52ea8f84870551e274d6c}.
+
+\mbox{\label{class_vector_of_cargo_aacf7813e4e52780cf56822ff5add834f}} 
+\index{VectorOfCargo@{VectorOfCargo}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{isEmpty()}
+{\footnotesize\ttfamily bool Vector\+Of\+Cargo\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Check if the Vector is empty. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Implements \textbf{ Cargo\+Collection} \doxyref{}{p.}{class_cargo_collection_a37d3db01a60871d7253b236a0b2dd45c}.
+
+\mbox{\label{class_vector_of_cargo_ab3abcd9f0fdbcd78a31b8d5e2ccd235d}} 
+\index{VectorOfCargo@{VectorOfCargo}!removeCargo@{removeCargo}}
+\index{removeCargo@{removeCargo}!VectorOfCargo@{VectorOfCargo}}
+\doxysubsubsection{removeCargo()}
+{\footnotesize\ttfamily void Vector\+Of\+Cargo\+::remove\+Cargo (\begin{DoxyParamCaption}\item[{\textbf{ Cargo} $\ast$}]{cargos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Remove \doxyref{Cargo}{p.}{class_cargo} from the Vector. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implements \textbf{ Cargo\+Collection} \doxyref{}{p.}{class_cargo_collection_a28d0b1fb3fe79b158c00244fea1406eb}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vector\+Of\+Cargo.\+h\item 
+Vector\+Of\+Cargo.\+cpp\end{DoxyCompactItemize}

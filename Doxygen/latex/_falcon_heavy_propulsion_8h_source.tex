@@ -1,0 +1,39 @@
+\doxysection{Falcon\+Heavy\+Propulsion.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_FALCONHEAVYPROPULSION\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_FALCONHEAVYPROPULSION\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}Payload.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Propulsion.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Falcon9Core.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}FalconHeavyPropulsionMemento.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }FalconHeavyPropulsion : \textcolor{keyword}{public} Propulsion }
+\DoxyCodeLine{10 \{}
+\DoxyCodeLine{11     \textcolor{keyword}{private}:}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13         Falcon9Core * core1;}
+\DoxyCodeLine{14         Falcon9Core * core2;}
+\DoxyCodeLine{15         Falcon9Core * core3;}
+\DoxyCodeLine{16         Payload * payload;}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keyword}{public}:}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{25         FalconHeavyPropulsion(Payload * p);}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{31         \string~FalconHeavyPropulsion();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{38         FalconHeavyPropulsionMemento* backup();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44         \textcolor{keywordtype}{void} restore(FalconHeavyPropulsionMemento * );}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{50         \textcolor{keywordtype}{void} land();}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{56         \textcolor{keywordtype}{void} launch();}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \};}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_FALCONHEAVYPROPULSION\_H}}
+
+\end{DoxyCode}

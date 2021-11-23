@@ -1,0 +1,203 @@
+\doxysection{Payload Class Reference}
+\label{class_payload}\index{Payload@{Payload}}
+
+
+Inherited by \textbf{ Falcon9\+Payload}, \textbf{ Falcon\+Heavy\+Payload}, and \textbf{ Propulsion}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Vacuum\+Merlin\+Engine} $\ast$ \textbf{ get\+Vacuum\+Merlin\+Engine} ()
+\begin{DoxyCompactList}\small\item\em Get the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. \end{DoxyCompactList}\item 
+void \textbf{ set\+Vacuum\+Merlin\+Engine} (\textbf{ Vacuum\+Merlin\+Engine} $\ast$v)
+\begin{DoxyCompactList}\small\item\em Set the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. \end{DoxyCompactList}\item 
+\textbf{ Space\+Craft} $\ast$ \textbf{ get\+Space\+Craft} ()
+\begin{DoxyCompactList}\small\item\em Get the Space Craft object. \end{DoxyCompactList}\item 
+void \textbf{ set\+Space\+Craft} (\textbf{ Space\+Craft} $\ast$s)
+\begin{DoxyCompactList}\small\item\em Set the Space Craft. \end{DoxyCompactList}\item 
+void \textbf{ print} ()
+\begin{DoxyCompactList}\small\item\em Print the Space Craft. \end{DoxyCompactList}\item 
+\textbf{ Payload} (\textbf{ Space\+Craft} $\ast$s, \textbf{ Vacuum\+Merlin\+Engine} $\ast$v)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Payload}{p.}{class_payload}. \end{DoxyCompactList}\item 
+\textbf{ Payload} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Payload}{p.}{class_payload} object. \end{DoxyCompactList}\item 
+virtual \textbf{ $\sim$\+Payload} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxyref{Payload}{p.}{class_payload} object. \end{DoxyCompactList}\item 
+bool \textbf{ test\+Vacuum\+Merlin\+Engine} ()
+\begin{DoxyCompactList}\small\item\em Test the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. \end{DoxyCompactList}\item 
+virtual void \textbf{ launch} ()=0
+\begin{DoxyCompactList}\small\item\em Launch the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_payload_a7ea27e9a103633817570fc1f57614d8c}} 
+\index{Payload@{Payload}!Payload@{Payload}}
+\index{Payload@{Payload}!Payload@{Payload}}
+\doxysubsubsection{Payload()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Payload\+::\+Payload (\begin{DoxyParamCaption}\item[{\textbf{ Space\+Craft} $\ast$}]{s,  }\item[{\textbf{ Vacuum\+Merlin\+Engine} $\ast$}]{v }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Payload}{p.}{class_payload}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_payload_a2273069256ace43b81a84778a7da6039}} 
+\index{Payload@{Payload}!Payload@{Payload}}
+\index{Payload@{Payload}!Payload@{Payload}}
+\doxysubsubsection{Payload()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Payload\+::\+Payload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Payload}{p.}{class_payload} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_payload_ae391ae4ea0e160ee9dd58c559bbf74f7}} 
+\index{Payload@{Payload}!````~Payload@{$\sim$Payload}}
+\index{````~Payload@{$\sim$Payload}!Payload@{Payload}}
+\doxysubsubsection{$\sim$Payload()}
+{\footnotesize\ttfamily Payload\+::$\sim$\+Payload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxyref{Payload}{p.}{class_payload} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_payload_acdc084779d15eb055613ee96dd889f9c}} 
+\index{Payload@{Payload}!getSpaceCraft@{getSpaceCraft}}
+\index{getSpaceCraft@{getSpaceCraft}!Payload@{Payload}}
+\doxysubsubsection{getSpaceCraft()}
+{\footnotesize\ttfamily \textbf{ Space\+Craft} $\ast$ Payload\+::get\+Space\+Craft (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Space Craft object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Space\+Craft$\ast$ 
+\end{DoxyReturn}
+\mbox{\label{class_payload_aac32ba2151af8afa57c67ce6c2430fb0}} 
+\index{Payload@{Payload}!getVacuumMerlinEngine@{getVacuumMerlinEngine}}
+\index{getVacuumMerlinEngine@{getVacuumMerlinEngine}!Payload@{Payload}}
+\doxysubsubsection{getVacuumMerlinEngine()}
+{\footnotesize\ttfamily \textbf{ Vacuum\+Merlin\+Engine} $\ast$ Payload\+::get\+Vacuum\+Merlin\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Vacuum\+Merlin\+Engine$\ast$ 
+\end{DoxyReturn}
+\mbox{\label{class_payload_adb7d0cb713bf472bfc225352d9ed5a15}} 
+\index{Payload@{Payload}!launch@{launch}}
+\index{launch@{launch}!Payload@{Payload}}
+\doxysubsubsection{launch()}
+{\footnotesize\ttfamily virtual void Payload\+::launch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Launch the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Falcon9\+Payload} \doxyref{}{p.}{class_falcon9_payload_a5e352fb883ece9670ddda73ef45cf61c}, \textbf{ Falcon9\+Propulsion} \doxyref{}{p.}{class_falcon9_propulsion_ad7dc3af67155966ab5c1a4902f2b24cb}, \textbf{ Falcon\+Heavy\+Payload} \doxyref{}{p.}{class_falcon_heavy_payload_ad58a9d6b25145cadc5011c9ac2f93bc3}, and \textbf{ Falcon\+Heavy\+Propulsion} \doxyref{}{p.}{class_falcon_heavy_propulsion_a70c04b174314e6809bfe17d12dc4371e}.
+
+\mbox{\label{class_payload_abec30eff55c4fb88850ef7d6c5e6f0b0}} 
+\index{Payload@{Payload}!print@{print}}
+\index{print@{print}!Payload@{Payload}}
+\doxysubsubsection{print()}
+{\footnotesize\ttfamily void Payload\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Print the Space Craft. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_payload_a8870bc0682ca3d1f9b6806654baadbe2}} 
+\index{Payload@{Payload}!setSpaceCraft@{setSpaceCraft}}
+\index{setSpaceCraft@{setSpaceCraft}!Payload@{Payload}}
+\doxysubsubsection{setSpaceCraft()}
+{\footnotesize\ttfamily void Payload\+::set\+Space\+Craft (\begin{DoxyParamCaption}\item[{\textbf{ Space\+Craft} $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Set the Space Craft. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_payload_af36be49c5b0b1b37624e0b9ecf685cf0}} 
+\index{Payload@{Payload}!setVacuumMerlinEngine@{setVacuumMerlinEngine}}
+\index{setVacuumMerlinEngine@{setVacuumMerlinEngine}!Payload@{Payload}}
+\doxysubsubsection{setVacuumMerlinEngine()}
+{\footnotesize\ttfamily void Payload\+::set\+Vacuum\+Merlin\+Engine (\begin{DoxyParamCaption}\item[{\textbf{ Vacuum\+Merlin\+Engine} $\ast$}]{v }\end{DoxyParamCaption})}
+
+
+
+Set the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_payload_aaa267224381f313083d4173c7de825ed}} 
+\index{Payload@{Payload}!testVacuumMerlinEngine@{testVacuumMerlinEngine}}
+\index{testVacuumMerlinEngine@{testVacuumMerlinEngine}!Payload@{Payload}}
+\doxysubsubsection{testVacuumMerlinEngine()}
+{\footnotesize\ttfamily bool Payload\+::test\+Vacuum\+Merlin\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test the Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Payload.\+h\item 
+Payload.\+cpp\end{DoxyCompactItemize}

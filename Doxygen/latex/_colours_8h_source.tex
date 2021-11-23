@@ -1,0 +1,63 @@
+\doxysection{Colours.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef COLOURS\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define COLOURS\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <iomanip>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <ctime>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{comment}{/*}}
+\DoxyCodeLine{11 \textcolor{comment}{This is a class used for the output of code}}
+\DoxyCodeLine{12 \textcolor{comment}{Pass in the code string you want and the colour will be changed }}
+\DoxyCodeLine{13 \textcolor{comment}{Example use:}}
+\DoxyCodeLine{14 \textcolor{comment}{  cout<<Colours::purple("{}hello World"{})<<endl; }}
+\DoxyCodeLine{15 \textcolor{comment}{The code above will print the text hello World in the colour purple. }}
+\DoxyCodeLine{16 \textcolor{comment}{*/}}
+\DoxyCodeLine{17 \textcolor{keyword}{class }Colours}
+\DoxyCodeLine{18 \{}
+\DoxyCodeLine{19     \textcolor{keyword}{public}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{27         \textcolor{keyword}{static} \textcolor{keywordtype}{string} black(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{28             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[30m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{29             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{30         \}}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{38         \textcolor{keyword}{static} \textcolor{keywordtype}{string} red(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{39             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[31m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{40             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{41         \}}
+\DoxyCodeLine{42         }
+\DoxyCodeLine{49         \textcolor{keyword}{static} \textcolor{keywordtype}{string} green(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{50             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[32m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{51             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{52         \}}
+\DoxyCodeLine{53         }
+\DoxyCodeLine{60         \textcolor{keyword}{static}  \textcolor{keywordtype}{string} yellow(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{61             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[33m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{62             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{63         \}}
+\DoxyCodeLine{64         }
+\DoxyCodeLine{71         \textcolor{keyword}{static} \textcolor{keywordtype}{string} blue(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{72             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[34m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{73             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{74         \}}
+\DoxyCodeLine{75         }
+\DoxyCodeLine{82         \textcolor{keyword}{static} \textcolor{keywordtype}{string} purple(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{83             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[35m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{84             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{85         \}}
+\DoxyCodeLine{86         }
+\DoxyCodeLine{93         \textcolor{keyword}{static} \textcolor{keywordtype}{string} cyan(\textcolor{keywordtype}{string} s) \{}
+\DoxyCodeLine{94             \textcolor{keywordtype}{string} output = \textcolor{stringliteral}{"{}\(\backslash\)033[36m"{}} + s + \textcolor{stringliteral}{"{}\(\backslash\)033[0m"{}};}
+\DoxyCodeLine{95             \textcolor{keywordflow}{return} output;}
+\DoxyCodeLine{96         \}}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98 \};}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{100 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

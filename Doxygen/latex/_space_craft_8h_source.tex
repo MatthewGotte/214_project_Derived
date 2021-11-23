@@ -1,0 +1,39 @@
+\doxysection{Space\+Craft.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_SpaceCraft\_h\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_SpaceCraft\_h\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}VacuumMerlinEngine.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Human.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}CargoCollection.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }SpaceCraft;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }SpaceCraft}
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13     \textcolor{keyword}{private}:}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15         \textcolor{keyword}{static} \textcolor{keywordtype}{int} counter;}
+\DoxyCodeLine{16         \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{17         \textcolor{keywordtype}{string} mission;}
+\DoxyCodeLine{18         Human* captain;}
+\DoxyCodeLine{19         CargoCollection * c;}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keyword}{public}:}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{28         SpaceCraft(CargoCollection * c);}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{34         \textcolor{keyword}{virtual} \string~SpaceCraft();}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{41         \textcolor{keywordtype}{void} setCargoCollection(CargoCollection * c);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{48         CargoCollection * getCargoCollection();}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{54         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} printSpaceCraft()=0; \textcolor{comment}{//to be re-\/impliment in the CrewDragon}}
+\DoxyCodeLine{55 \};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

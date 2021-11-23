@@ -1,0 +1,40 @@
+\doxysection{Falcon9\+Builder.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_FALCON9BUILDER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_FALCON9BUILDER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}RocketBuilder.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Cargo.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}CargoCollection.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Falcon9Payload.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}Falcon9Propulsion.h"{}}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }Falcon9Builder : \textcolor{keyword}{public} RocketBuilder }
+\DoxyCodeLine{13 \{}
+\DoxyCodeLine{14     \textcolor{keyword}{private}:}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16         Rocket * product;}
+\DoxyCodeLine{17         CargoCollection * c;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keyword}{public}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{26         Falcon9Builder(CargoCollection * c);}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{32         \string~Falcon9Builder();}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{38         \textcolor{keywordtype}{void} reset();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44         \textcolor{keywordtype}{void} addPayload();}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{50         \textcolor{keywordtype}{void} addPropulsion();}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{57         Rocket * getRocket();}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_FALCON9BUILDER\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,63 @@
+\doxysection{Rocket.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_Rocket\_h\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_Rocket\_h\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}Payload.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}RocketState.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Propulsion.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }Rocket}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     \textcolor{keyword}{private}:}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15         \textcolor{keywordtype}{bool} readytolaunch;}
+\DoxyCodeLine{16         \textcolor{keywordtype}{bool} hasbeentested;}
+\DoxyCodeLine{17         \textcolor{keywordtype}{string} name;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21         Payload * payload;}
+\DoxyCodeLine{22         RocketState* stage;}
+\DoxyCodeLine{23         Propulsion * propulsion;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keyword}{public}:}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{32         Rocket(Payload * payload);}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{38         \textcolor{keyword}{virtual} \string~Rocket();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{44         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} nextstage()=0;}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{51         \textcolor{keywordtype}{void} setPayload(Payload * p);}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{57         \textcolor{keywordtype}{void} print();}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{64         Payload * getPayload();}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{71         \textcolor{keywordtype}{void} setState(RocketState *state);}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{78         \textcolor{keywordtype}{void} setPropulsion(Propulsion * p);}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{84         \textcolor{keywordtype}{void} launch();}
+\DoxyCodeLine{85         }
+\DoxyCodeLine{90         \textcolor{keywordtype}{void} testRocket();}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{98         \textcolor{keywordtype}{bool} testPropulsion();}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{106         \textcolor{keywordtype}{bool} testVacuumMerlinEngine();}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{113         \textcolor{keywordtype}{void} setName(\textcolor{keywordtype}{string} name);}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{120         \textcolor{keyword}{virtual} \textcolor{keywordtype}{string} getName()=0;}
+\DoxyCodeLine{121         }
+\DoxyCodeLine{126         \textcolor{keywordtype}{void} testThatFails();}
+\DoxyCodeLine{127 \};}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{129 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

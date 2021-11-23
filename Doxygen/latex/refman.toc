@@ -1,0 +1,453 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}%
+\contentsline {section}{\numberline {2.1}Class List}{3}%
+\contentsline {chapter}{\numberline {3}File Index}{5}%
+\contentsline {section}{\numberline {3.1}File List}{5}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}%
+\contentsline {section}{\numberline {4.1}Cargo Class Reference}{7}%
+\contentsline {subsection}{\numberline {4.1.1}Constructor \& Destructor Documentation}{7}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Cargo()}{7}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}$\sim $Cargo()}{8}%
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{8}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}getDescription()}{8}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}getName()}{8}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}getWeight()}{9}%
+\contentsline {section}{\numberline {4.2}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Collection Class Reference}{9}%
+\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{9}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}CargoCollection()}{10}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}$\sim $CargoCollection()}{10}%
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{10}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}addCargo()}{10}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}createCargoIterator()}{10}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}isEmpty()}{11}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}removeCargo()}{11}%
+\contentsline {section}{\numberline {4.3}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory Class Reference}{11}%
+\contentsline {subsection}{\numberline {4.3.1}Constructor \& Destructor Documentation}{12}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}CargoFactory()}{12}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}$\sim $CargoFactory()}{12}%
+\contentsline {subsection}{\numberline {4.3.2}Member Function Documentation}{12}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}createCargo()}{12}%
+\contentsline {section}{\numberline {4.4}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator Class Reference}{13}%
+\contentsline {subsection}{\numberline {4.4.1}Constructor \& Destructor Documentation}{13}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}CargoIterator()}{13}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}$\sim $CargoIterator()}{14}%
+\contentsline {subsection}{\numberline {4.4.2}Member Function Documentation}{14}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}current()}{14}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}first()}{14}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}hasNext()}{15}%
+\contentsline {subsubsection}{\numberline {4.4.2.4}next()}{15}%
+\contentsline {section}{\numberline {4.5}Colours Class Reference}{15}%
+\contentsline {subsection}{\numberline {4.5.1}Member Function Documentation}{16}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}black()}{16}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}blue()}{16}%
+\contentsline {subsubsection}{\numberline {4.5.1.3}cyan()}{17}%
+\contentsline {subsubsection}{\numberline {4.5.1.4}green()}{17}%
+\contentsline {subsubsection}{\numberline {4.5.1.5}purple()}{17}%
+\contentsline {subsubsection}{\numberline {4.5.1.6}red()}{18}%
+\contentsline {subsubsection}{\numberline {4.5.1.7}yellow()}{18}%
+\contentsline {section}{\numberline {4.6}Concrete\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ground\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Control Class Reference}{19}%
+\contentsline {subsection}{\numberline {4.6.1}Constructor \& Destructor Documentation}{19}%
+\contentsline {subsubsection}{\numberline {4.6.1.1}ConcreteGroundMissionControl()}{19}%
+\contentsline {subsubsection}{\numberline {4.6.1.2}$\sim $ConcreteGroundMissionControl()}{19}%
+\contentsline {subsection}{\numberline {4.6.2}Member Function Documentation}{20}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}hasConnected()}{20}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}setConnection()}{20}%
+\contentsline {section}{\numberline {4.7}Configuration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{20}%
+\contentsline {subsection}{\numberline {4.7.1}Constructor \& Destructor Documentation}{21}%
+\contentsline {subsubsection}{\numberline {4.7.1.1}ConfigurationManager()}{21}%
+\contentsline {subsubsection}{\numberline {4.7.1.2}$\sim $ConfigurationManager()}{21}%
+\contentsline {subsection}{\numberline {4.7.2}Member Function Documentation}{21}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}BuildAndDecorateRocket()}{21}%
+\contentsline {section}{\numberline {4.8}Core Class Reference}{22}%
+\contentsline {section}{\numberline {4.9}Crew\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dragon Class Reference}{22}%
+\contentsline {subsection}{\numberline {4.9.1}Constructor \& Destructor Documentation}{22}%
+\contentsline {subsubsection}{\numberline {4.9.1.1}CrewDragon()}{22}%
+\contentsline {subsubsection}{\numberline {4.9.1.2}$\sim $CrewDragon()}{23}%
+\contentsline {subsection}{\numberline {4.9.2}Member Function Documentation}{23}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}printSpaceCraft()}{23}%
+\contentsline {section}{\numberline {4.10}Dragon Class Reference}{23}%
+\contentsline {subsection}{\numberline {4.10.1}Constructor \& Destructor Documentation}{23}%
+\contentsline {subsubsection}{\numberline {4.10.1.1}Dragon()}{24}%
+\contentsline {subsubsection}{\numberline {4.10.1.2}$\sim $Dragon()}{24}%
+\contentsline {subsection}{\numberline {4.10.2}Member Function Documentation}{24}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}printSpaceCraft()}{24}%
+\contentsline {section}{\numberline {4.11}Engine Class Reference}{25}%
+\contentsline {subsection}{\numberline {4.11.1}Constructor \& Destructor Documentation}{25}%
+\contentsline {subsubsection}{\numberline {4.11.1.1}Engine()}{25}%
+\contentsline {section}{\numberline {4.12}F9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stage1 Class Reference}{25}%
+\contentsline {subsection}{\numberline {4.12.1}Constructor \& Destructor Documentation}{25}%
+\contentsline {subsubsection}{\numberline {4.12.1.1}F9Stage1()}{26}%
+\contentsline {subsubsection}{\numberline {4.12.1.2}$\sim $F9Stage1()}{26}%
+\contentsline {subsection}{\numberline {4.12.2}Member Function Documentation}{26}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}handleChange()}{26}%
+\contentsline {section}{\numberline {4.13}F9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stage2 Class Reference}{27}%
+\contentsline {subsection}{\numberline {4.13.1}Constructor \& Destructor Documentation}{27}%
+\contentsline {subsubsection}{\numberline {4.13.1.1}F9Stage2()}{27}%
+\contentsline {subsubsection}{\numberline {4.13.1.2}$\sim $F9Stage2()}{27}%
+\contentsline {subsection}{\numberline {4.13.2}Member Function Documentation}{27}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}handleChange()}{27}%
+\contentsline {section}{\numberline {4.14}Falcon9 Class Reference}{28}%
+\contentsline {subsection}{\numberline {4.14.1}Constructor \& Destructor Documentation}{28}%
+\contentsline {subsubsection}{\numberline {4.14.1.1}Falcon9()}{28}%
+\contentsline {subsubsection}{\numberline {4.14.1.2}$\sim $Falcon9()}{29}%
+\contentsline {subsection}{\numberline {4.14.2}Member Function Documentation}{29}%
+\contentsline {subsubsection}{\numberline {4.14.2.1}getName()}{29}%
+\contentsline {subsubsection}{\numberline {4.14.2.2}nextstage()}{29}%
+\contentsline {section}{\numberline {4.15}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{29}%
+\contentsline {subsection}{\numberline {4.15.1}Constructor \& Destructor Documentation}{30}%
+\contentsline {subsubsection}{\numberline {4.15.1.1}Falcon9Builder()}{30}%
+\contentsline {subsubsection}{\numberline {4.15.1.2}$\sim $Falcon9Builder()}{30}%
+\contentsline {subsection}{\numberline {4.15.2}Member Function Documentation}{30}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}addPayload()}{31}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}addPropulsion()}{31}%
+\contentsline {subsubsection}{\numberline {4.15.2.3}getRocket()}{31}%
+\contentsline {subsubsection}{\numberline {4.15.2.4}reset()}{32}%
+\contentsline {section}{\numberline {4.16}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core Class Reference}{32}%
+\contentsline {subsection}{\numberline {4.16.1}Constructor \& Destructor Documentation}{32}%
+\contentsline {subsubsection}{\numberline {4.16.1.1}Falcon9Core()}{32}%
+\contentsline {subsubsection}{\numberline {4.16.1.2}$\sim $Falcon9Core()}{33}%
+\contentsline {subsection}{\numberline {4.16.2}Member Function Documentation}{33}%
+\contentsline {subsubsection}{\numberline {4.16.2.1}getName()}{33}%
+\contentsline {section}{\numberline {4.17}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Payload Class Reference}{33}%
+\contentsline {subsection}{\numberline {4.17.1}Constructor \& Destructor Documentation}{34}%
+\contentsline {subsubsection}{\numberline {4.17.1.1}Falcon9Payload()}{34}%
+\contentsline {subsubsection}{\numberline {4.17.1.2}$\sim $Falcon9Payload()}{34}%
+\contentsline {subsection}{\numberline {4.17.2}Member Function Documentation}{34}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}launch()}{35}%
+\contentsline {section}{\numberline {4.18}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion Class Reference}{35}%
+\contentsline {subsection}{\numberline {4.18.1}Constructor \& Destructor Documentation}{35}%
+\contentsline {subsubsection}{\numberline {4.18.1.1}Falcon9Propulsion()}{35}%
+\contentsline {subsubsection}{\numberline {4.18.1.2}$\sim $Falcon9Propulsion()}{36}%
+\contentsline {subsection}{\numberline {4.18.2}Member Function Documentation}{36}%
+\contentsline {subsubsection}{\numberline {4.18.2.1}backup()}{36}%
+\contentsline {subsubsection}{\numberline {4.18.2.2}land()}{36}%
+\contentsline {subsubsection}{\numberline {4.18.2.3}launch()}{37}%
+\contentsline {subsubsection}{\numberline {4.18.2.4}restore()}{37}%
+\contentsline {section}{\numberline {4.19}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy Class Reference}{37}%
+\contentsline {subsection}{\numberline {4.19.1}Constructor \& Destructor Documentation}{38}%
+\contentsline {subsubsection}{\numberline {4.19.1.1}FalconHeavy()}{38}%
+\contentsline {subsubsection}{\numberline {4.19.1.2}$\sim $FalconHeavy()}{38}%
+\contentsline {subsection}{\numberline {4.19.2}Member Function Documentation}{38}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}getName()}{38}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}nextstage()}{39}%
+\contentsline {section}{\numberline {4.20}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{39}%
+\contentsline {subsection}{\numberline {4.20.1}Constructor \& Destructor Documentation}{39}%
+\contentsline {subsubsection}{\numberline {4.20.1.1}FalconHeavyBuilder()}{39}%
+\contentsline {subsubsection}{\numberline {4.20.1.2}$\sim $FalconHeavyBuilder()}{40}%
+\contentsline {subsection}{\numberline {4.20.2}Member Function Documentation}{40}%
+\contentsline {subsubsection}{\numberline {4.20.2.1}addPayload()}{40}%
+\contentsline {subsubsection}{\numberline {4.20.2.2}addPropulsion()}{40}%
+\contentsline {subsubsection}{\numberline {4.20.2.3}getRocket()}{41}%
+\contentsline {subsubsection}{\numberline {4.20.2.4}reset()}{41}%
+\contentsline {section}{\numberline {4.21}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Payload Class Reference}{41}%
+\contentsline {subsection}{\numberline {4.21.1}Constructor \& Destructor Documentation}{42}%
+\contentsline {subsubsection}{\numberline {4.21.1.1}FalconHeavyPayload()}{42}%
+\contentsline {subsubsection}{\numberline {4.21.1.2}$\sim $FalconHeavyPayload()}{42}%
+\contentsline {subsection}{\numberline {4.21.2}Member Function Documentation}{42}%
+\contentsline {subsubsection}{\numberline {4.21.2.1}launch()}{42}%
+\contentsline {section}{\numberline {4.22}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion Class Reference}{43}%
+\contentsline {subsection}{\numberline {4.22.1}Constructor \& Destructor Documentation}{43}%
+\contentsline {subsubsection}{\numberline {4.22.1.1}FalconHeavyPropulsion()}{43}%
+\contentsline {subsubsection}{\numberline {4.22.1.2}$\sim $FalconHeavyPropulsion()}{43}%
+\contentsline {subsection}{\numberline {4.22.2}Member Function Documentation}{44}%
+\contentsline {subsubsection}{\numberline {4.22.2.1}backup()}{44}%
+\contentsline {subsubsection}{\numberline {4.22.2.2}land()}{44}%
+\contentsline {subsubsection}{\numberline {4.22.2.3}launch()}{44}%
+\contentsline {subsubsection}{\numberline {4.22.2.4}restore()}{45}%
+\contentsline {section}{\numberline {4.23}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Memento Class Reference}{45}%
+\contentsline {subsection}{\numberline {4.23.1}Constructor \& Destructor Documentation}{45}%
+\contentsline {subsubsection}{\numberline {4.23.1.1}FalconHeavyPropulsionMemento()}{45}%
+\contentsline {subsection}{\numberline {4.23.2}Member Function Documentation}{46}%
+\contentsline {subsubsection}{\numberline {4.23.2.1}getCore1()}{46}%
+\contentsline {subsubsection}{\numberline {4.23.2.2}getCore2()}{46}%
+\contentsline {subsubsection}{\numberline {4.23.2.3}getCore3()}{46}%
+\contentsline {subsubsection}{\numberline {4.23.2.4}getPay()}{47}%
+\contentsline {section}{\numberline {4.24}FHStage1 Class Reference}{47}%
+\contentsline {subsection}{\numberline {4.24.1}Constructor \& Destructor Documentation}{47}%
+\contentsline {subsubsection}{\numberline {4.24.1.1}FHStage1()}{47}%
+\contentsline {subsubsection}{\numberline {4.24.1.2}$\sim $FHStage1()}{48}%
+\contentsline {subsection}{\numberline {4.24.2}Member Function Documentation}{48}%
+\contentsline {subsubsection}{\numberline {4.24.2.1}handleChange()}{48}%
+\contentsline {section}{\numberline {4.25}FHStage2 Class Reference}{48}%
+\contentsline {subsection}{\numberline {4.25.1}Constructor \& Destructor Documentation}{49}%
+\contentsline {subsubsection}{\numberline {4.25.1.1}FHStage2()}{49}%
+\contentsline {subsubsection}{\numberline {4.25.1.2}$\sim $FHStage2()}{49}%
+\contentsline {subsection}{\numberline {4.25.2}Member Function Documentation}{49}%
+\contentsline {subsubsection}{\numberline {4.25.2.1}handleChange()}{49}%
+\contentsline {section}{\numberline {4.26}Ground\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Control Class Reference}{50}%
+\contentsline {subsection}{\numberline {4.26.1}Constructor \& Destructor Documentation}{50}%
+\contentsline {subsubsection}{\numberline {4.26.1.1}GroundMissionControl()}{50}%
+\contentsline {subsubsection}{\numberline {4.26.1.2}$\sim $GroundMissionControl()}{50}%
+\contentsline {subsection}{\numberline {4.26.2}Member Function Documentation}{51}%
+\contentsline {subsubsection}{\numberline {4.26.2.1}attach()}{51}%
+\contentsline {subsubsection}{\numberline {4.26.2.2}detach()}{51}%
+\contentsline {subsubsection}{\numberline {4.26.2.3}notify()}{51}%
+\contentsline {section}{\numberline {4.27}HPCaretaker Class Reference}{52}%
+\contentsline {subsection}{\numberline {4.27.1}Constructor \& Destructor Documentation}{52}%
+\contentsline {subsubsection}{\numberline {4.27.1.1}HPCaretaker()}{52}%
+\contentsline {subsection}{\numberline {4.27.2}Member Function Documentation}{52}%
+\contentsline {subsubsection}{\numberline {4.27.2.1}getBackup()}{52}%
+\contentsline {subsubsection}{\numberline {4.27.2.2}setBackup()}{53}%
+\contentsline {section}{\numberline {4.28}Human Class Reference}{53}%
+\contentsline {subsection}{\numberline {4.28.1}Constructor \& Destructor Documentation}{53}%
+\contentsline {subsubsection}{\numberline {4.28.1.1}Human()}{53}%
+\contentsline {subsubsection}{\numberline {4.28.1.2}$\sim $Human()}{54}%
+\contentsline {subsection}{\numberline {4.28.2}Member Function Documentation}{54}%
+\contentsline {subsubsection}{\numberline {4.28.2.1}getName()}{54}%
+\contentsline {subsubsection}{\numberline {4.28.2.2}getRole()}{54}%
+\contentsline {subsubsection}{\numberline {4.28.2.3}getWeight()}{55}%
+\contentsline {section}{\numberline {4.29}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Collection Class Reference}{55}%
+\contentsline {subsection}{\numberline {4.29.1}Constructor \& Destructor Documentation}{55}%
+\contentsline {subsubsection}{\numberline {4.29.1.1}HumanCollection()}{56}%
+\contentsline {subsubsection}{\numberline {4.29.1.2}$\sim $HumanCollection()}{56}%
+\contentsline {subsection}{\numberline {4.29.2}Member Function Documentation}{56}%
+\contentsline {subsubsection}{\numberline {4.29.2.1}addHuman()}{56}%
+\contentsline {subsubsection}{\numberline {4.29.2.2}createHumanIterator()}{56}%
+\contentsline {subsubsection}{\numberline {4.29.2.3}isEmpty()}{57}%
+\contentsline {subsubsection}{\numberline {4.29.2.4}removeHuman()}{57}%
+\contentsline {section}{\numberline {4.30}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory Class Reference}{57}%
+\contentsline {subsection}{\numberline {4.30.1}Constructor \& Destructor Documentation}{58}%
+\contentsline {subsubsection}{\numberline {4.30.1.1}HumanFactory()}{58}%
+\contentsline {subsubsection}{\numberline {4.30.1.2}$\sim $HumanFactory()}{58}%
+\contentsline {subsection}{\numberline {4.30.2}Member Function Documentation}{58}%
+\contentsline {subsubsection}{\numberline {4.30.2.1}createHuman()}{58}%
+\contentsline {section}{\numberline {4.31}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator Class Reference}{59}%
+\contentsline {subsection}{\numberline {4.31.1}Constructor \& Destructor Documentation}{59}%
+\contentsline {subsubsection}{\numberline {4.31.1.1}HumanIterator()}{59}%
+\contentsline {subsubsection}{\numberline {4.31.1.2}$\sim $HumanIterator()}{60}%
+\contentsline {subsection}{\numberline {4.31.2}Member Function Documentation}{60}%
+\contentsline {subsubsection}{\numberline {4.31.2.1}current()}{60}%
+\contentsline {subsubsection}{\numberline {4.31.2.2}first()}{60}%
+\contentsline {subsubsection}{\numberline {4.31.2.3}hasNext()}{61}%
+\contentsline {subsubsection}{\numberline {4.31.2.4}next()}{61}%
+\contentsline {section}{\numberline {4.32}Iterator Class Reference}{61}%
+\contentsline {section}{\numberline {4.33}Launch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mode Class Reference}{62}%
+\contentsline {subsection}{\numberline {4.33.1}Constructor \& Destructor Documentation}{62}%
+\contentsline {subsubsection}{\numberline {4.33.1.1}LaunchMode()}{62}%
+\contentsline {subsection}{\numberline {4.33.2}Member Function Documentation}{62}%
+\contentsline {subsubsection}{\numberline {4.33.2.1}execute()}{62}%
+\contentsline {subsubsection}{\numberline {4.33.2.2}getR()}{63}%
+\contentsline {section}{\numberline {4.34}Merlin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Engine Class Reference}{63}%
+\contentsline {subsection}{\numberline {4.34.1}Constructor \& Destructor Documentation}{63}%
+\contentsline {subsubsection}{\numberline {4.34.1.1}MerlinEngine()}{63}%
+\contentsline {subsubsection}{\numberline {4.34.1.2}$\sim $MerlinEngine()}{64}%
+\contentsline {subsection}{\numberline {4.34.2}Member Function Documentation}{64}%
+\contentsline {subsubsection}{\numberline {4.34.2.1}clone()}{64}%
+\contentsline {section}{\numberline {4.35}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cargo Class Reference}{64}%
+\contentsline {subsection}{\numberline {4.35.1}Constructor \& Destructor Documentation}{65}%
+\contentsline {subsubsection}{\numberline {4.35.1.1}OperationsIteratorCargo()}{65}%
+\contentsline {subsubsection}{\numberline {4.35.1.2}$\sim $OperationsIteratorCargo()}{65}%
+\contentsline {subsection}{\numberline {4.35.2}Member Function Documentation}{65}%
+\contentsline {subsubsection}{\numberline {4.35.2.1}current()}{66}%
+\contentsline {subsubsection}{\numberline {4.35.2.2}first()}{66}%
+\contentsline {subsubsection}{\numberline {4.35.2.3}hasNext()}{66}%
+\contentsline {subsubsection}{\numberline {4.35.2.4}next()}{67}%
+\contentsline {section}{\numberline {4.36}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Humans Class Reference}{67}%
+\contentsline {subsection}{\numberline {4.36.1}Constructor \& Destructor Documentation}{67}%
+\contentsline {subsubsection}{\numberline {4.36.1.1}OperationsIteratorHumans()}{67}%
+\contentsline {subsubsection}{\numberline {4.36.1.2}$\sim $OperationsIteratorHumans()}{68}%
+\contentsline {subsection}{\numberline {4.36.2}Member Function Documentation}{68}%
+\contentsline {subsubsection}{\numberline {4.36.2.1}current()}{68}%
+\contentsline {subsubsection}{\numberline {4.36.2.2}first()}{68}%
+\contentsline {subsubsection}{\numberline {4.36.2.3}hasNext()}{69}%
+\contentsline {subsubsection}{\numberline {4.36.2.4}next()}{69}%
+\contentsline {section}{\numberline {4.37}Payload Class Reference}{69}%
+\contentsline {subsection}{\numberline {4.37.1}Constructor \& Destructor Documentation}{70}%
+\contentsline {subsubsection}{\numberline {4.37.1.1}Payload()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{70}%
+\contentsline {subsubsection}{\numberline {4.37.1.2}Payload()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{70}%
+\contentsline {subsubsection}{\numberline {4.37.1.3}$\sim $Payload()}{71}%
+\contentsline {subsection}{\numberline {4.37.2}Member Function Documentation}{71}%
+\contentsline {subsubsection}{\numberline {4.37.2.1}getSpaceCraft()}{71}%
+\contentsline {subsubsection}{\numberline {4.37.2.2}getVacuumMerlinEngine()}{71}%
+\contentsline {subsubsection}{\numberline {4.37.2.3}launch()}{72}%
+\contentsline {subsubsection}{\numberline {4.37.2.4}print()}{72}%
+\contentsline {subsubsection}{\numberline {4.37.2.5}setSpaceCraft()}{72}%
+\contentsline {subsubsection}{\numberline {4.37.2.6}setVacuumMerlinEngine()}{72}%
+\contentsline {subsubsection}{\numberline {4.37.2.7}testVacuumMerlinEngine()}{73}%
+\contentsline {section}{\numberline {4.38}Prop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Caretaker Class Reference}{73}%
+\contentsline {subsection}{\numberline {4.38.1}Constructor \& Destructor Documentation}{73}%
+\contentsline {subsubsection}{\numberline {4.38.1.1}PropCaretaker()}{74}%
+\contentsline {subsection}{\numberline {4.38.2}Member Function Documentation}{74}%
+\contentsline {subsubsection}{\numberline {4.38.2.1}getBackup()}{74}%
+\contentsline {subsubsection}{\numberline {4.38.2.2}setBackup()}{74}%
+\contentsline {section}{\numberline {4.39}Propulsion Class Reference}{75}%
+\contentsline {subsection}{\numberline {4.39.1}Constructor \& Destructor Documentation}{75}%
+\contentsline {subsubsection}{\numberline {4.39.1.1}Propulsion()}{75}%
+\contentsline {subsubsection}{\numberline {4.39.1.2}$\sim $Propulsion()}{75}%
+\contentsline {subsection}{\numberline {4.39.2}Member Function Documentation}{75}%
+\contentsline {subsubsection}{\numberline {4.39.2.1}land()}{76}%
+\contentsline {subsubsection}{\numberline {4.39.2.2}testPropulsion()}{76}%
+\contentsline {section}{\numberline {4.40}Propulsion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Memento Class Reference}{76}%
+\contentsline {subsection}{\numberline {4.40.1}Constructor \& Destructor Documentation}{76}%
+\contentsline {subsubsection}{\numberline {4.40.1.1}PropulsionMemento()}{76}%
+\contentsline {subsection}{\numberline {4.40.2}Member Function Documentation}{77}%
+\contentsline {subsubsection}{\numberline {4.40.2.1}getCore()}{77}%
+\contentsline {subsubsection}{\numberline {4.40.2.2}getPay()}{77}%
+\contentsline {section}{\numberline {4.41}Rocket Class Reference}{77}%
+\contentsline {subsection}{\numberline {4.41.1}Constructor \& Destructor Documentation}{78}%
+\contentsline {subsubsection}{\numberline {4.41.1.1}Rocket()}{78}%
+\contentsline {subsubsection}{\numberline {4.41.1.2}$\sim $Rocket()}{79}%
+\contentsline {subsection}{\numberline {4.41.2}Member Function Documentation}{79}%
+\contentsline {subsubsection}{\numberline {4.41.2.1}getName()}{79}%
+\contentsline {subsubsection}{\numberline {4.41.2.2}getPayload()}{79}%
+\contentsline {subsubsection}{\numberline {4.41.2.3}launch()}{80}%
+\contentsline {subsubsection}{\numberline {4.41.2.4}nextstage()}{80}%
+\contentsline {subsubsection}{\numberline {4.41.2.5}print()}{80}%
+\contentsline {subsubsection}{\numberline {4.41.2.6}setName()}{80}%
+\contentsline {subsubsection}{\numberline {4.41.2.7}setPayload()}{81}%
+\contentsline {subsubsection}{\numberline {4.41.2.8}setPropulsion()}{81}%
+\contentsline {subsubsection}{\numberline {4.41.2.9}setState()}{81}%
+\contentsline {subsubsection}{\numberline {4.41.2.10}testPropulsion()}{82}%
+\contentsline {subsubsection}{\numberline {4.41.2.11}testRocket()}{82}%
+\contentsline {subsubsection}{\numberline {4.41.2.12}testThatFails()}{82}%
+\contentsline {subsubsection}{\numberline {4.41.2.13}testVacuumMerlinEngine()}{83}%
+\contentsline {section}{\numberline {4.42}Rocket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder Class Reference}{83}%
+\contentsline {subsection}{\numberline {4.42.1}Constructor \& Destructor Documentation}{83}%
+\contentsline {subsubsection}{\numberline {4.42.1.1}RocketBuilder()}{84}%
+\contentsline {subsubsection}{\numberline {4.42.1.2}$\sim $RocketBuilder()}{84}%
+\contentsline {subsection}{\numberline {4.42.2}Member Function Documentation}{84}%
+\contentsline {subsubsection}{\numberline {4.42.2.1}addPayload()}{84}%
+\contentsline {subsubsection}{\numberline {4.42.2.2}addPropulsion()}{84}%
+\contentsline {subsubsection}{\numberline {4.42.2.3}getRocket()}{85}%
+\contentsline {subsubsection}{\numberline {4.42.2.4}reset()}{85}%
+\contentsline {section}{\numberline {4.43}Rocket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State Class Reference}{85}%
+\contentsline {subsection}{\numberline {4.43.1}Constructor \& Destructor Documentation}{86}%
+\contentsline {subsubsection}{\numberline {4.43.1.1}RocketState()}{86}%
+\contentsline {subsubsection}{\numberline {4.43.1.2}$\sim $RocketState()}{86}%
+\contentsline {subsection}{\numberline {4.43.2}Member Function Documentation}{86}%
+\contentsline {subsubsection}{\numberline {4.43.2.1}handleChange()}{86}%
+\contentsline {section}{\numberline {4.44}Satellite Class Reference}{87}%
+\contentsline {subsection}{\numberline {4.44.1}Constructor \& Destructor Documentation}{87}%
+\contentsline {subsubsection}{\numberline {4.44.1.1}Satellite()}{87}%
+\contentsline {subsubsection}{\numberline {4.44.1.2}$\sim $Satellite()}{88}%
+\contentsline {subsection}{\numberline {4.44.2}Member Function Documentation}{88}%
+\contentsline {subsubsection}{\numberline {4.44.2.1}ConnectionChanged()}{88}%
+\contentsline {subsubsection}{\numberline {4.44.2.2}getConnection()}{88}%
+\contentsline {subsubsection}{\numberline {4.44.2.3}print()}{89}%
+\contentsline {subsubsection}{\numberline {4.44.2.4}setConnection()}{89}%
+\contentsline {subsubsection}{\numberline {4.44.2.5}update()}{89}%
+\contentsline {section}{\numberline {4.45}Satellite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transmission Class Reference}{89}%
+\contentsline {subsection}{\numberline {4.45.1}Constructor \& Destructor Documentation}{90}%
+\contentsline {subsubsection}{\numberline {4.45.1.1}SatelliteTransmission()}{90}%
+\contentsline {subsubsection}{\numberline {4.45.1.2}$\sim $SatelliteTransmission()}{90}%
+\contentsline {subsection}{\numberline {4.45.2}Member Function Documentation}{90}%
+\contentsline {subsubsection}{\numberline {4.45.2.1}notify()}{90}%
+\contentsline {section}{\numberline {4.46}Satellite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transmission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller Class Reference}{91}%
+\contentsline {subsection}{\numberline {4.46.1}Constructor \& Destructor Documentation}{91}%
+\contentsline {subsubsection}{\numberline {4.46.1.1}SatelliteTransmissionController()}{91}%
+\contentsline {subsubsection}{\numberline {4.46.1.2}$\sim $SatelliteTransmissionController()}{91}%
+\contentsline {subsection}{\numberline {4.46.2}Member Function Documentation}{91}%
+\contentsline {subsubsection}{\numberline {4.46.2.1}notify()}{92}%
+\contentsline {section}{\numberline {4.47}Simulation Class Reference}{92}%
+\contentsline {subsection}{\numberline {4.47.1}Constructor \& Destructor Documentation}{92}%
+\contentsline {subsubsection}{\numberline {4.47.1.1}Simulation()}{92}%
+\contentsline {subsubsection}{\numberline {4.47.1.2}$\sim $Simulation()}{93}%
+\contentsline {subsection}{\numberline {4.47.2}Member Function Documentation}{93}%
+\contentsline {subsubsection}{\numberline {4.47.2.1}liftOff()}{93}%
+\contentsline {subsubsection}{\numberline {4.47.2.2}setup()}{93}%
+\contentsline {subsubsection}{\numberline {4.47.2.3}staticFire()}{93}%
+\contentsline {subsubsection}{\numberline {4.47.2.4}testThatFails()}{94}%
+\contentsline {section}{\numberline {4.48}Space\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Craft Class Reference}{94}%
+\contentsline {subsection}{\numberline {4.48.1}Constructor \& Destructor Documentation}{94}%
+\contentsline {subsubsection}{\numberline {4.48.1.1}SpaceCraft()}{94}%
+\contentsline {subsubsection}{\numberline {4.48.1.2}$\sim $SpaceCraft()}{95}%
+\contentsline {subsection}{\numberline {4.48.2}Member Function Documentation}{95}%
+\contentsline {subsubsection}{\numberline {4.48.2.1}getCargoCollection()}{95}%
+\contentsline {subsubsection}{\numberline {4.48.2.2}printSpaceCraft()}{95}%
+\contentsline {subsubsection}{\numberline {4.48.2.3}setCargoCollection()}{95}%
+\contentsline {section}{\numberline {4.49}Space\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Craft\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory Class Reference}{96}%
+\contentsline {section}{\numberline {4.50}Star\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Satellite Class Reference}{96}%
+\contentsline {subsection}{\numberline {4.50.1}Constructor \& Destructor Documentation}{96}%
+\contentsline {subsubsection}{\numberline {4.50.1.1}StarLinkSatellite()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{97}%
+\contentsline {subsubsection}{\numberline {4.50.1.2}StarLinkSatellite()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{97}%
+\contentsline {subsubsection}{\numberline {4.50.1.3}$\sim $StarLinkSatellite()}{97}%
+\contentsline {subsection}{\numberline {4.50.2}Member Function Documentation}{97}%
+\contentsline {subsubsection}{\numberline {4.50.2.1}clone()}{97}%
+\contentsline {subsubsection}{\numberline {4.50.2.2}getConnection()}{98}%
+\contentsline {subsubsection}{\numberline {4.50.2.3}getName()}{98}%
+\contentsline {subsubsection}{\numberline {4.50.2.4}print()}{98}%
+\contentsline {subsubsection}{\numberline {4.50.2.5}setConnection()}{99}%
+\contentsline {subsubsection}{\numberline {4.50.2.6}setName()}{99}%
+\contentsline {subsubsection}{\numberline {4.50.2.7}update()}{99}%
+\contentsline {section}{\numberline {4.51}Vacuum\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Merlin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Engine Class Reference}{99}%
+\contentsline {subsection}{\numberline {4.51.1}Constructor \& Destructor Documentation}{100}%
+\contentsline {subsubsection}{\numberline {4.51.1.1}VacuumMerlinEngine()}{100}%
+\contentsline {subsubsection}{\numberline {4.51.1.2}$\sim $VacuumMerlinEngine()}{100}%
+\contentsline {subsection}{\numberline {4.51.2}Member Function Documentation}{100}%
+\contentsline {subsubsection}{\numberline {4.51.2.1}clone()}{100}%
+\contentsline {section}{\numberline {4.52}Vector\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cargo Class Reference}{101}%
+\contentsline {subsection}{\numberline {4.52.1}Constructor \& Destructor Documentation}{101}%
+\contentsline {subsubsection}{\numberline {4.52.1.1}VectorOfCargo()}{101}%
+\contentsline {subsubsection}{\numberline {4.52.1.2}$\sim $VectorOfCargo()}{101}%
+\contentsline {subsection}{\numberline {4.52.2}Member Function Documentation}{102}%
+\contentsline {subsubsection}{\numberline {4.52.2.1}addCargo()}{102}%
+\contentsline {subsubsection}{\numberline {4.52.2.2}createCargoIterator()}{102}%
+\contentsline {subsubsection}{\numberline {4.52.2.3}isEmpty()}{102}%
+\contentsline {subsubsection}{\numberline {4.52.2.4}removeCargo()}{103}%
+\contentsline {section}{\numberline {4.53}Vector\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Humans Class Reference}{103}%
+\contentsline {subsection}{\numberline {4.53.1}Constructor \& Destructor Documentation}{103}%
+\contentsline {subsubsection}{\numberline {4.53.1.1}VectorOfHumans()}{103}%
+\contentsline {subsubsection}{\numberline {4.53.1.2}$\sim $VectorOfHumans()}{104}%
+\contentsline {subsection}{\numberline {4.53.2}Member Function Documentation}{104}%
+\contentsline {subsubsection}{\numberline {4.53.2.1}addHuman()}{104}%
+\contentsline {subsubsection}{\numberline {4.53.2.2}createHumanIterator()}{104}%
+\contentsline {subsubsection}{\numberline {4.53.2.3}isEmpty()}{105}%
+\contentsline {subsubsection}{\numberline {4.53.2.4}removeHuman()}{105}%
+\contentsline {chapter}{\numberline {5}File Documentation}{107}%
+\contentsline {section}{\numberline {5.1}All\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Headers.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{107}%
+\contentsline {section}{\numberline {5.2}Cargo.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{107}%
+\contentsline {section}{\numberline {5.3}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Collection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{108}%
+\contentsline {section}{\numberline {5.4}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{108}%
+\contentsline {section}{\numberline {5.5}Cargo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{109}%
+\contentsline {section}{\numberline {5.6}Colours.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{109}%
+\contentsline {section}{\numberline {5.7}Concrete\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Ground\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Control.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{110}%
+\contentsline {section}{\numberline {5.8}Configuration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{110}%
+\contentsline {section}{\numberline {5.9}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{110}%
+\contentsline {section}{\numberline {5.10}Crew\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dragon.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{111}%
+\contentsline {section}{\numberline {5.11}Dragon.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{111}%
+\contentsline {section}{\numberline {5.12}Engine.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{111}%
+\contentsline {section}{\numberline {5.13}F9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stage1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{112}%
+\contentsline {section}{\numberline {5.14}F9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stage2.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{112}%
+\contentsline {section}{\numberline {5.15}Falcon9.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{112}%
+\contentsline {section}{\numberline {5.16}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{113}%
+\contentsline {section}{\numberline {5.17}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Core.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{113}%
+\contentsline {section}{\numberline {5.18}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Payload.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{114}%
+\contentsline {section}{\numberline {5.19}Falcon9\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{114}%
+\contentsline {section}{\numberline {5.20}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{114}%
+\contentsline {section}{\numberline {5.21}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{115}%
+\contentsline {section}{\numberline {5.22}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Payload.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{115}%
+\contentsline {section}{\numberline {5.23}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{116}%
+\contentsline {section}{\numberline {5.24}Falcon\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Heavy\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Propulsion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Memento.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{116}%
+\contentsline {section}{\numberline {5.25}FHCaretaker.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{116}%
+\contentsline {section}{\numberline {5.26}FHStage1.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{117}%
+\contentsline {section}{\numberline {5.27}FHStage2.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{117}%
+\contentsline {section}{\numberline {5.28}Ground\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Control.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{117}%
+\contentsline {section}{\numberline {5.29}Human.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{118}%
+\contentsline {section}{\numberline {5.30}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Collection.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{118}%
+\contentsline {section}{\numberline {5.31}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{119}%
+\contentsline {section}{\numberline {5.32}Human\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{119}%
+\contentsline {section}{\numberline {5.33}Iterator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{119}%
+\contentsline {section}{\numberline {5.34}Launch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Mode.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{119}%
+\contentsline {section}{\numberline {5.35}Merlin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Engine.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{120}%
+\contentsline {section}{\numberline {5.36}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cargo.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{120}%
+\contentsline {section}{\numberline {5.37}Operations\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Humans.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{121}%
+\contentsline {section}{\numberline {5.38}Payload.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{121}%
+\contentsline {section}{\numberline {5.39}Prop\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Caretaker.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{122}%
+\contentsline {section}{\numberline {5.40}Propulsion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{122}%
+\contentsline {section}{\numberline {5.41}Propulsion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Memento.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{122}%
+\contentsline {section}{\numberline {5.42}Rocket.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{123}%
+\contentsline {section}{\numberline {5.43}Rocket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Builder.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{123}%
+\contentsline {section}{\numberline {5.44}Rocket\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}State.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{124}%
+\contentsline {section}{\numberline {5.45}Satellite.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{124}%
+\contentsline {section}{\numberline {5.46}Satellite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transmission.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{124}%
+\contentsline {section}{\numberline {5.47}Satellite\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Transmission\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Controller.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{125}%
+\contentsline {section}{\numberline {5.48}Simulation.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{125}%
+\contentsline {section}{\numberline {5.49}Space\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Craft.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{126}%
+\contentsline {section}{\numberline {5.50}Space\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Craft\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{126}%
+\contentsline {section}{\numberline {5.51}Star\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Satellite.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{126}%
+\contentsline {section}{\numberline {5.52}Vacuum\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Merlin\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Engine.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{127}%
+\contentsline {section}{\numberline {5.53}Vector\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cargo.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{127}%
+\contentsline {section}{\numberline {5.54}Vector\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Of\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Humans.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{128}%
+\contentsline {chapter}{Index}{129}%

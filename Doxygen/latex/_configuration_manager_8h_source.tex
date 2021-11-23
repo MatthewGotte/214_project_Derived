@@ -1,0 +1,34 @@
+\doxysection{Configuration\+Manager.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_CONFIGURATIONMANAGER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_CONFIGURATIONMANAGER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}RocketBuilder.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Human.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}Cargo.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}HumanCollection.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}CargoCollection.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}Falcon9Builder.h"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}FalconHeavyBuilder.h"{}}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }ConfigurationManager \{}
+\DoxyCodeLine{15     \textcolor{keyword}{private}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17         RocketBuilder * builder;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keyword}{public}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{27         ConfigurationManager(CargoCollection * c, HumanCollection * h);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{33         \string~ConfigurationManager();}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{40         Rocket * BuildAndDecorateRocket();}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 \};}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_CONFIGURATIONMANAGER\_H}}
+
+\end{DoxyCode}

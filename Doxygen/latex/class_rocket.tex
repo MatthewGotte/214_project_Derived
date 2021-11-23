@@ -1,0 +1,308 @@
+\doxysection{Rocket Class Reference}
+\label{class_rocket}\index{Rocket@{Rocket}}
+
+
+Inherited by \textbf{ Falcon9}, and \textbf{ Falcon\+Heavy}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Rocket} (\textbf{ Payload} $\ast$payload)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Rocket}{p.}{class_rocket} object. \end{DoxyCompactList}\item 
+virtual \textbf{ $\sim$\+Rocket} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxyref{Rocket}{p.}{class_rocket} object. \end{DoxyCompactList}\item 
+virtual void \textbf{ nextstage} ()=0
+\begin{DoxyCompactList}\small\item\em Go to Next Stage of \doxyref{Rocket}{p.}{class_rocket}. \end{DoxyCompactList}\item 
+void \textbf{ set\+Payload} (\textbf{ Payload} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Set the \doxyref{Payload}{p.}{class_payload}. \end{DoxyCompactList}\item 
+void \textbf{ print} ()
+\begin{DoxyCompactList}\small\item\em Print \doxyref{Rocket}{p.}{class_rocket} State. \end{DoxyCompactList}\item 
+\textbf{ Payload} $\ast$ \textbf{ get\+Payload} ()
+\begin{DoxyCompactList}\small\item\em Get the \doxyref{Payload}{p.}{class_payload}. \end{DoxyCompactList}\item 
+void \textbf{ set\+State} (\textbf{ Rocket\+State} $\ast$state)
+\begin{DoxyCompactList}\small\item\em Set the \doxyref{Rocket}{p.}{class_rocket} State. \end{DoxyCompactList}\item 
+void \textbf{ set\+Propulsion} (\textbf{ Propulsion} $\ast$p)
+\begin{DoxyCompactList}\small\item\em Set the \doxyref{Propulsion}{p.}{class_propulsion}. \end{DoxyCompactList}\item 
+void \textbf{ launch} ()
+\begin{DoxyCompactList}\small\item\em Launch \doxyref{Rocket}{p.}{class_rocket} object. \end{DoxyCompactList}\item 
+void \textbf{ test\+Rocket} ()
+\begin{DoxyCompactList}\small\item\em Test \doxyref{Rocket}{p.}{class_rocket} object. \end{DoxyCompactList}\item 
+bool \textbf{ test\+Propulsion} ()
+\begin{DoxyCompactList}\small\item\em Test \doxyref{Propulsion}{p.}{class_propulsion}. \end{DoxyCompactList}\item 
+bool \textbf{ test\+Vacuum\+Merlin\+Engine} ()
+\begin{DoxyCompactList}\small\item\em Test Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. \end{DoxyCompactList}\item 
+void \textbf{ set\+Name} (string name)
+\begin{DoxyCompactList}\small\item\em Set the Name. \end{DoxyCompactList}\item 
+virtual string \textbf{ get\+Name} ()=0
+\begin{DoxyCompactList}\small\item\em Get the Name object. \end{DoxyCompactList}\item 
+void \textbf{ test\+That\+Fails} ()
+\begin{DoxyCompactList}\small\item\em This Test will always fail. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{class_rocket_ae11b1cc5281e15df194c2e12dfd9b07c}} 
+\textbf{ Payload} $\ast$ {\bfseries payload}
+\item 
+\mbox{\label{class_rocket_a27738abc12ec292f5fd8910560e6c554}} 
+\textbf{ Rocket\+State} $\ast$ {\bfseries stage}
+\item 
+\mbox{\label{class_rocket_a410588fc32fa9aad9387a2447eb51497}} 
+\textbf{ Propulsion} $\ast$ {\bfseries propulsion}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_rocket_a67259d9f463281ffac48eb4f85b9cd5b}} 
+\index{Rocket@{Rocket}!Rocket@{Rocket}}
+\index{Rocket@{Rocket}!Rocket@{Rocket}}
+\doxysubsubsection{Rocket()}
+{\footnotesize\ttfamily Rocket\+::\+Rocket (\begin{DoxyParamCaption}\item[{\textbf{ Payload} $\ast$}]{payload }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Rocket}{p.}{class_rocket} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em payload} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_rocket_ab0cbe044146250c3e592832bb4909ff9}} 
+\index{Rocket@{Rocket}!````~Rocket@{$\sim$Rocket}}
+\index{````~Rocket@{$\sim$Rocket}!Rocket@{Rocket}}
+\doxysubsubsection{$\sim$Rocket()}
+{\footnotesize\ttfamily Rocket\+::$\sim$\+Rocket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxyref{Rocket}{p.}{class_rocket} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_rocket_a5be90aa569def5269a0fcb5e8ab440f6}} 
+\index{Rocket@{Rocket}!getName@{getName}}
+\index{getName@{getName}!Rocket@{Rocket}}
+\doxysubsubsection{getName()}
+{\footnotesize\ttfamily virtual string Rocket\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Name object. 
+
+\begin{DoxyAuthor}{Author}
+Derived ~\newline
+ 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implemented in \textbf{ Falcon9} \doxyref{}{p.}{class_falcon9_a5f8622908645cacc18bcb0e71c3869f5}, and \textbf{ Falcon\+Heavy} \doxyref{}{p.}{class_falcon_heavy_a904f70e30ec9fae6a4c3a1dc66ac06ff}.
+
+\mbox{\label{class_rocket_a3412e085adc09b08c702ca4f03c93e2c}} 
+\index{Rocket@{Rocket}!getPayload@{getPayload}}
+\index{getPayload@{getPayload}!Rocket@{Rocket}}
+\doxysubsubsection{getPayload()}
+{\footnotesize\ttfamily \textbf{ Payload} $\ast$ Rocket\+::get\+Payload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the \doxyref{Payload}{p.}{class_payload}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Payload$\ast$ 
+\end{DoxyReturn}
+\mbox{\label{class_rocket_adc56d6848cfdb48d8654c47c93a6f902}} 
+\index{Rocket@{Rocket}!launch@{launch}}
+\index{launch@{launch}!Rocket@{Rocket}}
+\doxysubsubsection{launch()}
+{\footnotesize\ttfamily void Rocket\+::launch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Launch \doxyref{Rocket}{p.}{class_rocket} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_rocket_abe0541d57f928fd94c5eb736a853bd2d}} 
+\index{Rocket@{Rocket}!nextstage@{nextstage}}
+\index{nextstage@{nextstage}!Rocket@{Rocket}}
+\doxysubsubsection{nextstage()}
+{\footnotesize\ttfamily void Rocket\+::nextstage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Go to Next Stage of \doxyref{Rocket}{p.}{class_rocket}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Falcon9} \doxyref{}{p.}{class_falcon9_afba59f2995d58e9da4dc4eed8db517b7}, and \textbf{ Falcon\+Heavy} \doxyref{}{p.}{class_falcon_heavy_a4bb60ea0a18436c3375b1bbc8f26dbc8}.
+
+\mbox{\label{class_rocket_a2d7fe0237d4ce6ccc762041dd31e140b}} 
+\index{Rocket@{Rocket}!print@{print}}
+\index{print@{print}!Rocket@{Rocket}}
+\doxysubsubsection{print()}
+{\footnotesize\ttfamily void Rocket\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Print \doxyref{Rocket}{p.}{class_rocket} State. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_rocket_a59481ce0114473630f6dcba6db4d2d2a}} 
+\index{Rocket@{Rocket}!setName@{setName}}
+\index{setName@{setName}!Rocket@{Rocket}}
+\doxysubsubsection{setName()}
+{\footnotesize\ttfamily void Rocket\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Set the Name. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_rocket_af006130a1a6e9aa8671f7c506b78dac2}} 
+\index{Rocket@{Rocket}!setPayload@{setPayload}}
+\index{setPayload@{setPayload}!Rocket@{Rocket}}
+\doxysubsubsection{setPayload()}
+{\footnotesize\ttfamily void Rocket\+::set\+Payload (\begin{DoxyParamCaption}\item[{\textbf{ Payload} $\ast$}]{p }\end{DoxyParamCaption})}
+
+
+
+Set the \doxyref{Payload}{p.}{class_payload}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_rocket_a1a069021475763af3c23aca4bdec371e}} 
+\index{Rocket@{Rocket}!setPropulsion@{setPropulsion}}
+\index{setPropulsion@{setPropulsion}!Rocket@{Rocket}}
+\doxysubsubsection{setPropulsion()}
+{\footnotesize\ttfamily void Rocket\+::set\+Propulsion (\begin{DoxyParamCaption}\item[{\textbf{ Propulsion} $\ast$}]{p }\end{DoxyParamCaption})}
+
+
+
+Set the \doxyref{Propulsion}{p.}{class_propulsion}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_rocket_ac631d7a846bdb69fc9af7f123d993f44}} 
+\index{Rocket@{Rocket}!setState@{setState}}
+\index{setState@{setState}!Rocket@{Rocket}}
+\doxysubsubsection{setState()}
+{\footnotesize\ttfamily void Rocket\+::set\+State (\begin{DoxyParamCaption}\item[{\textbf{ Rocket\+State} $\ast$}]{state }\end{DoxyParamCaption})}
+
+
+
+Set the \doxyref{Rocket}{p.}{class_rocket} State. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em state} & \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_rocket_a2a8ef2bff274c2ad12f478ff8c147e79}} 
+\index{Rocket@{Rocket}!testPropulsion@{testPropulsion}}
+\index{testPropulsion@{testPropulsion}!Rocket@{Rocket}}
+\doxysubsubsection{testPropulsion()}
+{\footnotesize\ttfamily bool Rocket\+::test\+Propulsion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test \doxyref{Propulsion}{p.}{class_propulsion}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\label{class_rocket_ad525b49d5c62a2cdbe8b004fa20ef5a6}} 
+\index{Rocket@{Rocket}!testRocket@{testRocket}}
+\index{testRocket@{testRocket}!Rocket@{Rocket}}
+\doxysubsubsection{testRocket()}
+{\footnotesize\ttfamily void Rocket\+::test\+Rocket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test \doxyref{Rocket}{p.}{class_rocket} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_rocket_ae2892d7400c0d57e20c8f107ae6b88e9}} 
+\index{Rocket@{Rocket}!testThatFails@{testThatFails}}
+\index{testThatFails@{testThatFails}!Rocket@{Rocket}}
+\doxysubsubsection{testThatFails()}
+{\footnotesize\ttfamily void Rocket\+::test\+That\+Fails (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This Test will always fail. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_rocket_ac5c818c5b5a5c1fa0677403dd7903744}} 
+\index{Rocket@{Rocket}!testVacuumMerlinEngine@{testVacuumMerlinEngine}}
+\index{testVacuumMerlinEngine@{testVacuumMerlinEngine}!Rocket@{Rocket}}
+\doxysubsubsection{testVacuumMerlinEngine()}
+{\footnotesize\ttfamily bool Rocket\+::test\+Vacuum\+Merlin\+Engine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test Vacuum Merlin \doxyref{Engine}{p.}{class_engine}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Rocket.\+h\item 
+Rocket.\+cpp\end{DoxyCompactItemize}

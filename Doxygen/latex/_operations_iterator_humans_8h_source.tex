@@ -1,0 +1,39 @@
+\doxysection{Operations\+Iterator\+Humans.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_OPERATIONSITERATORHUMANS\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_OPERATIONSITERATORHUMANS\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}HumanIterator.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }Human;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }OperationsIteratorHumans : \textcolor{keyword}{public} HumanIterator }
+\DoxyCodeLine{12 \{}
+\DoxyCodeLine{13     \textcolor{keyword}{private}:}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15         \textcolor{keywordtype}{int} currentpos;}
+\DoxyCodeLine{16         vector<Human*> itlist;}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keyword}{public}:}
+\DoxyCodeLine{19         }
+\DoxyCodeLine{25         \textcolor{keyword}{explicit} OperationsIteratorHumans(vector<Human*> vect);}
+\DoxyCodeLine{26         }
+\DoxyCodeLine{32         Human* first() \textcolor{keyword}{override};}
+\DoxyCodeLine{33         }
+\DoxyCodeLine{39         Human* next() \textcolor{keyword}{override};}
+\DoxyCodeLine{40         }
+\DoxyCodeLine{47         \textcolor{keywordtype}{bool} hasNext() \textcolor{keyword}{override};}
+\DoxyCodeLine{48         }
+\DoxyCodeLine{54         Human* current() \textcolor{keyword}{override};}
+\DoxyCodeLine{55         }
+\DoxyCodeLine{60         \string~OperationsIteratorHumans() \textcolor{keyword}{override}=\textcolor{keywordflow}{default};}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62 \};}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_OPERATIONSITERATORHUMANS\_H}}
+
+\end{DoxyCode}

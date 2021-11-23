@@ -1,0 +1,39 @@
+\doxysection{Vector\+Of\+Humans.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_VECTOROFHUMANS\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_VECTOROFHUMANS\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}HumanCollection.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}HumanIterator.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}OperationsIteratorHumans.h"{}}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }VectorOfHumans : \textcolor{keyword}{public} HumanCollection }
+\DoxyCodeLine{13 \{}
+\DoxyCodeLine{14     \textcolor{keyword}{private}:}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16         vector<Human*> people;}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keyword}{public}:}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{24         VectorOfHumans();}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{31         HumanIterator* createHumanIterator()\textcolor{keyword}{override};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{37         \textcolor{keywordtype}{void} addHuman(Human*)\textcolor{keyword}{override};}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{43         \textcolor{keywordtype}{void} removeHuman(Human*) \textcolor{keyword}{override};}
+\DoxyCodeLine{44         }
+\DoxyCodeLine{51         \textcolor{keywordtype}{bool} isEmpty() \textcolor{keyword}{override};}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{57         \string~VectorOfHumans() \textcolor{keyword}{override};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_VECTOROFHUMANS\_H}}
+
+\end{DoxyCode}

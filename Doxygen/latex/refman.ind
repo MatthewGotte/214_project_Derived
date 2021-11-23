@@ -1,0 +1,656 @@
+\begin{theindex}
+
+  \item {$\sim$Cargo}
+    \subitem {Cargo}, 8
+  \item {$\sim$CargoCollection}
+    \subitem {CargoCollection}, 10
+  \item {$\sim$CargoFactory}
+    \subitem {CargoFactory}, 12
+  \item {$\sim$CargoIterator}
+    \subitem {CargoIterator}, 13
+  \item {$\sim$ConcreteGroundMissionControl}
+    \subitem {ConcreteGroundMissionControl}, 19
+  \item {$\sim$ConfigurationManager}
+    \subitem {ConfigurationManager}, 21
+  \item {$\sim$CrewDragon}
+    \subitem {CrewDragon}, 22
+  \item {$\sim$Dragon}
+    \subitem {Dragon}, 24
+  \item {$\sim$F9Stage1}
+    \subitem {F9Stage1}, 26
+  \item {$\sim$F9Stage2}
+    \subitem {F9Stage2}, 27
+  \item {$\sim$FHStage1}
+    \subitem {FHStage1}, 47
+  \item {$\sim$FHStage2}
+    \subitem {FHStage2}, 49
+  \item {$\sim$Falcon9}
+    \subitem {Falcon9}, 28
+  \item {$\sim$Falcon9Builder}
+    \subitem {Falcon9Builder}, 30
+  \item {$\sim$Falcon9Core}
+    \subitem {Falcon9Core}, 33
+  \item {$\sim$Falcon9Payload}
+    \subitem {Falcon9Payload}, 34
+  \item {$\sim$Falcon9Propulsion}
+    \subitem {Falcon9Propulsion}, 36
+  \item {$\sim$FalconHeavy}
+    \subitem {FalconHeavy}, 38
+  \item {$\sim$FalconHeavyBuilder}
+    \subitem {FalconHeavyBuilder}, 40
+  \item {$\sim$FalconHeavyPayload}
+    \subitem {FalconHeavyPayload}, 42
+  \item {$\sim$FalconHeavyPropulsion}
+    \subitem {FalconHeavyPropulsion}, 43
+  \item {$\sim$GroundMissionControl}
+    \subitem {GroundMissionControl}, 50
+  \item {$\sim$Human}
+    \subitem {Human}, 54
+  \item {$\sim$HumanCollection}
+    \subitem {HumanCollection}, 56
+  \item {$\sim$HumanFactory}
+    \subitem {HumanFactory}, 58
+  \item {$\sim$HumanIterator}
+    \subitem {HumanIterator}, 59
+  \item {$\sim$MerlinEngine}
+    \subitem {MerlinEngine}, 64
+  \item {$\sim$OperationsIteratorCargo}
+    \subitem {OperationsIteratorCargo}, 65
+  \item {$\sim$OperationsIteratorHumans}
+    \subitem {OperationsIteratorHumans}, 68
+  \item {$\sim$Payload}
+    \subitem {Payload}, 71
+  \item {$\sim$Propulsion}
+    \subitem {Propulsion}, 75
+  \item {$\sim$Rocket}
+    \subitem {Rocket}, 79
+  \item {$\sim$RocketBuilder}
+    \subitem {RocketBuilder}, 84
+  \item {$\sim$RocketState}
+    \subitem {RocketState}, 86
+  \item {$\sim$Satellite}
+    \subitem {Satellite}, 87
+  \item {$\sim$SatelliteTransmission}
+    \subitem {SatelliteTransmission}, 90
+  \item {$\sim$SatelliteTransmissionController}
+    \subitem {SatelliteTransmissionController}, 91
+  \item {$\sim$Simulation}
+    \subitem {Simulation}, 92
+  \item {$\sim$SpaceCraft}
+    \subitem {SpaceCraft}, 95
+  \item {$\sim$StarLinkSatellite}
+    \subitem {StarLinkSatellite}, 97
+  \item {$\sim$VacuumMerlinEngine}
+    \subitem {VacuumMerlinEngine}, 100
+  \item {$\sim$VectorOfCargo}
+    \subitem {VectorOfCargo}, 101
+  \item {$\sim$VectorOfHumans}
+    \subitem {VectorOfHumans}, 103
+
+  \indexspace
+
+  \item {addCargo}
+    \subitem {CargoCollection}, 10
+    \subitem {VectorOfCargo}, 102
+  \item {addHuman}
+    \subitem {HumanCollection}, 56
+    \subitem {VectorOfHumans}, 104
+  \item {addPayload}
+    \subitem {Falcon9Builder}, 30
+    \subitem {FalconHeavyBuilder}, 40
+    \subitem {RocketBuilder}, 84
+  \item {addPropulsion}
+    \subitem {Falcon9Builder}, 31
+    \subitem {FalconHeavyBuilder}, 40
+    \subitem {RocketBuilder}, 84
+  \item {attach}
+    \subitem {GroundMissionControl}, 51
+
+  \indexspace
+
+  \item {backup}
+    \subitem {Falcon9Propulsion}, 36
+    \subitem {FalconHeavyPropulsion}, 44
+  \item {black}
+    \subitem {Colours}, 16
+  \item {blue}
+    \subitem {Colours}, 16
+  \item {BuildAndDecorateRocket}
+    \subitem {ConfigurationManager}, 21
+
+  \indexspace
+
+  \item {Cargo}, 7
+    \subitem {$\sim$Cargo}, 8
+    \subitem {Cargo}, 7
+    \subitem {getDescription}, 8
+    \subitem {getName}, 8
+    \subitem {getWeight}, 8
+  \item {CargoCollection}, 9
+    \subitem {$\sim$CargoCollection}, 10
+    \subitem {addCargo}, 10
+    \subitem {CargoCollection}, 9
+    \subitem {createCargoIterator}, 10
+    \subitem {isEmpty}, 10
+    \subitem {removeCargo}, 11
+  \item {CargoFactory}, 11
+    \subitem {$\sim$CargoFactory}, 12
+    \subitem {CargoFactory}, 12
+    \subitem {createCargo}, 12
+  \item {CargoIterator}, 13
+    \subitem {$\sim$CargoIterator}, 13
+    \subitem {CargoIterator}, 13
+    \subitem {current}, 14
+    \subitem {first}, 14
+    \subitem {hasNext}, 14
+    \subitem {next}, 15
+  \item {clone}
+    \subitem {MerlinEngine}, 64
+    \subitem {StarLinkSatellite}, 97
+    \subitem {VacuumMerlinEngine}, 100
+  \item {Colours}, 15
+    \subitem {black}, 16
+    \subitem {blue}, 16
+    \subitem {cyan}, 16
+    \subitem {green}, 17
+    \subitem {purple}, 17
+    \subitem {red}, 18
+    \subitem {yellow}, 18
+  \item {ConcreteGroundMissionControl}, 19
+    \subitem {$\sim$ConcreteGroundMissionControl}, 19
+    \subitem {ConcreteGroundMissionControl}, 19
+    \subitem {hasConnected}, 20
+    \subitem {setConnection}, 20
+  \item {ConfigurationManager}, 20
+    \subitem {$\sim$ConfigurationManager}, 21
+    \subitem {BuildAndDecorateRocket}, 21
+    \subitem {ConfigurationManager}, 21
+  \item {ConnectionChanged}
+    \subitem {Satellite}, 88
+  \item {Core}, 22
+  \item {createCargo}
+    \subitem {CargoFactory}, 12
+  \item {createCargoIterator}
+    \subitem {CargoCollection}, 10
+    \subitem {VectorOfCargo}, 102
+  \item {createHuman}
+    \subitem {HumanFactory}, 58
+  \item {createHumanIterator}
+    \subitem {HumanCollection}, 56
+    \subitem {VectorOfHumans}, 104
+  \item {CrewDragon}, 22
+    \subitem {$\sim$CrewDragon}, 22
+    \subitem {CrewDragon}, 22
+    \subitem {printSpaceCraft}, 23
+  \item {current}
+    \subitem {CargoIterator}, 14
+    \subitem {HumanIterator}, 60
+    \subitem {OperationsIteratorCargo}, 65
+    \subitem {OperationsIteratorHumans}, 68
+  \item {cyan}
+    \subitem {Colours}, 16
+
+  \indexspace
+
+  \item {detach}
+    \subitem {GroundMissionControl}, 51
+  \item {Dragon}, 23
+    \subitem {$\sim$Dragon}, 24
+    \subitem {Dragon}, 23
+    \subitem {printSpaceCraft}, 24
+
+  \indexspace
+
+  \item {Engine}, 25
+    \subitem {Engine}, 25
+  \item {execute}
+    \subitem {LaunchMode}, 62
+
+  \indexspace
+
+  \item {F9Stage1}, 25
+    \subitem {$\sim$F9Stage1}, 26
+    \subitem {F9Stage1}, 25
+    \subitem {handleChange}, 26
+  \item {F9Stage2}, 27
+    \subitem {$\sim$F9Stage2}, 27
+    \subitem {F9Stage2}, 27
+    \subitem {handleChange}, 27
+  \item {Falcon9}, 28
+    \subitem {$\sim$Falcon9}, 28
+    \subitem {Falcon9}, 28
+    \subitem {getName}, 29
+    \subitem {nextstage}, 29
+  \item {Falcon9Builder}, 29
+    \subitem {$\sim$Falcon9Builder}, 30
+    \subitem {addPayload}, 30
+    \subitem {addPropulsion}, 31
+    \subitem {Falcon9Builder}, 30
+    \subitem {getRocket}, 31
+    \subitem {reset}, 31
+  \item {Falcon9Core}, 32
+    \subitem {$\sim$Falcon9Core}, 33
+    \subitem {Falcon9Core}, 32
+    \subitem {getName}, 33
+  \item {Falcon9Payload}, 33
+    \subitem {$\sim$Falcon9Payload}, 34
+    \subitem {Falcon9Payload}, 34
+    \subitem {launch}, 34
+  \item {Falcon9Propulsion}, 35
+    \subitem {$\sim$Falcon9Propulsion}, 36
+    \subitem {backup}, 36
+    \subitem {Falcon9Propulsion}, 35
+    \subitem {land}, 36
+    \subitem {launch}, 36
+    \subitem {restore}, 37
+  \item {FalconHeavy}, 37
+    \subitem {$\sim$FalconHeavy}, 38
+    \subitem {FalconHeavy}, 38
+    \subitem {getName}, 38
+    \subitem {nextstage}, 38
+  \item {FalconHeavyBuilder}, 39
+    \subitem {$\sim$FalconHeavyBuilder}, 40
+    \subitem {addPayload}, 40
+    \subitem {addPropulsion}, 40
+    \subitem {FalconHeavyBuilder}, 39
+    \subitem {getRocket}, 40
+    \subitem {reset}, 41
+  \item {FalconHeavyPayload}, 41
+    \subitem {$\sim$FalconHeavyPayload}, 42
+    \subitem {FalconHeavyPayload}, 42
+    \subitem {launch}, 42
+  \item {FalconHeavyPropulsion}, 43
+    \subitem {$\sim$FalconHeavyPropulsion}, 43
+    \subitem {backup}, 44
+    \subitem {FalconHeavyPropulsion}, 43
+    \subitem {land}, 44
+    \subitem {launch}, 44
+    \subitem {restore}, 44
+  \item {FalconHeavyPropulsionMemento}, 45
+    \subitem {FalconHeavyPropulsionMemento}, 45
+    \subitem {getCore1}, 46
+    \subitem {getCore2}, 46
+    \subitem {getCore3}, 46
+    \subitem {getPay}, 46
+  \item {FHStage1}, 47
+    \subitem {$\sim$FHStage1}, 47
+    \subitem {FHStage1}, 47
+    \subitem {handleChange}, 48
+  \item {FHStage2}, 48
+    \subitem {$\sim$FHStage2}, 49
+    \subitem {FHStage2}, 49
+    \subitem {handleChange}, 49
+  \item {first}
+    \subitem {CargoIterator}, 14
+    \subitem {HumanIterator}, 60
+    \subitem {OperationsIteratorCargo}, 66
+    \subitem {OperationsIteratorHumans}, 68
+
+  \indexspace
+
+  \item {getBackup}
+    \subitem {HPCaretaker}, 52
+    \subitem {PropCaretaker}, 74
+  \item {getCargoCollection}
+    \subitem {SpaceCraft}, 95
+  \item {getConnection}
+    \subitem {Satellite}, 88
+    \subitem {StarLinkSatellite}, 97
+  \item {getCore}
+    \subitem {PropulsionMemento}, 77
+  \item {getCore1}
+    \subitem {FalconHeavyPropulsionMemento}, 46
+  \item {getCore2}
+    \subitem {FalconHeavyPropulsionMemento}, 46
+  \item {getCore3}
+    \subitem {FalconHeavyPropulsionMemento}, 46
+  \item {getDescription}
+    \subitem {Cargo}, 8
+  \item {getName}
+    \subitem {Cargo}, 8
+    \subitem {Falcon9}, 29
+    \subitem {Falcon9Core}, 33
+    \subitem {FalconHeavy}, 38
+    \subitem {Human}, 54
+    \subitem {Rocket}, 79
+    \subitem {StarLinkSatellite}, 98
+  \item {getPay}
+    \subitem {FalconHeavyPropulsionMemento}, 46
+    \subitem {PropulsionMemento}, 77
+  \item {getPayload}
+    \subitem {Rocket}, 79
+  \item {getR}
+    \subitem {LaunchMode}, 62
+  \item {getRocket}
+    \subitem {Falcon9Builder}, 31
+    \subitem {FalconHeavyBuilder}, 40
+    \subitem {RocketBuilder}, 84
+  \item {getRole}
+    \subitem {Human}, 54
+  \item {getSpaceCraft}
+    \subitem {Payload}, 71
+  \item {getVacuumMerlinEngine}
+    \subitem {Payload}, 71
+  \item {getWeight}
+    \subitem {Cargo}, 8
+    \subitem {Human}, 54
+  \item {green}
+    \subitem {Colours}, 17
+  \item {GroundMissionControl}, 50
+    \subitem {$\sim$GroundMissionControl}, 50
+    \subitem {attach}, 51
+    \subitem {detach}, 51
+    \subitem {GroundMissionControl}, 50
+    \subitem {notify}, 51
+
+  \indexspace
+
+  \item {handleChange}
+    \subitem {F9Stage1}, 26
+    \subitem {F9Stage2}, 27
+    \subitem {FHStage1}, 48
+    \subitem {FHStage2}, 49
+    \subitem {RocketState}, 86
+  \item {hasConnected}
+    \subitem {ConcreteGroundMissionControl}, 20
+  \item {hasNext}
+    \subitem {CargoIterator}, 14
+    \subitem {HumanIterator}, 60
+    \subitem {OperationsIteratorCargo}, 66
+    \subitem {OperationsIteratorHumans}, 68
+  \item {HPCaretaker}, 52
+    \subitem {getBackup}, 52
+    \subitem {HPCaretaker}, 52
+    \subitem {setBackup}, 52
+  \item {Human}, 53
+    \subitem {$\sim$Human}, 54
+    \subitem {getName}, 54
+    \subitem {getRole}, 54
+    \subitem {getWeight}, 54
+    \subitem {Human}, 53
+  \item {HumanCollection}, 55
+    \subitem {$\sim$HumanCollection}, 56
+    \subitem {addHuman}, 56
+    \subitem {createHumanIterator}, 56
+    \subitem {HumanCollection}, 55
+    \subitem {isEmpty}, 56
+    \subitem {removeHuman}, 57
+  \item {HumanFactory}, 57
+    \subitem {$\sim$HumanFactory}, 58
+    \subitem {createHuman}, 58
+    \subitem {HumanFactory}, 58
+  \item {HumanIterator}, 59
+    \subitem {$\sim$HumanIterator}, 59
+    \subitem {current}, 60
+    \subitem {first}, 60
+    \subitem {hasNext}, 60
+    \subitem {HumanIterator}, 59
+    \subitem {next}, 61
+
+  \indexspace
+
+  \item {isEmpty}
+    \subitem {CargoCollection}, 10
+    \subitem {HumanCollection}, 56
+    \subitem {VectorOfCargo}, 102
+    \subitem {VectorOfHumans}, 104
+  \item {Iterator}, 61
+
+  \indexspace
+
+  \item {land}
+    \subitem {Falcon9Propulsion}, 36
+    \subitem {FalconHeavyPropulsion}, 44
+    \subitem {Propulsion}, 75
+  \item {launch}
+    \subitem {Falcon9Payload}, 34
+    \subitem {Falcon9Propulsion}, 36
+    \subitem {FalconHeavyPayload}, 42
+    \subitem {FalconHeavyPropulsion}, 44
+    \subitem {Payload}, 71
+    \subitem {Rocket}, 79
+  \item {LaunchMode}, 62
+    \subitem {execute}, 62
+    \subitem {getR}, 62
+    \subitem {LaunchMode}, 62
+  \item {liftOff}
+    \subitem {Simulation}, 93
+
+  \indexspace
+
+  \item {MerlinEngine}, 63
+    \subitem {$\sim$MerlinEngine}, 64
+    \subitem {clone}, 64
+    \subitem {MerlinEngine}, 63
+
+  \indexspace
+
+  \item {next}
+    \subitem {CargoIterator}, 15
+    \subitem {HumanIterator}, 61
+    \subitem {OperationsIteratorCargo}, 66
+    \subitem {OperationsIteratorHumans}, 69
+  \item {nextstage}
+    \subitem {Falcon9}, 29
+    \subitem {FalconHeavy}, 38
+    \subitem {Rocket}, 80
+  \item {notify}
+    \subitem {GroundMissionControl}, 51
+    \subitem {SatelliteTransmission}, 90
+    \subitem {SatelliteTransmissionController}, 91
+
+  \indexspace
+
+  \item {OperationsIteratorCargo}, 64
+    \subitem {$\sim$OperationsIteratorCargo}, 65
+    \subitem {current}, 65
+    \subitem {first}, 66
+    \subitem {hasNext}, 66
+    \subitem {next}, 66
+    \subitem {OperationsIteratorCargo}, 65
+  \item {OperationsIteratorHumans}, 67
+    \subitem {$\sim$OperationsIteratorHumans}, 68
+    \subitem {current}, 68
+    \subitem {first}, 68
+    \subitem {hasNext}, 68
+    \subitem {next}, 69
+    \subitem {OperationsIteratorHumans}, 67
+
+  \indexspace
+
+  \item {Payload}, 69
+    \subitem {$\sim$Payload}, 71
+    \subitem {getSpaceCraft}, 71
+    \subitem {getVacuumMerlinEngine}, 71
+    \subitem {launch}, 71
+    \subitem {Payload}, 70
+    \subitem {print}, 72
+    \subitem {setSpaceCraft}, 72
+    \subitem {setVacuumMerlinEngine}, 72
+    \subitem {testVacuumMerlinEngine}, 73
+  \item {print}
+    \subitem {Payload}, 72
+    \subitem {Rocket}, 80
+    \subitem {Satellite}, 88
+    \subitem {StarLinkSatellite}, 98
+  \item {printSpaceCraft}
+    \subitem {CrewDragon}, 23
+    \subitem {Dragon}, 24
+    \subitem {SpaceCraft}, 95
+  \item {PropCaretaker}, 73
+    \subitem {getBackup}, 74
+    \subitem {PropCaretaker}, 73
+    \subitem {setBackup}, 74
+  \item {Propulsion}, 75
+    \subitem {$\sim$Propulsion}, 75
+    \subitem {land}, 75
+    \subitem {Propulsion}, 75
+    \subitem {testPropulsion}, 76
+  \item {PropulsionMemento}, 76
+    \subitem {getCore}, 77
+    \subitem {getPay}, 77
+    \subitem {PropulsionMemento}, 76
+  \item {purple}
+    \subitem {Colours}, 17
+
+  \indexspace
+
+  \item {red}
+    \subitem {Colours}, 18
+  \item {removeCargo}
+    \subitem {CargoCollection}, 11
+    \subitem {VectorOfCargo}, 102
+  \item {removeHuman}
+    \subitem {HumanCollection}, 57
+    \subitem {VectorOfHumans}, 105
+  \item {reset}
+    \subitem {Falcon9Builder}, 31
+    \subitem {FalconHeavyBuilder}, 41
+    \subitem {RocketBuilder}, 85
+  \item {restore}
+    \subitem {Falcon9Propulsion}, 37
+    \subitem {FalconHeavyPropulsion}, 44
+  \item {Rocket}, 77
+    \subitem {$\sim$Rocket}, 79
+    \subitem {getName}, 79
+    \subitem {getPayload}, 79
+    \subitem {launch}, 79
+    \subitem {nextstage}, 80
+    \subitem {print}, 80
+    \subitem {Rocket}, 78
+    \subitem {setName}, 80
+    \subitem {setPayload}, 81
+    \subitem {setPropulsion}, 81
+    \subitem {setState}, 81
+    \subitem {testPropulsion}, 82
+    \subitem {testRocket}, 82
+    \subitem {testThatFails}, 82
+    \subitem {testVacuumMerlinEngine}, 82
+  \item {RocketBuilder}, 83
+    \subitem {$\sim$RocketBuilder}, 84
+    \subitem {addPayload}, 84
+    \subitem {addPropulsion}, 84
+    \subitem {getRocket}, 84
+    \subitem {reset}, 85
+    \subitem {RocketBuilder}, 83
+  \item {RocketState}, 85
+    \subitem {$\sim$RocketState}, 86
+    \subitem {handleChange}, 86
+    \subitem {RocketState}, 86
+
+  \indexspace
+
+  \item {Satellite}, 87
+    \subitem {$\sim$Satellite}, 87
+    \subitem {ConnectionChanged}, 88
+    \subitem {getConnection}, 88
+    \subitem {print}, 88
+    \subitem {Satellite}, 87
+    \subitem {setConnection}, 89
+    \subitem {update}, 89
+  \item {SatelliteTransmission}, 89
+    \subitem {$\sim$SatelliteTransmission}, 90
+    \subitem {notify}, 90
+    \subitem {SatelliteTransmission}, 90
+  \item {SatelliteTransmissionController}, 91
+    \subitem {$\sim$SatelliteTransmissionController}, 91
+    \subitem {notify}, 91
+    \subitem {SatelliteTransmissionController}, 91
+  \item {setBackup}
+    \subitem {HPCaretaker}, 52
+    \subitem {PropCaretaker}, 74
+  \item {setCargoCollection}
+    \subitem {SpaceCraft}, 95
+  \item {setConnection}
+    \subitem {ConcreteGroundMissionControl}, 20
+    \subitem {Satellite}, 89
+    \subitem {StarLinkSatellite}, 98
+  \item {setName}
+    \subitem {Rocket}, 80
+    \subitem {StarLinkSatellite}, 99
+  \item {setPayload}
+    \subitem {Rocket}, 81
+  \item {setPropulsion}
+    \subitem {Rocket}, 81
+  \item {setSpaceCraft}
+    \subitem {Payload}, 72
+  \item {setState}
+    \subitem {Rocket}, 81
+  \item {setup}
+    \subitem {Simulation}, 93
+  \item {setVacuumMerlinEngine}
+    \subitem {Payload}, 72
+  \item {Simulation}, 92
+    \subitem {$\sim$Simulation}, 92
+    \subitem {liftOff}, 93
+    \subitem {setup}, 93
+    \subitem {Simulation}, 92
+    \subitem {staticFire}, 93
+    \subitem {testThatFails}, 93
+  \item {SpaceCraft}, 94
+    \subitem {$\sim$SpaceCraft}, 95
+    \subitem {getCargoCollection}, 95
+    \subitem {printSpaceCraft}, 95
+    \subitem {setCargoCollection}, 95
+    \subitem {SpaceCraft}, 94
+  \item {SpaceCraftFactory}, 96
+  \item {StarLinkSatellite}, 96
+    \subitem {$\sim$StarLinkSatellite}, 97
+    \subitem {clone}, 97
+    \subitem {getConnection}, 97
+    \subitem {getName}, 98
+    \subitem {print}, 98
+    \subitem {setConnection}, 98
+    \subitem {setName}, 99
+    \subitem {StarLinkSatellite}, 96, 97
+    \subitem {update}, 99
+  \item {staticFire}
+    \subitem {Simulation}, 93
+
+  \indexspace
+
+  \item {testPropulsion}
+    \subitem {Propulsion}, 76
+    \subitem {Rocket}, 82
+  \item {testRocket}
+    \subitem {Rocket}, 82
+  \item {testThatFails}
+    \subitem {Rocket}, 82
+    \subitem {Simulation}, 93
+  \item {testVacuumMerlinEngine}
+    \subitem {Payload}, 73
+    \subitem {Rocket}, 82
+
+  \indexspace
+
+  \item {update}
+    \subitem {Satellite}, 89
+    \subitem {StarLinkSatellite}, 99
+
+  \indexspace
+
+  \item {VacuumMerlinEngine}, 99
+    \subitem {$\sim$VacuumMerlinEngine}, 100
+    \subitem {clone}, 100
+    \subitem {VacuumMerlinEngine}, 100
+  \item {VectorOfCargo}, 101
+    \subitem {$\sim$VectorOfCargo}, 101
+    \subitem {addCargo}, 102
+    \subitem {createCargoIterator}, 102
+    \subitem {isEmpty}, 102
+    \subitem {removeCargo}, 102
+    \subitem {VectorOfCargo}, 101
+  \item {VectorOfHumans}, 103
+    \subitem {$\sim$VectorOfHumans}, 103
+    \subitem {addHuman}, 104
+    \subitem {createHumanIterator}, 104
+    \subitem {isEmpty}, 104
+    \subitem {removeHuman}, 105
+    \subitem {VectorOfHumans}, 103
+
+  \indexspace
+
+  \item {yellow}
+    \subitem {Colours}, 18
+
+\end{theindex}

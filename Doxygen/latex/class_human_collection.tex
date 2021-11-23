@@ -1,0 +1,135 @@
+\doxysection{Human\+Collection Class Reference}
+\label{class_human_collection}\index{HumanCollection@{HumanCollection}}
+
+
+Inherited by \textbf{ Vector\+Of\+Humans}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Human\+Collection} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Human}{p.}{class_human} Collection object. \end{DoxyCompactList}\item 
+virtual \textbf{ Human\+Iterator} $\ast$ \textbf{ create\+Human\+Iterator} ()=0
+\begin{DoxyCompactList}\small\item\em Create a \doxyref{Human}{p.}{class_human} \doxyref{Iterator}{p.}{class_iterator} object. \end{DoxyCompactList}\item 
+virtual void \textbf{ add\+Human} (\textbf{ Human} $\ast$)=0
+\begin{DoxyCompactList}\small\item\em Add a \doxyref{Human}{p.}{class_human} to the \doxyref{Human}{p.}{class_human} Collection. \end{DoxyCompactList}\item 
+virtual void \textbf{ remove\+Human} (\textbf{ Human} $\ast$)=0
+\begin{DoxyCompactList}\small\item\em Remove a \doxyref{Human}{p.}{class_human} from the \doxyref{Human}{p.}{class_human} Collection. \end{DoxyCompactList}\item 
+virtual bool \textbf{ is\+Empty} ()=0
+\begin{DoxyCompactList}\small\item\em Check if the \doxyref{Human}{p.}{class_human} Collection object is empty. \end{DoxyCompactList}\item 
+virtual \textbf{ $\sim$\+Human\+Collection} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxyref{Human}{p.}{class_human} Collection object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_human_collection_ae5bdf46a31757555ec0b4cdba99c9a0a}} 
+\index{HumanCollection@{HumanCollection}!HumanCollection@{HumanCollection}}
+\index{HumanCollection@{HumanCollection}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{HumanCollection()}
+{\footnotesize\ttfamily Human\+Collection\+::\+Human\+Collection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Human}{p.}{class_human} Collection object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_human_collection_a8f80d638d09682dccbb623869f5e5026}} 
+\index{HumanCollection@{HumanCollection}!````~HumanCollection@{$\sim$HumanCollection}}
+\index{````~HumanCollection@{$\sim$HumanCollection}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{$\sim$HumanCollection()}
+{\footnotesize\ttfamily Human\+Collection\+::$\sim$\+Human\+Collection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxyref{Human}{p.}{class_human} Collection object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_human_collection_a7ca7546e985c729702ab2ee5134b9524}} 
+\index{HumanCollection@{HumanCollection}!addHuman@{addHuman}}
+\index{addHuman@{addHuman}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{addHuman()}
+{\footnotesize\ttfamily virtual void Human\+Collection\+::add\+Human (\begin{DoxyParamCaption}\item[{\textbf{ Human} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Add a \doxyref{Human}{p.}{class_human} to the \doxyref{Human}{p.}{class_human} Collection. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Vector\+Of\+Humans} \doxyref{}{p.}{class_vector_of_humans_ab975c047ec8f5f32b944c48b82b8bf78}.
+
+\mbox{\label{class_human_collection_a1ce85a6aa0b777d029d779522b389107}} 
+\index{HumanCollection@{HumanCollection}!createHumanIterator@{createHumanIterator}}
+\index{createHumanIterator@{createHumanIterator}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{createHumanIterator()}
+{\footnotesize\ttfamily virtual \textbf{ Human\+Iterator} $\ast$ Human\+Collection\+::create\+Human\+Iterator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Create a \doxyref{Human}{p.}{class_human} \doxyref{Iterator}{p.}{class_iterator} object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Human\+Iterator$\ast$ 
+\end{DoxyReturn}
+
+
+Implemented in \textbf{ Vector\+Of\+Humans} \doxyref{}{p.}{class_vector_of_humans_a76508e659ec35c0479b786eaf8d8fe88}.
+
+\mbox{\label{class_human_collection_a3646996d2946761b027ac5ff7ddceacf}} 
+\index{HumanCollection@{HumanCollection}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{isEmpty()}
+{\footnotesize\ttfamily virtual bool Human\+Collection\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Check if the \doxyref{Human}{p.}{class_human} Collection object is empty. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+Implemented in \textbf{ Vector\+Of\+Humans} \doxyref{}{p.}{class_vector_of_humans_a27dbf43a7fca3730db811e32701083ce}.
+
+\mbox{\label{class_human_collection_a060bc94505216d4840677760c7cd5e97}} 
+\index{HumanCollection@{HumanCollection}!removeHuman@{removeHuman}}
+\index{removeHuman@{removeHuman}!HumanCollection@{HumanCollection}}
+\doxysubsubsection{removeHuman()}
+{\footnotesize\ttfamily virtual void Human\+Collection\+::remove\+Human (\begin{DoxyParamCaption}\item[{\textbf{ Human} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Remove a \doxyref{Human}{p.}{class_human} from the \doxyref{Human}{p.}{class_human} Collection. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Vector\+Of\+Humans} \doxyref{}{p.}{class_vector_of_humans_adbbfc43e7e4104b2081cd7b06c4299c8}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Human\+Collection.\+h\item 
+Human\+Collection.\+cpp\end{DoxyCompactItemize}

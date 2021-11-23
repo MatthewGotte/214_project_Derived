@@ -1,0 +1,29 @@
+\doxysection{Propulsion\+Memento.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef PROPULSIONMEMENTO\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define PROPULSIONMEMENTO\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Falcon9Core.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Payload.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }PropulsionMemento}
+\DoxyCodeLine{9 \{}
+\DoxyCodeLine{10     \textcolor{keyword}{private}:}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12         Falcon9Core * core ;}
+\DoxyCodeLine{13         Payload * payload;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15     \textcolor{keyword}{public}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{23         PropulsionMemento(Falcon9Core * core, Payload * pay);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{30         Falcon9Core * getCore();}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{37         Payload * getPay();}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \};}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

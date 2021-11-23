@@ -1,0 +1,29 @@
+\doxysection{Rocket\+Builder.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_ROCKETBUILDER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_ROCKETBUILDER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}Rocket.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }RocketBuilder }
+\DoxyCodeLine{7 \{}
+\DoxyCodeLine{8     \textcolor{keyword}{public}:}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{14         RocketBuilder();}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{20         \textcolor{keyword}{virtual} \string~RocketBuilder();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{26         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} reset() = 0;}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{32         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} addPayload() = 0;}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{38         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} addPropulsion() = 0;}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{45         \textcolor{keyword}{virtual} Rocket * getRocket() = 0;}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 \};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_ROCKETBUILDER\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,31 @@
+\doxysection{Cargo\+Iterator.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_CargoIterator\_h\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_CargoIterator\_h\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}CargoCollection.h"{}}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }Cargo;}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }CargoIterator}
+\DoxyCodeLine{9 \{}
+\DoxyCodeLine{10     \textcolor{keyword}{public}:}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{16         CargoIterator()=\textcolor{keywordflow}{default};}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{23         \textcolor{keyword}{virtual} Cargo* first()=0;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{30         \textcolor{keyword}{virtual} Cargo* next()=0;}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{38         \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} hasNext()=0;}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{45         \textcolor{keyword}{virtual} Cargo* current()=0;}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{51         \textcolor{keyword}{virtual} \string~CargoIterator()=\textcolor{keywordflow}{default};}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53 \};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,45 @@
+\doxysection{Satellite.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef \_\_Satellite\_h\_\_}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define \_\_Satellite\_h\_\_}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}VacuumMerlinEngine.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}SatelliteTransmission.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}Cargo.h"{}}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }SatelliteTransmission;}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{using namespace }std; }
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }Satellite : \textcolor{keyword}{public} Cargo}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16     \textcolor{keyword}{private}:}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18         VacuumMerlinEngine* vacuumMerlinEngine;}
+\DoxyCodeLine{19         SatelliteTransmission* mediator;}
+\DoxyCodeLine{20         \textcolor{keywordtype}{string} name;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22     \textcolor{keyword}{public}:}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{28         Satellite();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{34         \textcolor{keywordtype}{void} ConnectionChanged();}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{41         \textcolor{keyword}{virtual} \textcolor{keywordtype}{string} getConnection() = 0;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{47         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} setConnection(\textcolor{keywordtype}{string}) = 0;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} update() = 0;}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{59         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} print() = 0;}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{65         \string~Satellite();}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 \};}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

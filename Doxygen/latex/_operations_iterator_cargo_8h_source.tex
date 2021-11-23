@@ -1,0 +1,41 @@
+\doxysection{Operations\+Iterator\+Cargo.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_OPERATIONSITERATORCARGO\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_OPERATIONSITERATORCARGO\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Cargo.h"{}}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }Cargo;}
+\DoxyCodeLine{11 \textcolor{keyword}{class }CargoIterator;}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }OperationsIteratorCargo: \textcolor{keyword}{public} CargoIterator}
+\DoxyCodeLine{14 \{}
+\DoxyCodeLine{15     \textcolor{keyword}{private}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17         \textcolor{keywordtype}{int} currentpos\{\};}
+\DoxyCodeLine{18         vector<Cargo*> itlist;}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keyword}{public}:}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{27         \textcolor{keyword}{explicit} OperationsIteratorCargo(vector<Cargo*> vect);}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{34         Cargo* first() \textcolor{keyword}{override};}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{41         Cargo* next() \textcolor{keyword}{override};}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{49         \textcolor{keywordtype}{bool} hasNext() \textcolor{keyword}{override};}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{56         Cargo* current() \textcolor{keyword}{override};}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{62         \string~OperationsIteratorCargo() \textcolor{keyword}{override}=\textcolor{keywordflow}{default};}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \};}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_OPERATIONSITERATOR\_H}}
+
+\end{DoxyCode}

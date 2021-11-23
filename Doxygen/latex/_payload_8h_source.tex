@@ -1,0 +1,49 @@
+\doxysection{Payload.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_PAYLOAD\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_PAYLOAD\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}VacuumMerlinEngine.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}SpaceCraft.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }Payload }
+\DoxyCodeLine{13 \{}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15     \textcolor{keyword}{private}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17         VacuumMerlinEngine * vacmerlinengine;}
+\DoxyCodeLine{18         SpaceCraft * spacecraft;}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keyword}{public}:}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{27         VacuumMerlinEngine * getVacuumMerlinEngine();}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{34         \textcolor{keywordtype}{void} setVacuumMerlinEngine(VacuumMerlinEngine * v);}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{41         SpaceCraft * getSpaceCraft();}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{48         \textcolor{keywordtype}{void} setSpaceCraft(SpaceCraft * s);}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{54         \textcolor{keywordtype}{void} print();}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{62         Payload(SpaceCraft * s, VacuumMerlinEngine * v);}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{68         Payload();}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{74         \textcolor{keyword}{virtual} \string~Payload();}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{82         \textcolor{keywordtype}{bool} testVacuumMerlinEngine();}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88         \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} launch() = 0;}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 \};}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_PAYLOAD\_H}}
+
+\end{DoxyCode}

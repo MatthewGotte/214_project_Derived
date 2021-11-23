@@ -1,0 +1,130 @@
+\doxysection{Rocket\+Builder Class Reference}
+\label{class_rocket_builder}\index{RocketBuilder@{RocketBuilder}}
+
+
+Inherited by \textbf{ Falcon9\+Builder}, and \textbf{ Falcon\+Heavy\+Builder}.
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Rocket\+Builder} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxyref{Rocket}{p.}{class_rocket} Builder object. \end{DoxyCompactList}\item 
+virtual \textbf{ $\sim$\+Rocket\+Builder} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxyref{Rocket}{p.}{class_rocket} Builder object. \end{DoxyCompactList}\item 
+virtual void \textbf{ reset} ()=0
+\begin{DoxyCompactList}\small\item\em Reset the \doxyref{Rocket}{p.}{class_rocket}. \end{DoxyCompactList}\item 
+virtual void \textbf{ add\+Payload} ()=0
+\begin{DoxyCompactList}\small\item\em Add \doxyref{Payload}{p.}{class_payload} to the \doxyref{Rocket}{p.}{class_rocket}. \end{DoxyCompactList}\item 
+virtual void \textbf{ add\+Propulsion} ()=0
+\begin{DoxyCompactList}\small\item\em Add \doxyref{Propulsion}{p.}{class_propulsion} to the \doxyref{Rocket}{p.}{class_rocket}. \end{DoxyCompactList}\item 
+virtual \textbf{ Rocket} $\ast$ \textbf{ get\+Rocket} ()=0
+\begin{DoxyCompactList}\small\item\em Get the \doxyref{Rocket}{p.}{class_rocket} oject. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_rocket_builder_a11cd080cc3eb2a1f6a796ecbcc4dd111}} 
+\index{RocketBuilder@{RocketBuilder}!RocketBuilder@{RocketBuilder}}
+\index{RocketBuilder@{RocketBuilder}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{RocketBuilder()}
+{\footnotesize\ttfamily Rocket\+Builder\+::\+Rocket\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxyref{Rocket}{p.}{class_rocket} Builder object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\mbox{\label{class_rocket_builder_a290b31846efd917a5e7056cfcbe3c2cd}} 
+\index{RocketBuilder@{RocketBuilder}!````~RocketBuilder@{$\sim$RocketBuilder}}
+\index{````~RocketBuilder@{$\sim$RocketBuilder}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{$\sim$RocketBuilder()}
+{\footnotesize\ttfamily Rocket\+Builder\+::$\sim$\+Rocket\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxyref{Rocket}{p.}{class_rocket} Builder object. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_rocket_builder_afd5b43a1e2c890af17fa1ef30217a40d}} 
+\index{RocketBuilder@{RocketBuilder}!addPayload@{addPayload}}
+\index{addPayload@{addPayload}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{addPayload()}
+{\footnotesize\ttfamily virtual void Rocket\+Builder\+::add\+Payload (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Add \doxyref{Payload}{p.}{class_payload} to the \doxyref{Rocket}{p.}{class_rocket}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Falcon9\+Builder} \doxyref{}{p.}{class_falcon9_builder_a6ef12edb3d0795971b7d5b8369feaae3}, and \textbf{ Falcon\+Heavy\+Builder} \doxyref{}{p.}{class_falcon_heavy_builder_af28dc8ddb1bdc2d910c2f88ced5a36a1}.
+
+\mbox{\label{class_rocket_builder_abd1181494eccf7c444e76441e139b98e}} 
+\index{RocketBuilder@{RocketBuilder}!addPropulsion@{addPropulsion}}
+\index{addPropulsion@{addPropulsion}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{addPropulsion()}
+{\footnotesize\ttfamily virtual void Rocket\+Builder\+::add\+Propulsion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Add \doxyref{Propulsion}{p.}{class_propulsion} to the \doxyref{Rocket}{p.}{class_rocket}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Falcon9\+Builder} \doxyref{}{p.}{class_falcon9_builder_a06b691b386359ba01e2d10bdc937a480}, and \textbf{ Falcon\+Heavy\+Builder} \doxyref{}{p.}{class_falcon_heavy_builder_a18a114890c8a0a0154a3bdd6e080a028}.
+
+\mbox{\label{class_rocket_builder_adea6f799fa9a1d653b0e37abac305536}} 
+\index{RocketBuilder@{RocketBuilder}!getRocket@{getRocket}}
+\index{getRocket@{getRocket}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{getRocket()}
+{\footnotesize\ttfamily virtual \textbf{ Rocket} $\ast$ Rocket\+Builder\+::get\+Rocket (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the \doxyref{Rocket}{p.}{class_rocket} oject. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+\begin{DoxyReturn}{Returns}
+Rocket$\ast$ 
+\end{DoxyReturn}
+
+
+Implemented in \textbf{ Falcon9\+Builder} \doxyref{}{p.}{class_falcon9_builder_a039d5e4a816de5c1c93e8209951345e7}, and \textbf{ Falcon\+Heavy\+Builder} \doxyref{}{p.}{class_falcon_heavy_builder_a077350f85a4988a3daf36efb12609b58}.
+
+\mbox{\label{class_rocket_builder_a4e16d8d993871956ca20947ebeca2cff}} 
+\index{RocketBuilder@{RocketBuilder}!reset@{reset}}
+\index{reset@{reset}!RocketBuilder@{RocketBuilder}}
+\doxysubsubsection{reset()}
+{\footnotesize\ttfamily virtual void Rocket\+Builder\+::reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Reset the \doxyref{Rocket}{p.}{class_rocket}. 
+
+\begin{DoxyAuthor}{Author}
+Derived 
+\end{DoxyAuthor}
+
+
+Implemented in \textbf{ Falcon9\+Builder} \doxyref{}{p.}{class_falcon9_builder_a236b13d11a0d92a7bcee9848fb660b53}, and \textbf{ Falcon\+Heavy\+Builder} \doxyref{}{p.}{class_falcon_heavy_builder_a7c3332577965773983746cd61caa964b}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Rocket\+Builder.\+h\item 
+Rocket\+Builder.\+cpp\end{DoxyCompactItemize}

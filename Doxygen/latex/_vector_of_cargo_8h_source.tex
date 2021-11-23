@@ -1,0 +1,41 @@
+\doxysection{Vector\+Of\+Cargo.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DERIVED\_VECTOROFCARGO\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DERIVED\_VECTOROFCARGO\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}CargoIterator.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}OperationsIteratorCargo.h"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{class }CargoCollection;}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }VectorOfCargo: \textcolor{keyword}{public} CargoCollection}
+\DoxyCodeLine{15 \{}
+\DoxyCodeLine{16     \textcolor{keyword}{private}:}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18         vector<Cargo*>cargo;}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keyword}{public}:}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{26         VectorOfCargo();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{33         CargoIterator* createCargoIterator() \textcolor{keyword}{override};}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{39         \textcolor{keywordtype}{void} addCargo(Cargo*) \textcolor{keyword}{override};}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{45         \textcolor{keywordtype}{void} removeCargo(Cargo*) \textcolor{keyword}{override};}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{53         \textcolor{keywordtype}{bool} isEmpty() \textcolor{keyword}{override};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{59         \string~VectorOfCargo() ;}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 \};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//DERIVED\_VECTOROFCARGO\_H}}
+
+\end{DoxyCode}
